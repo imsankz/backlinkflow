@@ -40,6 +40,48 @@ async function preflight(url: string): Promise<{ ok: boolean; status?: number }>
   }
 }
 
+const SUCCESS_RE = /(thank you|thanks for|submitted|submission received|we'?ve received|we'll review|we will review|got it|in review|under review|pending review|successfully (added|submitted)|your (site|tool|product|listing) (has been )?(added|submitted)|added successfully)/i;
+const SOFT_ERROR_RE = /(error|failed|invalid|missing|required|try again|something went wrong|recaptcha|captcha)/i;
+
+/**
+ * Inspect the page after submit: success message, redirect to a listing page,
+ * or soft error. Pure logic — returns a verdict without touching the browser.
+ */
+export function verdictAfterSubmit(bodyText: string, url: string, wasOnForm: boolean, fieldsFilled: number): { ok: boolean; note: string } {
+  const body = bodyText || '';
+  const u = url.toLowerCase();
+  // Success: thank-you phrasing or redirect off the submit form.
+  if (SUCCESS_RE.test(body)) return { ok: true, note: 'success message detected' };
+  if (!wasOnForm && fieldsFilled > 0) return { ok: true, note: 'redirected off the form (listing/thank-you page)' };
+  if (SOFT_ERROR_RE.test(body)) return { ok: false, note: 'soft error text on page' };
+  return { ok: false, note: 'no success signal detected' };
+}
+
+/** Truncated exponential backoff sleep: 3s, 6s, 12s… capped at 60s. */
+export function backoffSleep(attempt: number): Promise<void> {
+  const ms = Math.min(3000 * Math.pow(2, attempt), 60000);
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+/** Retry an async fn up to `retries` times with backoff between attempts. */
+export async function withRetry<T>(fn: () => Promise<T>, opts?: { retries?: number; shouldRetry?: (err: unknown) => boolean }): Promise<T> {
+  const retries = opts?.retries ?? 2;
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries && (opts?.shouldRetry ? opts.shouldRetry(err) : true)) {
+        await backoffSleep(attempt);
+      } else {
+        break;
+      }
+    }
+  }
+  throw lastErr;
+}
+
 /** Submit one directory entry. */
 export async function submitOne(dir: DirectoryEntry, payload: Payload, opts: SubmitOptions): Promise<SubmitResult> {
   const cfg = loadConfig();
@@ -53,8 +95,13 @@ export async function submitOne(dir: DirectoryEntry, payload: Payload, opts: Sub
     return { directory: dir.name, status: 'skipped', note: 'status=paid' };
   }
 
-  // 2. Preflight
-  const pf = await preflight(dir.submitUrl);
+  // 2. Preflight with retry (transient 5xx / network blips)
+  let pf: { ok: boolean; status?: number };
+  try {
+    pf = await withRetry(() => preflight(dir.submitUrl), { retries: 2, shouldRetry: (e) => !(e instanceof Error && /404/.test(e.message)) });
+  } catch {
+    pf = { ok: false };
+  }
   if (!pf.ok) {
     const note = pf.status ? `preflight HTTP ${pf.status}` : 'preflight unreachable';
     // record as failed so it won't retry
@@ -66,8 +113,16 @@ export async function submitOne(dir: DirectoryEntry, payload: Payload, opts: Sub
     return { directory: dir.name, status: 'pending', note: 'dry-run (preflight OK)' };
   }
 
-  // 3. Launch browser
-  const { browser, page } = await launchBrowser();
+  // 3. Launch browser (with one retry — transient launch failures happen)
+  let session;
+  try {
+    session = await withRetry(() => launchBrowser(), { retries: 1 });
+  } catch (err) {
+    const note = `browser launch failed: ${(err as Error).message.slice(0, 100)}`;
+    recordSubmission({ site: siteUrl, directory: dir.name, status: 'failed', submittedAt: new Date().toISOString(), notes: note });
+    return { directory: dir.name, status: 'failed', note };
+  }
+  const { browser, page } = session;
   try {
     const adapter = findAdapter(dir.name) || genericAdapter;
     if (adapter.needsCredentials && !cfg.ai?.apiKey) {

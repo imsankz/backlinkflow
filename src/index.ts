@@ -12,6 +12,9 @@
  *   linkflow stats                               Database stats
  *   linkflow db:review                           Flag DB quality issues (dead links, homepage-as-submit)
  *   linkflow db:regenerate                       Rebuild DB from source lists (scripts/regenerate-db.py)
+ *   linkflow indexnow <url> [--skip-verify] [--urls a b c]   Ping IndexNow + Google (v0.3)
+ *   linkflow awesome <repo> --dry-run            Generate awesome-list PR snippet (dry-run only, v0.3)
+ *   linkflow measure <url> [--json]              Measure backlinks via free sources (v0.4)
  *   linkflow init                                Print config template
  */
 import fs from 'fs';
@@ -260,6 +263,111 @@ async function cmdDbRegenerate(): Promise<void> {
   }
 }
 
+/** v0.3 — IndexNow + Google sitemap ping. Real API call, no key (UUID host key). */
+async function cmdIndexNow(): Promise<void> {
+  const cfg = loadConfig(CONFIG_FILE);
+  const siteUrl = VERB_ARG || cfg.siteUrl;
+  if (!siteUrl) {
+    console.log('Usage: backlinkflow indexnow <url>  (or set siteUrl in config)');
+    process.exit(1);
+  }
+  const { pingSite, resolveIndexNowKey, toHost } = await import('./indexnow.js');
+  const key = resolveIndexNowKey(cfg);
+  const host = toHost(siteUrl);
+
+  console.log('\nBacklinkFlow IndexNow ping');
+  console.log('─'.repeat(50));
+  console.log(`  host:        ${host}`);
+  console.log(`  key:         ${key}`);
+  console.log(`  key file:    https://${host}/${key}.txt  (publish this file, see README)`);
+
+  const urls = flag('--urls')?.split(' ') || undefined;
+  const r = await pingSite(siteUrl, { urls, skipVerify: has('--skip-verify') });
+
+  if (r.indexnow) {
+    console.log(`\n  IndexNow (Bing/Yandex/Naver/Seznam) → ${r.indexnow.endpoint}`);
+    if (r.indexnow.ok) {
+      console.log(`    ✅ ${r.indexnow.submitted} URL(s) accepted (HTTP ${r.indexnow.statusCode})`);
+      for (const u of urls || [`https://${host}/`, `https://${host}/sitemap.xml`]) console.log(`       • ${u}`);
+    } else {
+      console.log(`    ❌ ${r.indexnow.error || 'rejected'}`);
+      if (!r.keyLocation && !has('--skip-verify')) {
+        console.log('       → is the key file published? Run with --skip-verify to force-submit anyway.');
+      }
+    }
+  }
+  if (r.google) {
+    console.log(`\n  Google sitemap ping → https://www.google.com/ping?sitemap=`);
+    if (r.google.ok) console.log(`    ✅ ping accepted (HTTP ${r.google.statusCode})`);
+    else console.log(`    ⚠️  ${r.google.error || 'failed'} (Google often returns non-200; harmless)`);
+  }
+  console.log('\n  Note: Google does not consume IndexNow. The sitemap ping above is the');
+  console.log('  free Google signal. Key file must stay published at the keyLocation.');
+}
+
+/** v0.3 — awesome-list PR generator (DRY-RUN ONLY — never opens PRs). */
+async function cmdAwesome(): Promise<void> {
+  const repo = VERB_ARG;
+  if (!repo || !DRY_RUN) {
+    console.log('Usage: backlinkflow awesome <owner/repo> --dry-run');
+    console.log('  (dry-run only — this command never opens PRs or pushes)');
+    process.exit(1);
+  }
+  const cfg = loadConfig(CONFIG_FILE);
+  const { buildSnippet, buildPrBody, buildInstructions } = await import('./awesome.js');
+  const snippet = buildSnippet(cfg);
+
+  console.log('\nBacklinkFlow awesome-list generator (DRY RUN)');
+  console.log('─'.repeat(50));
+  console.log(`\n  Target repo: ${repo}`);
+  console.log(`  Suggested section: ${snippet.suggestedSection}`);
+  console.log('\n  ── Markdown snippet to add ──');
+  console.log(`\n  ${snippet.markdown}`);
+  console.log('\n  ── PR body ──');
+  console.log('\n' + buildPrBody(cfg, repo));
+  console.log('\n  ── How to turn this into a real contribution ──');
+  console.log('\n' + buildInstructions(repo, snippet));
+  console.log('\n  (dry-run complete — nothing was pushed, no PR opened)');
+}
+
+/** v0.4 — measure backlinks via free sources (Common Crawl + OpenLinkProfiles). */
+async function cmdMeasure(): Promise<void> {
+  const cfg = loadConfig(CONFIG_FILE);
+  const siteUrl = VERB_ARG || cfg.siteUrl;
+  if (!siteUrl) {
+    console.log('Usage: backlinkflow measure <url>  (or set siteUrl in config)');
+    process.exit(1);
+  }
+  const { measureBacklinks, saveMeasurement } = await import('./measure.js');
+  const m = await measureBacklinks(siteUrl);
+  const file = saveMeasurement(m);
+
+  if (has('--json')) {
+    console.log(JSON.stringify(m, null, 2));
+    return;
+  }
+
+  console.log('\nBacklinkFlow backlink measurement');
+  console.log('─'.repeat(50));
+  console.log(`  domain:    ${m.domain}`);
+  console.log(`  sources:   ${m.source}`);
+  console.log(`  measured:  ${m.measuredAt}`);
+  if (m.unavailable) {
+    console.log('  ⚠️  All free sources unavailable — no numbers to report.');
+    if (m.note) console.log(`      ${m.note}`);
+  } else {
+    console.log(`  total backlinks:   ${m.totalBacklinks ?? 'n/a'}`);
+    console.log(`  referring domains: ${m.referringDomains ?? 'n/a'}`);
+    if (m.pagesInIndex !== null && m.pagesInIndex !== undefined) console.log(`  pages in CC index: ${m.pagesInIndex}`);
+    if (m.inCommonCrawl !== undefined) console.log(`  in Common Crawl:   ${m.inCommonCrawl}`);
+    if (m.pagerank !== null && m.pagerank !== undefined) console.log(`  CC PageRank:       ${m.pagerank}`);
+    if (m.harmonicCentrality !== null && m.harmonicCentrality !== undefined) console.log(`  CC harmonic centr: ${m.harmonicCentrality}`);
+  }
+  if (m.note) console.log(`  note: ${m.note}`);
+  console.log(`  cached:    ${file}`);
+  console.log('\n  Tip: run again after submissions to diff before/after.');
+}
+
 async function main(): Promise<void> {
   switch (VERB) {
     case 'list': await cmdList(); break;
@@ -271,9 +379,12 @@ async function main(): Promise<void> {
     case 'stats': cmdStats(); break;
     case 'db:review': await cmdDbReview(); break;
     case 'db:regenerate': await cmdDbRegenerate(); break;
+    case 'indexnow': await cmdIndexNow(); break;
+    case 'awesome': await cmdAwesome(); break;
+    case 'measure': await cmdMeasure(); break;
     case 'init': cmdInit(); break;
     default:
-      console.log(`Unknown command: ${VERB}\nRun 'backlinkflow' with: list | search | submit | payload | status | report | stats | db:review | db:regenerate | init`);
+      console.log(`Unknown command: ${VERB}\nRun 'backlinkflow' with: list | search | submit | payload | status | report | stats | db:review | db:regenerate | indexnow | awesome | measure | init`);
       process.exit(1);
   }
 }

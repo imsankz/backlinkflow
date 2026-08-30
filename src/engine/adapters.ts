@@ -45,17 +45,36 @@ export const genericAdapter: Adapter = {
     await page.waitForLoadState('domcontentloaded');
     await page.waitForTimeout(1500);
 
-    // Detect and fill fields
-    const name = page.locator('input[name*="name" i], input[placeholder*="name" i], input[placeholder*="title" i]').first();
-    const url = page.locator('input[name*="url" i], input[type="url"], input[placeholder*="url" i], input[placeholder*="website" i]').first();
-    const email = page.locator('input[type="email"], input[name*="email" i]').first();
-    const desc = page.locator('textarea').first();
+    // Detect and fill fields (v0.3: also select dropdowns + radio pricing)
+    const { detectFields, fillVisible } = await import('./fields.js');
+    const fields = await detectFields(page);
 
     let filled = 0;
-    if (await name.isVisible().catch(() => false)) { await name.fill(payload.name); filled++; }
-    if (await url.isVisible().catch(() => false)) { await url.fill(siteUrl); filled++; }
-    if (await email.isVisible().catch(() => false) && payload.fields?.email) { await email.fill(payload.fields.email); filled++; }
-    if (await desc.isVisible().catch(() => false)) { await desc.fill(payload.description); filled++; }
+    if (await fields.name?.isVisible().catch(() => false)) { await fields.name.fill(payload.name); filled++; }
+    if (await fields.url?.isVisible().catch(() => false)) { await fields.url.fill(siteUrl); filled++; }
+    if (await fields.email?.isVisible().catch(() => false) && payload.fields?.email) { await fields.email.fill(payload.fields.email); filled++; }
+    if (await fields.description?.isVisible().catch(() => false)) { await fields.description.fill(payload.description); filled++; }
+    // select dropdowns (category) + radios (pricing)
+    if (payload.category && fields.selects) {
+      for (const s of fields.selects) {
+        if (!(await s.locator.isVisible().catch(() => false))) continue;
+        const opts = await s.locator.locator('option').allTextContents().catch(() => [] as string[]);
+        const want = payload.category.toLowerCase();
+        const exact = opts.find((o) => o.toLowerCase().trim() === want);
+        const fuzzy = opts.find((o) => o.toLowerCase().includes(want.slice(0, 5)) || want.includes(o.toLowerCase().slice(0, 5)));
+        const pick = exact || fuzzy || s.value;
+        if (pick) { await s.locator.selectOption({ label: pick }); filled++; }
+        break;
+      }
+    }
+    if (payload.fields?.pricing && fields.radios) {
+      for (const r of fields.radios) {
+        if (!(await r.locator.isVisible().catch(() => false))) continue;
+        await r.locator.check({ force: true }).catch(() => r.locator.click({ force: true }).catch(() => {}));
+        filled++;
+        break;
+      }
+    }
 
     if (filled === 0) {
       return { ok: false, note: 'no fillable form fields detected' };
@@ -68,14 +87,15 @@ export const genericAdapter: Adapter = {
     const ok = await clickSubmit(page);
     await page.waitForTimeout(2500);
 
-    // Verify: did we leave the form / get a success message?
+    // Verify via shared pure logic: success message, redirect off form, soft error
+    const { verdictAfterSubmit } = await import('./submit.js');
     const body = await page.textContent('body').catch(() => '');
-    const success = /(thank you|submitted|success|received|we'll review|got it|in review|pending|added)/i.test(body);
-    const stillOnForm = await name.isVisible().catch(() => false);
+    const stillOnForm = await fields.name?.isVisible().catch(() => false) ?? true;
+    const v = verdictAfterSubmit(body, page.url(), !stillOnForm, filled);
 
     return {
-      ok: ok && (success || !stillOnForm),
-      note: success ? 'success message detected' : stillOnForm ? 'may still be on form' : 'form submitted, awaiting response',
+      ok: ok && v.ok,
+      note: v.ok ? v.note : ok ? `${v.note} (submitted but unverified)` : 'submit button click failed',
     };
   },
 };
