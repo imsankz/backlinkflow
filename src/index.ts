@@ -70,7 +70,7 @@ async function cmdSearch(): Promise<void> {
 async function cmdSubmit(): Promise<void> {
   const siteUrl = VERB_ARG;
   if (!siteUrl) {
-    console.log('Usage: linkflow submit <site-url> [--dry-run] [--limit N] [--category X] [--go]');
+    console.log('Usage: backlinkflow submit <site-url> [--dry-run] [--limit N] [--category X] [--go]');
     process.exit(1);
   }
   const cfg = loadConfig(CONFIG_FILE);
@@ -159,7 +159,7 @@ async function cmdSubmit(): Promise<void> {
 async function cmdPayload(): Promise<void> {
   const siteUrl = VERB_ARG;
   if (!siteUrl) {
-    console.log('Usage: linkflow payload <site-url> [--directory X]');
+    console.log('Usage: backlinkflow payload <site-url> [--directory X]');
     process.exit(1);
   }
   const cfg = loadConfig(CONFIG_FILE);
@@ -273,7 +273,7 @@ async function main(): Promise<void> {
     case 'db:regenerate': await cmdDbRegenerate(); break;
     case 'init': cmdInit(); break;
     default:
-      console.log(`Unknown command: ${VERB}\nRun 'linkflow' with: list | search | submit | payload | status | report | stats | db:review | db:regenerate | init`);
+      console.log(`Unknown command: ${VERB}\nRun 'backlinkflow' with: list | search | submit | payload | status | report | stats | db:review | db:regenerate | init`);
       process.exit(1);
   }
 }

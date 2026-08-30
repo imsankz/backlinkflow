@@ -1,12 +1,12 @@
 <div align="center">
 
-# LinkFlow
+# BacklinkFlow
 
 **Zero-cost backlink & directory submission engine for indie hackers.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-green.svg)](./package.json)
-[![Part of the flow series](https://img.shields.io/badge/flow--series-LinkFlow%20%7C%20SeoFlow%20%7C%20SECflow-blueviolet)](#the-flow-series)
+[![Part of the flow series](https://img.shields.io/badge/flow--series-BacklinkFlow%20%7C%20SeoFlow%20%7C%20SECflow-blueviolet)](#the-flow-series)
 
 *1,123 vetted directories · AI-tailored submission copy · Playwright browser automation · proof-of-submission reports — no SaaS, no credits, no $79 upsell.*
 
@@ -14,7 +14,7 @@
 
 ---
 
-> **TL;DR** — Submitator, ListingBott, BoringLaunch charge $29–499 to do what LinkFlow does for free: a curated directory list, AI-generated per-directory copy, browser automation, and a status report. The only thing you bring is your own AI endpoint (OmniRoute, OpenAI, or any OpenAI-compatible API). Live-verified. MIT licensed.
+> **TL;DR** — Submitator, ListingBott, BoringLaunch charge $29–499 to do what BacklinkFlow does for free: a curated directory list, AI-generated per-directory copy, browser automation, and a status report. The only thing you bring is your own AI endpoint (OmniRoute, OpenAI, or any OpenAI-compatible API). Live-verified. MIT licensed.
 
 **The what:**
 
@@ -29,7 +29,7 @@
 
 ---
 
-## Why LinkFlow?
+## Why BacklinkFlow?
 
 Every paid directory-submission service is the same three things wrapped in a dashboard:
 
@@ -37,11 +37,11 @@ Every paid directory-submission service is the same three things wrapped in a da
 2. **Per-directory copy** — this is a 5-line AI call
 3. **A status report** — this is a JSON file + a markdown table
 
-LinkFlow gives you all three, plus actual browser automation for sites with open forms. The moat is honesty: 876 directories live-verified, 221 marked dead with reason, 26 marked paid. No padding with self-owned link farms. No "AI" that means "Army of Indians."
+BacklinkFlow gives you all three, plus actual browser automation for sites with open forms. The moat is honesty: 876 directories live-verified, 221 marked dead with reason, 26 marked paid. No padding with self-owned link farms. No "AI" that means "Army of Indians."
 
 **vs competitors:**
 
-| | LinkFlow | Submitator | ListingBott | BoringLaunch |
+| | BacklinkFlow | Submitator | ListingBott | BoringLaunch |
 |---|---|---|---|---|
 | Directories | 1,123 (876 alive) | ~150 | ~250 | ~200 |
 | Cost | $0 | $29–79 | $499 | $249 |
@@ -58,7 +58,7 @@ LinkFlow gives you all three, plus actual browser automation for sites with open
 
 ```bash
 # from source
-git clone https://github.com/imsankz/linkflow.git
+git clone https://github.com/imsankz/backlinkflow.git
 cd linkflow && npm install && npm run build
 
 # or (when published)
@@ -69,41 +69,41 @@ npm install -g linkflow
 
 ```bash
 # 1. Create config
-linkflow init
+backlinkflow init
 
 # 2. Edit linkflow.config.json + .env.local (AI endpoint)
 #    AI_BASE_URL=http://192.168.0.254:20128/v1  (OmniRoute)
 #    AI_API_KEY=...  AI_MODEL=auto/best-free
 
 # 3. Explore the database
-linkflow stats
-linkflow list --category startup --limit 10
-linkflow search "product hunt"
+backlinkflow stats
+backlinkflow list --category startup --limit 10
+backlinkflow search "product hunt"
 
 # 4. Generate AI-tailored submission copy (no submission)
-linkflow payload https://yoursite.com --directory "Future Tools"
+backlinkflow payload https://yoursite.com --directory "Future Tools"
 
 # 5. Plan submissions (dry-run — nothing recorded)
-linkflow submit https://yoursite.com --dry-run --limit 10
+backlinkflow submit https://yoursite.com --dry-run --limit 10
 
 # 6. Real automation — Playwright browser submits for you
-linkflow submit https://yoursite.com --go --limit 10
+backlinkflow submit https://yoursite.com --go --limit 10
 
 # 7. Track + report
-linkflow status
-linkflow report   # → .linkflow/report.md (Submitator-style proof)
+backlinkflow status
+backlinkflow report   # → .linkflow/report.md (Submitator-style proof)
 ```
 
 ## Multiple sites, one tool
 
-LinkFlow is generic — bring your own site config. Each product = one config file:
+BacklinkFlow is generic — bring your own site config. Each product = one config file:
 
 ```bash
 # SaaS product
-linkflow submit https://kreatorlane.com --config examples/linkflow.config.kreatorlane.json --category startup --go --limit 5
+backlinkflow submit https://kreatorlane.com --config examples/linkflow.config.kreatorlane.json --category startup --go --limit 5
 
 # Travel blog
-linkflow submit https://chasingwhereabouts.com --config examples/linkflow.config.chasingwhereabouts.json --category travel --go --limit 5
+backlinkflow submit https://chasingwhereabouts.com --config examples/linkflow.config.chasingwhereabouts.json --category travel --go --limit 5
 ```
 
 No hardcoded sites. Examples in `examples/`.
@@ -114,16 +114,16 @@ No hardcoded sites. Examples in `examples/`.
 
 | Command | Description |
 |---|---|
-| `linkflow list [--category X] [--limit N]` | List directories in the database |
-| `linkflow search <query>` | Search directories by name/notes/URL |
-| `linkflow submit <url> [--dry-run] [--limit N] [--category X] [--go] [--config file.json]` | Generate payloads + submit. `--go` = real Playwright automation |
-| `linkflow payload <url> [--directory X]` | AI-tailored submission copy only |
-| `linkflow status` | Tracker summary (submitted/pending/failed) |
-| `linkflow report` | Regenerate proof-of-submission report |
-| `linkflow stats` | Database stats (counts by category, alive/dead) |
-| `linkflow db:review` | Flag DB quality issues (dead links, homepage-as-submit) |
-| `linkflow db:regenerate` | Rebuild DB from source lists |
-| `linkflow init` | Write config template |
+| `backlinkflow list [--category X] [--limit N]` | List directories in the database |
+| `backlinkflow search <query>` | Search directories by name/notes/URL |
+| `backlinkflow submit <url> [--dry-run] [--limit N] [--category X] [--go] [--config file.json]` | Generate payloads + submit. `--go` = real Playwright automation |
+| `backlinkflow payload <url> [--directory X]` | AI-tailored submission copy only |
+| `backlinkflow status` | Tracker summary (submitted/pending/failed) |
+| `backlinkflow report` | Regenerate proof-of-submission report |
+| `backlinkflow stats` | Database stats (counts by category, alive/dead) |
+| `backlinkflow db:review` | Flag DB quality issues (dead links, homepage-as-submit) |
+| `backlinkflow db:regenerate` | Rebuild DB from source lists |
+| `backlinkflow init` | Write config template |
 
 ---
 
@@ -201,7 +201,7 @@ The AI client is **SSE-tolerant** — works with providers that stream even when
 
 ## Database curation
 
-The directory database is the product's moat. `scripts/regenerate-db.py` rebuilds it idempotently from the 11 source lists (annotated `[from <source>]`). `linkflow db:review` flags quality issues.
+The directory database is the product's moat. `scripts/regenerate-db.py` rebuilds it idempotently from the 11 source lists (annotated `[from <source>]`). `backlinkflow db:review` flags quality issues.
 
 **Review verdict:**
 - **1,123 entries**, 9 categories — full coverage from all 11 sources
@@ -216,22 +216,22 @@ The directory database is the product's moat. `scripts/regenerate-db.py` rebuild
 ```bash
 python3 scripts/check-urls.py /tmp/linkflow-urls.txt   # live-check all URLs
 python3 scripts/apply-urlcheck.py                      # mark verified-dead in DB
-linkflow db:review                                     # see remaining flags
-linkflow db:regenerate                                 # rebuild from sources (idempotent)
-linkflow stats                                         # confirm counts
+backlinkflow db:review                                     # see remaining flags
+backlinkflow db:regenerate                                 # rebuild from sources (idempotent)
+backlinkflow stats                                         # confirm counts
 ```
 
 ---
 
 ## The flow series
 
-LinkFlow is the third in a series of zero-cost CLI tools, all MIT, all npm-published:
+BacklinkFlow is the third in a series of zero-cost CLI tools, all MIT, all npm-published:
 
 | Tool | Job | Engines | npm |
 |---|---|---|---|
 | **[SECflow](https://github.com/imsankz/SECflow)** | Security scanning for AI-driven repos | gitleaks, trivy, npm audit, custom regex | [`secflow`](https://www.npmjs.com/package/secflow) |
 | **[SeoFlow](https://github.com/imsankz/seoflow)** | AI-powered SEO pipeline (audit, internal links, content gen, GSC) | GSC, PSI, Pexels, Ubersuggest, 6 LLMs | [`seoflow`](https://www.npmjs.com/package/seoflow) |
-| **[LinkFlow](https://github.com/imsankz/linkflow)** | Backlink & directory submission automation | Your AI endpoint + Playwright | [`linkflow`](https://www.npmjs.com/package/linkflow) (this repo) |
+| **[BacklinkFlow](https://github.com/imsankz/backlinkflow)** | Backlink & directory submission automation | Your AI endpoint + Playwright | [`backlinkflow`](https://www.npmjs.com/package/backlinkflow) (this repo) |
 
 Same DNA across all three: **free engines + your own AI agent as the "smart" layer + npm-published + zero-cost.**
 
@@ -240,7 +240,7 @@ Same DNA across all three: **free engines + your own AI agent as the "smart" lay
 ## Architecture
 
 ```
-linkflow submit <url> --go
+backlinkflow submit <url> --go
         ↓
    config loader (linkflow.config.json + .env.local)
         ↓
@@ -317,4 +317,4 @@ MIT (see [LICENSE](./LICENSE)). Source data compiled from 11 open-source project
 
 ## ☕ Support
 
-LinkFlow is free forever. If it saves you $79 (or 40 hours), [buy me a coffee](https://ko-fi.com/chasingwhereabouts) — it funds more free tools.
+BacklinkFlow is free forever. If it saves you $79 (or 40 hours), [buy me a coffee](https://ko-fi.com/chasingwhereabouts) — it funds more free tools.

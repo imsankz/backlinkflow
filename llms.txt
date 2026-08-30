@@ -1,4 +1,4 @@
-# LinkFlow
+# BacklinkFlow
 
 Zero-cost backlink & directory submission engine for indie hackers.
 

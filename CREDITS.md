@@ -1,13 +1,13 @@
-# LinkFlow — Sources & Credits
+# BacklinkFlow — Sources & Credits
 
-LinkFlow's directory database (`data/directories.yaml`) is an independent,
+BacklinkFlow's directory database (`data/directories.yaml`) is an independent,
 deduplicated compilation built by merging factual directory listings (site
 names + submission URLs) from the open-source projects below.
 
 **What we take:** factual data only — site name, submission URL, and (where
 the source provided it) domain authority / price model / status.
 
-**What we write ourselves:** all descriptions/notes are LinkFlow's own
+**What we write ourselves:** all descriptions/notes are BacklinkFlow's own
 (never copied verbatim from sources), plus the `auto`, `lang`, `category`,
 and `status` enrichment fields.
 
@@ -60,4 +60,4 @@ Also referenced for methodology (not data):
 files in `scripts/sources/`. Delete a source file there → re-run
 `linkflow db:regenerate` → that source's entries are gone.
 
-LinkFlow itself is MIT (see LICENSE).
+BacklinkFlow itself is MIT (see LICENSE).

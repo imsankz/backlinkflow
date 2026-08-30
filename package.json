@@ -1,12 +1,12 @@
 {
-  "name": "linkflow",
+  "name": "backlinkflow",
   "version": "0.1.0",
   "description": "LinkFlow — zero-cost backlink & directory submission engine: vetted directory database, AI-tailored submission payloads, tracker, and proof-of-submission reports.",
   "type": "module",
   "license": "MIT",
   "author": "Sankalp Singh",
   "bin": {
-    "linkflow": "bin/linkflow.js"
+    "backlinkflow": "bin/linkflow.js"
   },
   "main": "dist/index.js",
   "exports": {
