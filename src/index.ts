@@ -48,7 +48,7 @@ async function cmdList(): Promise<void> {
   const cat = flag('--category');
   const all = loadDirectories();
   const filtered = cat ? all.filter((d) => d.category === cat) : all;
-  console.log(`\nLinkFlow directory database: ${all.length} sites\n`);
+  console.log(`\nBacklinkFlow directory database: ${all.length} sites\n`);
   for (const [i, d] of filtered.entries()) {
     if (LIMIT && i >= LIMIT) break;
     console.log(formatDir(d, i));
@@ -74,7 +74,7 @@ async function cmdSubmit(): Promise<void> {
     process.exit(1);
   }
   const cfg = loadConfig(CONFIG_FILE);
-  console.log('\nLinkFlow submit');
+  console.log('\nBacklinkFlow submit');
   console.log('─'.repeat(50));
   printConfigSummary(cfg);
 
@@ -178,7 +178,7 @@ async function cmdPayload(): Promise<void> {
 
 function cmdStatus(): void {
   const s = trackerSummary();
-  console.log('\nLinkFlow tracker');
+  console.log('\nBacklinkFlow tracker');
   console.log('─'.repeat(50));
   console.log(`  Total records: ${s.total}`);
   for (const [k, v] of Object.entries(s.byStatus)) console.log(`  ${k}: ${v}`);
@@ -197,7 +197,7 @@ function cmdReport(): void {
 
 function cmdStats(): void {
   const s = dbStats();
-  console.log('\nLinkFlow database stats');
+  console.log('\nBacklinkFlow database stats');
   console.log('─'.repeat(50));
   console.log(`  Total directories: ${s.total}`);
   for (const [k, v] of Object.entries(s.byCategory)) console.log(`  ${k}: ${v}`);
@@ -279,6 +279,6 @@ async function main(): Promise<void> {
 }
 
 main().catch((err) => {
-  console.error('LinkFlow error:', err);
+  console.error('BacklinkFlow error:', err);
   process.exit(1);
 });
