@@ -1,0 +1,16 @@
+{
+  "siteName": "Kreatorlane",
+  "siteUrl": "https://kreatorlane.com",
+  "siteDescription": "AI-powered SaaS platform for creators to build, manage, and monetize their digital products with automated workflows and analytics.",
+  "tags": ["saas", "ai", "creators", "no-code"],
+  "contentDomain": "SaaS platform for creators",
+  "writingSample": "Kreatorlane helps creators turn their audience into income with AI-powered product pages, automated delivery, and real-time analytics.",
+  "ai": {
+    "provider": "openai",
+    "baseUrl": "http://192.168.0.254:20128/v1",
+    "apiKey": "sk-local",
+    "model": "auto/best-free",
+    "maxCallsPerRun": 30
+  },
+  "pacing": { "minSeconds": 90, "perDay": 8 }
+}

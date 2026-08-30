@@ -1,0 +1,7175 @@
+ai:
+- name: Future Tools
+  submitUrl: https://www.futuretools.io/submit-a-tool
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Popular AI tool directory
+- name: Futurepedia
+  submitUrl: https://www.futurepedia.io/basic
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: There's An AI For That
+  submitUrl: https://theresanaiforthat.com/launch/
+  type: form
+  auto: manual
+  lang: en
+  notes: Major AI directory, may require payment
+- name: dang.ai
+  submitUrl: https://dang.ai/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: Paid $29, no longer free
+  status: paid
+- name: AI Valley
+  submitUrl: https://aivalley.ai/submit-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AIToolsDirectory
+  submitUrl: https://aitoolsdirectory.com/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AI Directory
+  submitUrl: https://www.aidirectory.org/user-submit/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AIToolMall
+  submitUrl: https://aitoolmall.com/submit/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AI Finder
+  submitUrl: https://ai-finder.net/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AIFINDY
+  submitUrl: https://aifindy.com/contacto/publica-tu-ia-en-aifindy
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AITopTools
+  submitUrl: https://aitoptools.com/login?redirect_to=submit
+  type: form
+  auto: manual
+  lang: en
+  notes: Requires login
+- name: AllThingsAI
+  submitUrl: https://allthingsai.com
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: AiDude
+  submitUrl: https://aidude.pro/submit-your-tool
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 404]'
+- name: AI Homes
+  submitUrl: https://aihomes.io/submit/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: AI Library
+  submitUrl: https://library.phygital.plus/tool-submission
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AiSuperSmart
+  submitUrl: https://www.aisupersmart.com/submit-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Ai Business Tool
+  submitUrl: https://aibusinesstool.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AI Tool For Business
+  submitUrl: https://aitoolforbusiness.com/submit-ai-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Aitoolnet
+  submitUrl: https://www.aitoolnet.com/submit
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: AI-Hunter.io
+  submitUrl: https://ai-hunter.io/submit-ai-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 2000+ AI tools
+- name: AIToolGuru
+  submitUrl: https://aitoolguru.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: AI News Guru
+  submitUrl: https://ainews.guru/ai-app-submission/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: AILib
+  submitUrl: https://ailib.ru/en/add-ai/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Russian AI directory with English interface
+- name: AiToolkit
+  submitUrl: https://www.aitoolkit.org/submit
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: AffordHunt
+  submitUrl: https://www.affordhunt.com/onesubmitai
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: AIWikiTools
+  submitUrl: https://aiwikitools.com/submit-a-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AI Worthy
+  submitUrl: https://aiworthy.org/submit-tool/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 500 as of 2026-03
+  status: dead
+- name: Ai pedia Hub
+  submitUrl: https://aipediahub.com/submit/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: AI Tools Up
+  submitUrl: https://aitoolsup.com/submit-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AI Mojo
+  submitUrl: https://aimojo.pro/submit/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Apps and Websites
+  submitUrl: https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html
+  type: form
+  auto: 'yes'
+  lang: en
+- name: chatgptdemo
+  submitUrl: https://chatgptdemo.com/submit-new-ai-tool/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: ChatGPTDemo.pro
+  submitUrl: https://chatgptdemo.pro/submit-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: DigiProToolz
+  submitUrl: https://digiprotoolz.com/contact-us/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: DropYourAI
+  submitUrl: https://www.dropyourai.com/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Design Tools AI
+  submitUrl: https://designtools.ai/submit/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Draeno.io
+  submitUrl: https://draeno.io/submit-a-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Every AI
+  submitUrl: https://every-ai.com/submit-tool/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Future AGI Tools
+  submitUrl: https://www.futureagitools.com/submit-a-site
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 404]'
+- name: Free AI Tools Directory
+  submitUrl: https://free-ai-tools-directory.com/submit-request/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: fastpedia.io
+  submitUrl: https://fastpedia.io/submit-tool/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: findcool.tools
+  submitUrl: https://www.findcool.tools/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Full Stack AI
+  submitUrl: https://fullstackai.co/submit-a-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: PoweredbyAI
+  submitUrl: https://poweredbyai.app/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Paxi
+  submitUrl: https://paxi.ai/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Human Alternative
+  submitUrl: https://www.humanalternative.com/submit-resource/submit-a-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Human or Not
+  submitUrl: https://www.humanornot.co/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Insidr.ai
+  submitUrl: https://www.insidr.ai/submit-tools/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Gate2AI
+  submitUrl: https://www.gate2ai.com/zh-cn/submit-tool
+  type: form
+  auto: 'yes'
+  lang: multi
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: Supertools
+  submitUrl: https://supertools.therundown.ai/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Startup AI tools
+  submitUrl: https://www.startupaitools.com/submit-ai-tools/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: SaaSBaba
+  submitUrl: https://saasbaba.com/add-ai-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 404]'
+- name: SEOFAI
+  submitUrl: https://seofai.com/submit-tool/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: SpotTheAI
+  submitUrl: https://www.spottheai.com/submit
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 5000+ AI products
+- name: Nextool AI
+  submitUrl: https://www.nextool.ai/submit-a-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: OpenFuture AI
+  submitUrl: https://openfuture.ai/zh/submit-tool
+  type: form
+  auto: 'yes'
+  lang: multi
+- name: TopApps.Ai
+  submitUrl: https://topapps.ai/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: ToolHunter.ai
+  submitUrl: https://www.toolhunter.ai/submit-a-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: ToolPilot
+  submitUrl: https://www.toolpilot.ai/pages/submit-your-ai-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: ToolScout
+  submitUrl: https://toolscout.ai/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Toolbase AI
+  submitUrl: https://www.toolbase.ai/toolbase/submit-tool
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: ToolsAI.net
+  submitUrl: https://toolsai.net/add-listing/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: TrackBes
+  submitUrl: https://trackbes.com/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: ToolStory.net
+  submitUrl: https://toolsstory.net/add-listing/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: TheToolBus.ai
+  submitUrl: https://www.thetoolbus.ai/submit-tools
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: tools-ai.online
+  submitUrl: https://www.tools-ai.online/tool-submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: The AI Warehouse
+  submitUrl: https://www.thewarehouse.ai/product-submission
+  type: form
+  auto: 'yes'
+  lang: en
+- name: VTeam
+  submitUrl: https://vteam.ai/submit-tool
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Interested In AI
+  submitUrl: https://www.interestedinai.com/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Neil Patel AI Tools
+  submitUrl: https://aitools.neilpatel.com/submit/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: NextGenTools
+  submitUrl: https://nextgentools.me/submit-your-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: YourAITool
+  submitUrl: https://youraitool.com/submit-tool
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Super AI Tools
+  submitUrl: https://www.superaitools.io/submit-a-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Free AI Tool
+  submitUrl: https://freeaitool.ai/submit
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 24h fast review
+- name: aitoolslist.io
+  submitUrl: https://aitoolslist.io/submit-ai-tool/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AI Tools Masters
+  submitUrl: https://aitoolsmasters.com/add-ai-tools/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AILibri
+  submitUrl: https://ailibri.com/addAi
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Russian AI directory
+- name: AI Scout
+  submitUrl: https://aiscout.net/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 520 as of 2026-03
+  status: dead
+- name: Stork
+  submitUrl: https://www.stork.ai/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 429 as of 2026-03
+  status: dead
+- name: aitoolhunt
+  submitUrl: https://www.aitoolhunt.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 404]'
+- name: Cipinet
+  submitUrl: https://www.cipinet.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: A List Directory
+  submitUrl: http://www.alistdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Foundr.ai
+  submitUrl: https://foundr.ai/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Tap4 AI
+  submitUrl: https://tap4.ai/cn/submit
+  type: form
+  auto: 'yes'
+  lang: multi
+  notes: Supports Chinese
+- name: aiwith.me
+  submitUrl: https://aiwith.me/zh/submit
+  type: form
+  auto: 'yes'
+  lang: multi
+- name: ToolsFine
+  submitUrl: https://tally.so/r/wvB7Xg
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Tally form
+- name: Toolify
+  submitUrl: https://www.toolify.ai/submit
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: topai
+  submitUrl: https://topai.tools/submit
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: easywithai
+  submitUrl: https://easywithai.com/submittool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: aitools
+  submitUrl: https://aitools.fyi/zh
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: tenereteam
+  submitUrl: https://www.tenereteam.com/ai-tool
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: AI-Finder
+  submitUrl: https://aifinder.net/add
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: aiwizard
+  submitUrl: https://www.aiwizard.ai/submit
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: AI-Search
+  submitUrl: https://aisearch.io/submit
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: aitoolsarena
+  submitUrl: https://aitoolsarena.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: WhatTheAI
+  submitUrl: https://whattheai.tech/submitatool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: aicenter
+  submitUrl: https://aicenter.ai/products/submit
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: AIcyclopedia
+  submitUrl: https://www.aicyclopedia.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: timeout]'
+  status: dead
+- name: Free AI Tool
+  submitUrl: https://freeaitool.co/aialternatives?scroll=yes
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: toolspedia
+  submitUrl: https://www.toolspedia.io/submittool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: saasaitools
+  submitUrl: https://saasaitools.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: AI Depot
+  submitUrl: https://aidepot.co/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: NEXTGENTOOL
+  submitUrl: https://nextgentool.io/submit/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: Daily Tech AI
+  submitUrl: https://www.dailytech.ai/submitservice
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
+  status: dead
+- name: AI Infinity
+  submitUrl: https://forms.gle/Ze6pdWzmweCfKWnLA
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: Every-AI
+  submitUrl: https://everyai.com/submittool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: AI Tools Guide
+  submitUrl: https://aitoolsguide.com/contact/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: ai-hunter
+  submitUrl: https://aihunter.io/submitaitool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: aimarketing
+  submitUrl: https://aimarketing.directory/submit
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: aitrendz
+  submitUrl: https://aitrendz.xyz/submitailink/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
+  status: dead
+- name: free-ai-tools-directory
+  submitUrl: https://freeaitoolsdirectory.com/submitrequest/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
+  status: dead
+- name: theaigeneration
+  submitUrl: https://www.theaigeneration.com/add/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: aitoolboard
+  submitUrl: https://aitoolboard.com/submitaitool
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
+  status: dead
+- name: aitools
+  submitUrl: https://www.aitools.directory/contact
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: AI Top Picks
+  submitUrl: https://www.aitoppicks.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: AiHunt
+  submitUrl: https://aihunt.app/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: aitogrow
+  submitUrl: https://aitogrow.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: chataiapps
+  submitUrl: https://www.chataiapps.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: IndieAI
+  submitUrl: https://www.indieai.co/addtool
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: NaNAI
+  submitUrl: https://nanai.tools/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Switbai
+  submitUrl: https://switbai.com/submitaitool
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: AI Directories
+  submitUrl: https://www.aidirectori.es/pricing?tab=tool-submission&utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 71
+- name: fb/All About AI Tools & AI News
+  submitUrl: https://www.facebook.com/groups/freeai?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: AIxploria
+  submitUrl: https://www.aixploria.com/en/featured-on-aixploria/?utm_source=launchdb.vercel.app&via=launchdb#submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 57
+- name: AI Tools
+  submitUrl: https://aitools.inc/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 68
+- name: Launch AI
+  submitUrl: https://trylaunch.ai/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 55
+- name: NextGen Tools
+  submitUrl: https://www.nxgntools.com/~/my-tools?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories] [verified dead: HTTP 404]'
+  status: dead
+  dr: 69
+- name: ToolsFine
+  submitUrl: https://toolsfine.com/submit-ai-tools-or-product?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 64
+- name: We Like Tools
+  submitUrl: https://weliketools.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 50
+- name: 1000.tools
+  submitUrl: https://1000.tools/my/tools/create?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 38
+- name: AIStage
+  submitUrl: https://aistage.net/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: BroUseAI
+  submitUrl: https://www.brouseai.com/submission/ai?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 10
+- name: RankmyAI
+  submitUrl: https://www.rankmyai.com/tool-addition?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 35
+- name: ToolFame
+  submitUrl: https://toolfame.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 75
+- name: ShowMeBestAI
+  submitUrl: https://showmebest.ai/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 76
+- name: Aidirs
+  submitUrl: https://aidirs.best/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 62
+- name: Waildworld
+  submitUrl: https://waildworld.com/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 10
+- name: AIToolsCapital
+  submitUrl: https://aitoolscapital.com/submit-tool?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 22
+- name: AI Pulse
+  submitUrl: https://www.aipulse.fyi/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 20
+- name: AI Tools Saver
+  submitUrl: https://www.aitoolsaver.com/submit-ai-tool?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 31
+- name: AI Hustle
+  submitUrl: https://aihustle.tools/submit/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 37
+- name: AI Tools SME
+  submitUrl: https://www.aitoolssme.com/submit-your-tool?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 57
+- name: TopAITools4U
+  submitUrl: https://www.topaitools4u.site/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 7
+- name: AIBase
+  submitUrl: https://app.aibase.com/submission?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: Findly.tools
+  submitUrl: https://findly.tools/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 80
+- name: Verified Tools
+  submitUrl: https://www.verifiedtools.info/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 51
+- name: Toolfio
+  submitUrl: https://toolfio.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 62
+- name: Toolfolio
+  submitUrl: https://toolfolio.com/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 25
+- name: Startup AIdeas
+  submitUrl: https://startupaideas.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 38
+- name: AIWget
+  submitUrl: https://aiwget.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 31
+- name: AISO Tools
+  submitUrl: https://aisotools.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 21
+- name: SEOExpert AI's SEO Directory Submission Tool
+  submitUrl: https://tryseoexpert.com/directory-submission-tool/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from directory-submission-sites] [verified dead: HTTP 404]'
+  status: dead
+- name: SubmitAiTools
+  submitUrl: https://submitaitools.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: magicbox.tools
+  submitUrl: https://magicbox.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: acidtools.com
+  submitUrl: https://acidtools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: 10015 Tools
+  submitUrl: https://10015.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Tech Viral
+  submitUrl: https://aitechviral.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Remote Tools
+  submitUrl: https://www.remote.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Awesome Tools
+  submitUrl: https://awesome.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Web Tools Weekly
+  submitUrl: http://webtoolsweekly.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: RankYourAI
+  submitUrl: https://rankyourai.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: toolfolio
+  submitUrl: https://toolfolio.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ToolHub
+  submitUrl: https://toolhub.me
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tools for Makers
+  submitUrl: https://toolsformakers.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Listing
+  submitUrl: https://ailisting.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tools NoCode
+  submitUrl: https://toolsnocode.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Daily Pings
+  submitUrl: https://dailypings.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: NoteableAI
+  submitUrl: https://noteableai.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Mr. Free Tools
+  submitUrl: https://mrfreetools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Small Business Marketing Tools
+  submitUrl: https://sbmarketingtools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tools
+  submitUrl: https://tools.so
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: See What New AI
+  submitUrl: https://www.seewhatnewai.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AiTool.ai
+  submitUrl: https://aitool.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Find SEO Tools
+  submitUrl: https://findseotools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Tool Salad
+  submitUrl: https://toolsalad.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: 600.tools
+  submitUrl: https://600.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: WhatIsAITools
+  submitUrl: https://whatisaitools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Sick Tools
+  submitUrl: https://sick.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: FeaturedTool
+  submitUrl: https://featuredtool.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Repo
+  submitUrl: https://airepo.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Top No Code Tools
+  submitUrl: https://topnocode.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Toollist
+  submitUrl: https://toollist.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AIx Collection
+  submitUrl: https://aixcollection.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: IndieTool
+  submitUrl: https://indietool.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: My Startup Tool
+  submitUrl: https://mystartuptool.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: BAI.tools
+  submitUrl: https://bai.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: EliteAI Tools
+  submitUrl: https://eliteai.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Agents Directory
+  submitUrl: https://aiagentsdirectory.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Startups
+  submitUrl: https://aistartups.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: BestofAI
+  submitUrl: https://bestofai.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Tools Marketer
+  submitUrl: https://aitoolsmarketer.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI Tool Details
+  submitUrl: https://aitooldetails.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: AI Navbar
+  submitUrl: https://ainavbar.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: ai.dreamthere.cn
+  submitUrl: https://ai.dreamthere.cn
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Kyi AI Directory
+  submitUrl: https://kyi.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: NewAIForYou
+  submitUrl: https://newaiforyou.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AIxuanfeng
+  submitUrl: https://www.aixuanfeng.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AI For Developers
+  submitUrl: https://aifordevelopers.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: There's an AI
+  submitUrl: https://theresanai.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Toolkitly
+  submitUrl: https://www.toolkitly.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: AI Directory
+  submitUrl: https://aidirectory.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: AI Dir
+  submitUrl: https://aidir.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: ToolFinder
+  submitUrl: https://toolfinder.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms] [verified dead: timeout]'
+  status: dead
+- name: Startup Tools List
+  submitUrl: https://startuptoolslist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: AI Corner
+  submitUrl: https://aicorner.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: ainave
+  submitUrl: https://www.ainave.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Agent Store
+  submitUrl: https://aiagentstore.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Agents Live
+  submitUrl: https://aiagentslive.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Agents Marketplace
+  submitUrl: https://trillionagent.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Hubs
+  submitUrl: https://aihubs.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Hunt List
+  submitUrl: https://aihuntlist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Library
+  submitUrl: https://www.theailibrary.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AiMatchPro
+  submitUrl: https://aimatch.pro/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Resource Pro
+  submitUrl: https://airesource.pro
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Respo
+  submitUrl: https://airespo.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Search Visibility & Optimization Tools
+  submitUrl: https://www.aeotools.space
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Sites Net
+  submitUrl: https://ai-sites.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: timeout]'
+  status: dead
+- name: AI Tools Corner
+  submitUrl: https://aitoolscorner.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Tools Pin
+  submitUrl: https://aitoolspin.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI-Tools Directory
+  submitUrl: https://ai-tools.directory
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Tools Love
+  submitUrl: https://aitools.love/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: AI Tools Magazine
+  submitUrl: https://aitoolsmagazine.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: ALL AI TOOLS .TECH DIRECTORY
+  submitUrl: https://allaitools.tech/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AiToolex
+  submitUrl: https://aitoolex.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Tool Trek
+  submitUrl: https://aitooltrek.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: All The AI Tools
+  submitUrl: https://alltheaitools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Tools Explore
+  submitUrl: https://aiex.me/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Tools For Me
+  submitUrl: https://aitoolsforme.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Tool List
+  submitUrl: https://www.aitoollist.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Toolz Dir
+  submitUrl: https://www.aitoolzdir.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Parabellum
+  submitUrl: https://aiparabellum.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Agents Base
+  submitUrl: https://aiagentsbase.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: AI Agents List
+  submitUrl: https://aiagentslist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Agents Verse
+  submitUrl: https://aiagentsverse.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Add AI Directory
+  submitUrl: https://addaidirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Aixyz
+  submitUrl: https://www.aixyz.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: AIChief
+  submitUrl: https://aichief.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Ask AI For It
+  submitUrl: https://askaiforit.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Headshot Hub
+  submitUrl: https://aiheadshothub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AIToolsHunt
+  submitUrl: https://aitoolshunt.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Best of AI
+  submitUrl: https://bestofai.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Based Tools
+  submitUrl: https://www.basedtools.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Best AI Tools org
+  submitUrl: https://www.best-ai-tools.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Beyond AI Tools
+  submitUrl: https://www.beyondaitools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Byblos AI
+  submitUrl: https://byblosai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: ChooseTheAI
+  submitUrl: https://choosetheai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: connection refused]'
+  status: dead
+- name: Cloudbooklet AI
+  submitUrl: https://www.cloudbooklet.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: CogList AI
+  submitUrl: https://coglist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Dynamite AI
+  submitUrl: https://www.dynamite-ai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Dofollow.Tools
+  submitUrl: https://dofollow.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: EveryDev.ai
+  submitUrl: https://www.everydev.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Find An AI Tools
+  submitUrl: https://findanaitools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Findyouragent.ai
+  submitUrl: https://findyouragent.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Find my AI Tool
+  submitUrl: https://findmyaitool.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: flowtools
+  submitUrl: https://www.flowtools.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Grabon AI Directory
+  submitUrl: https://www.grabon.in/indulge/ai-tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: God of Prompt
+  submitUrl: https://godofprompt.ai/best-ai-tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: GroupifyAI
+  submitUrl: https://groupify.ai/?ref=github
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Havnai
+  submitUrl: https://havnai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: HeyAIworld
+  submitUrl: https://heyaiworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [server error: HTTP 406 — verify]'
+- name: Intelligent Tools
+  submitUrl: https://intelligenttools.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: LineZine AI Tool Directory
+  submitUrl: https://linezine.com/ai-tool-directory
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: ListYourTool
+  submitUrl: https://www.listyourtool.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Marketing Tools List
+  submitUrl: https://marketingtoolslist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Most Popular AI Tools
+  submitUrl: https://mostpopularaitools.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: NavTools AI
+  submitUrl: https://navtools.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: OpenTools
+  submitUrl: https://opentools.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Orbic AI
+  submitUrl: https://orbic.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Stratup.ai
+  submitUrl: https://stratup.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Sales Tools AI
+  submitUrl: https://salestoolsai.top/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: SearchAiDirectory
+  submitUrl: https://searchaidirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Selljam.ai
+  submitUrl: https://selljam.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: theaisurf
+  submitUrl: https://theaisurf.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Toolwave.io
+  submitUrl: https://www.toolwave.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: ToolPasta by Robopost
+  submitUrl: https://toolpasta.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Top Tools
+  submitUrl: https://www.toptools.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Tools Hub AI
+  submitUrl: https://toolshubai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: ThatsMyAI
+  submitUrl: https://thatsmy.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: The Next AI Tool
+  submitUrl: https://thenextaitool.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: ToolDirs
+  submitUrl: https://tooldirs.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: WhatstheBigData.com
+  submitUrl: https://whatsthebigdata.com/ai-tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Yet Another AI Tool Directory
+  submitUrl: https://yaatd.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: AI Collection
+  submitUrl: https://www.thataicollection.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: Saijo's Tools List
+  submitUrl: https://saijogeorge.com/best-marketing-tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: kevinbhagat.lemonsqueezy.com
+  submitUrl: https://kevinbhagat.lemonsqueezy.com/buy/6747a484-e8ee-4302-a90a-af378cc72678/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: popularaitools.ai
+  submitUrl: https://www.popularaitools.ai/submit-a-tool
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: paid
+- name: kitploit.com
+  submitUrl: https://www.kitploit.com/p/submit-tool.html
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: tooldirectory.ai
+  submitUrl: https://tooldirectory.ai/sign-in
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: aplicaciones.ai
+  submitUrl: https://aplicaciones.ai/en/recent-tools/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: timeout]'
+  status: dead
+- name: awesomeaitools.com
+  submitUrl: https://awesomeaitools.com/submit-your-tool
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: paid
+- name: gptshunter.com
+  submitUrl: https://www.gptshunter.com/submit-gpt
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: advanced-innovation.io
+  submitUrl: https://www.advanced-innovation.io/ki-tool-einreichen
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: ai-search.io
+  submitUrl: https://ai-search.io/submit
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: paid
+- name: aidude.info
+  submitUrl: https://aidude2.gumroad.com/l/aidude
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: theainavigator.com
+  submitUrl: https://www.theainavigator.com/submit-an-ai-tool
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: ismailblogger.com
+  submitUrl: https://ismailblogger.com/submit-tools/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: aitree.io
+  submitUrl: https://aitree.io/plan
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: smart-tools.ai
+  submitUrl: https://www.smart-tools.ai/en/submit?ref=aidirectori.es
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [server error: HTTP 402 — verify]'
+  status: active
+- name: lookaitools.com
+  submitUrl: https://lookaitools.com/account/login/?redirect=https%3A%2F%2Flookaitools.com%2Fsubmit-listing%2F
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: raiday.ai
+  submitUrl: https://raiday.ai/submit-ai-tool/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: aitoolshunter.com
+  submitUrl: https://aitoolshunter.com/panel/create/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: faind.ai
+  submitUrl: https://faind.ai/submit-a-tool/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: liveapps.ai
+  submitUrl: https://liveapps.ai/become-a-partner
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: bestaito.com
+  submitUrl: https://bestaito.com/submit-a-ai-tool/
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: paid
+- name: aiawesome.com
+  submitUrl: https://www.aiawesome.com/submit
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: aiutor.com
+  submitUrl: https://www.aiutor.com/login-register/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: featuredaitool.com
+  submitUrl: https://featuredaitool.com/submit/
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: aitach.com
+  submitUrl: https://aitach.com/submit-a-tool
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: easysaveai.com
+  submitUrl: https://easysaveai.com/submit-your-ai-tool/
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: billionai.co
+  submitUrl: https://billionai.co/list-my-ai/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: aitoprank.com
+  submitUrl: https://www.aitoprank.com/pricing
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: findaitools.co
+  submitUrl: https://findaitools.co/advertise/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: freeaitools.fyi
+  submitUrl: https://www.freeaitools.fyi/submit-tool
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: HTTP 404]'
+  status: dead
+- name: aigems.net
+  submitUrl: https://aigems.net/login
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: airegisters.com
+  submitUrl: https://airegisters.com/account/login/?redirect=https%3A%2F%2Fairegisters.com%2Fsubmit-listing%2F
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: aitoolslink.com
+  submitUrl: https://www.aitoolslink.com/submit
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: aitooltips.com
+  submitUrl: https://aitooltips.com/add-tool/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: infrabase.ai
+  submitUrl: https://infrabase.ai/submit
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: purefuture.net
+  submitUrl: https://purefuture.net/contact/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: seos.ai
+  submitUrl: https://seos.ai/add-tool/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: webofai.com
+  submitUrl: https://webofai.com/submit-a-tool/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: worldxai.org
+  submitUrl: https://worldxai.org/submit-ai-tools/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: 100apps.org
+  submitUrl: https://100apps.org/register
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: paid
+- name: ai-list.de
+  submitUrl: https://ai-list.de/add-listing/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai] [server error: HTTP 402 — verify]'
+  status: active
+- name: synoptica.com
+  submitUrl: https://synoptica.com/submit-an-ai-tool/?ref=aidirectori.es
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+  status: active
+- name: toolai.io
+  submitUrl: https://toolai.io/en/submit
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-ai]'
+- name: 1payment.tools
+  submitUrl: https://1payment.tools/register
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas] [verified dead: HTTP 404]'
+  status: dead
+- name: aistash.co
+  submitUrl: https://www.aistash.co/submit-tool
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-tool] [verified dead: timeout]'
+  status: dead
+- name: aihabr.com
+  submitUrl: https://aihabr.com/en/submit
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-tool] [verified dead: timeout]'
+  status: dead
+- name: aircrate.io
+  submitUrl: https://aircrate.io/signup
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-tool] [verified dead: DNS resolution failed]'
+  status: dead
+- name: intelligency.org
+  submitUrl: https://intelligency.org/ai-company-directory/?wpbdp_view=submit_listing
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup] [server error: HTTP 500 — verify]'
+general:
+- name: AlternativeTo
+  submitUrl: https://alternativeto.net/faq/
+  type: form
+  auto: manual
+  lang: en
+  notes: Major alternative software directory
+- name: Alternative.me
+  submitUrl: https://alternative.me/how-to/submit-software/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: App Rater
+  submitUrl: https://apprater.net/add/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Appoid
+  submitUrl: http://appiod.com/submit-app-for-review/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: All Startups
+  submitUrl: http://www.allstartups.info/Startups/Submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Betalist
+  submitUrl: https://betalist.com/users/sign_in
+  type: form
+  auto: manual
+  lang: en
+  notes: 'Requires login [verified dead: HTTP 404]'
+  status: dead
+- name: BufferApps
+  submitUrl: https://bufferapps.com/beta-listing/new
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Changelog
+  submitUrl: https://changelog.com/news/submit
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Developer-focused, high quality
+- name: Digital Stuff We Love
+  submitUrl: https://digitalstuffwelove.org.nz/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: DataTau
+  submitUrl: https://datatau.net/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 'HN clone for data science [verified dead: DNS resolution failed]'
+  status: dead
+- name: 10words
+  submitUrl: https://10words.io/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: MicroLaunch
+  submitUrl: https://microlaunch.net/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Fiddy
+  submitUrl: https://fiddy.co/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 'Weekly indie hacker ranking [verified dead: DNS resolution failed]'
+  status: dead
+- name: Fund a Maker
+  submitUrl: https://fundamaker.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: OpenAlternative
+  submitUrl: https://airtable.com/appcN6nvv5iyo3x/pagzZyGl6fEI2RWDq/form
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Joinly
+  submitUrl: https://www.joinly.xyz/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: KillerStartups
+  submitUrl: https://www.killerstartups.com/submit-startup/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: PitchWall
+  submitUrl: https://pitchwall.co/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Prime Indies
+  submitUrl: https://primeindies.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Toools.design
+  submitUrl: https://toools.design/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Design tools, 1500+ resources
+- name: TechPluto
+  submitUrl: https://www.techpluto.com/submit-a-startup/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: The Startup Pitch
+  submitUrl: https://thestartuppitch.com/post-a-pitch/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Top Best Alternatives
+  submitUrl: https://www.topbestalternatives.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Launched!
+  submitUrl: https://launched.io/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Launching Next
+  submitUrl: https://www.launchingnext.com/submit/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: LibHunt
+  submitUrl: https://www.libhunt.com/repo/submit
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: Startup Collections
+  submitUrl: https://startupcollections.com/submit-product/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: StartupRanking
+  submitUrl: https://www.startupranking.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Startup Stash
+  submitUrl: https://startupstash.com/add-listing/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: StartupBase
+  submitUrl: https://startupbase.io/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: SourceForge
+  submitUrl: https://sourceforge.net/software/vendors/new
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 20M monthly users
+- name: PayOnceApps
+  submitUrl: https://payonceapps.com/add-your-app/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: techdirectory.io
+  submitUrl: https://www.techdirectory.io/get-listed
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Toolbase.io
+  submitUrl: https://form.typeform.com/to/LQcTJr
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Typeform
+- name: Tool Finder
+  submitUrl: https://toolfinder.co/submit-your-tool
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: TechFaster
+  submitUrl: http://techfaster.com/submit-your-company/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: Unloc
+  submitUrl: https://www.unloc.tools/submit-tool
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: Wewaat
+  submitUrl: https://www.wewaat.com/submitnewtool
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 'No-code tools [verified dead: HTTP 404]'
+  status: dead
+- name: Indie Tools
+  submitUrl: https://indietools.co/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: No Code Family
+  submitUrl: https://nocodefamily.com/submit-tool
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 503 as of 2026-03
+  status: dead
+- name: SpotSaaS
+  submitUrl: https://www.spotsaas.com/get-listed
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: MakerPeak
+  submitUrl: https://makerpeak.com/sign-up?redirect=/profile/products/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: 'Requires signup [verified dead: HTTP 404]'
+  status: dead
+- name: Simple Lister
+  submitUrl: https://simplelister.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Launching Today
+  submitUrl: https://www.launching.today/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: WebsiteHunt
+  submitUrl: https://www.websitehunt.co/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Twelve.tools
+  submitUrl: https://twelve.tools/submit-your-tool
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Top10
+  submitUrl: https://top10.now/submit
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: WhatLaunched.Today
+  submitUrl: https://www.whatlaunched.today
+  type: form
+  auto: 'yes'
+  lang: en
+- name: bigstartups.co
+  submitUrl: https://bigstartups.co/overview/list-product
+  type: form
+  auto: 'yes'
+  lang: en
+- name: business-software.com
+  submitUrl: https://www.business-software.com/add-your-product/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 4M+ annual tech buyers
+- name: osalt.com
+  submitUrl: https://osalt.com/suggest
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open source alternatives
+- name: Broadwise.org
+  submitUrl: https://broadwise.org/t/how-to-promote-your-startup-on-broadwise-org/125
+  type: form
+  auto: manual
+  lang: en
+  notes: Community, needs account
+- name: ASR
+  submitUrl: https://www.activesearchresults.com/addwebsite.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AppsThunder
+  submitUrl: https://appsthunder.com/submit-your-app/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: AddictiveTips
+  submitUrl: https://www.addictivetips.com/tip-us/
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 405 as of 2026-03
+  status: dead
+- name: insanelycooltools
+  submitUrl: https://www.insanelycooltools.com/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: findatool
+  submitUrl: https://www.findatool.io/add-a-tool
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: 700.tools
+  submitUrl: https://700.tools/add
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: once.tools
+  submitUrl: https://once.tools/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: One-time payment software
+- name: Side Project Stack
+  submitUrl: https://sideprojectstack.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: Futurepedia
+  submitUrl: https://futurepedia.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: Startuplist Africa
+  submitUrl: https://startuplist.africa
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: LaunchCaster
+  submitUrl: https://launchcaster.xyz
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: Carrd
+  submitUrl: https://carrd.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launch-platforms]'
+- name: ClaudePro.directory
+  submitUrl: https://claudepro.directory/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: DataLook.io
+  submitUrl: https://datalook.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Dessign
+  submitUrl: https://dessign.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Desifounder
+  submitUrl: https://desifounder.com/spotlight
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Direct2App
+  submitUrl: https://www.direct2app.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Evolmagazine.com
+  submitUrl: https://www.evolmagazine.com/en/tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: FastLaunch
+  submitUrl: https://fastlaunch.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: IA sur mesure
+  submitUrl: https://iasurmesure.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Makerlist.io
+  submitUrl: https://makerlist.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: NeonRev
+  submitUrl: https://www.neonrev.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: Startuplist.in
+  submitUrl: https://startuplist.in/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: connection refused]'
+  status: dead
+- name: Stackviv
+  submitUrl: https://stackviv.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: THANK JOHN
+  submitUrl: https://www.thankjohn.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: TrustList
+  submitUrl: https://www.trustlist.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai]'
+- name: TrustedBy
+  submitUrl: https://www.trustedby.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai] [verified dead: timeout]'
+  status: dead
+- name: slideshare.net
+  submitUrl: https://www.slideshare.net/upload
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-tool]'
+startup:
+- name: Sitelike
+  submitUrl: https://www.sitelike.org/add-site
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: Dizila
+  submitUrl: https://www.dizila.com/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: DesignRush
+  submitUrl: https://www.designrush.com/submit/agency
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: Good Design Tools
+  submitUrl: https://www.gooddesign.tools/submit
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 404 as of 2026-03
+  status: dead
+- name: Webwiki
+  submitUrl: https://www.webwiki.com/info/add-website.html
+  type: form
+  auto: 'no'
+  lang: en
+  notes: 403 as of 2026-03
+  status: dead
+- name: Viesearch
+  submitUrl: https://viesearch.com/submit
+  type: form
+  auto: 'yes'
+  lang: en
+- name: OnToplist.com
+  submitUrl: https://www.ontoplist.com/join/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Offpagesavvy
+  submitUrl: https://www.offpagesavvy.com/submit-your-site/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Unmatched Style
+  submitUrl: https://unmatchedstyle.com/submit
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Web design showcase
+- name: 01webdirectory
+  submitUrl: https://www.01webdirectory.com/frmPreSubmit.aspx
+  type: form
+  auto: 'yes'
+  lang: en
+- name: 247WebDirectory
+  submitUrl: https://www.247webdirectory.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: 9Sites.net
+  submitUrl: https://www.9sites.net/addurl.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: ABC Directory
+  submitUrl: https://www.abc-directory.com/submiturl
+  type: form
+  auto: 'yes'
+  lang: en
+- name: All Business Directory
+  submitUrl: https://www.allbusinessdirectory.biz/directory.php?page=submission-guidelines
+  type: form
+  auto: 'yes'
+  lang: en
+- name: All States USA Directory
+  submitUrl: https://www.allstatesusadirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: BusinessSeek.biz
+  submitUrl: https://www.businessseek.biz/page.php?page=submission-policy
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Submission Web Directory
+  submitUrl: https://www.submissionwebdirectory.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Highrankdirectory
+  submitUrl: https://www.highrankdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Sonic Run
+  submitUrl: https://www.sonicrun.com/freelisting.html
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Site Promotion Directory
+  submitUrl: https://www.sitepromotiondirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: SitesWebdirectory
+  submitUrl: https://www.siteswebdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Marketing Internet Directory
+  submitUrl: https://www.marketinginternetdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Promote Business Directory
+  submitUrl: https://www.promotebusinessdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: ProLinkDirectory
+  submitUrl: https://www.prolinkdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: GainWeb.org
+  submitUrl: https://gainweb.org/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Jayde
+  submitUrl: https://www.jayde.com/submit.html
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: B2B search engine
+- name: Free Directory
+  submitUrl: https://www.directory-free.com/submit/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Free PR Web Directory
+  submitUrl: https://www.freeprwebdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Free Internet Web Directory
+  submitUrl: https://www.freeinternetwebdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Info-Listings
+  submitUrl: https://info-listings.com/submit.php
+  type: form
+  auto: 'no'
+  lang: en
+  notes: '500 as of 2026-03 [server error: HTTP 500 — verify]'
+  status: dead
+- name: TXTLinks
+  submitUrl: https://www.txtlinks.com/sug_url.php?cat_id=0
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Tsection
+  submitUrl: https://www.tsection.com/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: Thales Directory
+  submitUrl: https://thalesdirectory.com/submit/
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 404]'
+- name: Quality Internet Directory
+  submitUrl: https://www.qualityinternetdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: UK Internet Directory
+  submitUrl: https://www.ukinternetdirectory.net/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: USA Websites Directory
+  submitUrl: https://www.usawebsitesdirectory.com/submit.php
+  type: form
+  auto: 'yes'
+  lang: en
+- name: World Web Directory
+  submitUrl: https://www.worldweb-directory.com/add.php
+  type: form
+  auto: 'yes'
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 404]'
+- name: Submit.biz
+  submitUrl: https://www.submit.biz/
+  type: form
+  auto: 'yes'
+  lang: en
+- name: 5118.link
+  submitUrl: http://www.5118.link/article/22.html
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: 'Chinese directory, 1-2 day review [verified dead: DNS resolution failed]'
+  status: dead
+- name: Twitter BuildinPublic
+  submitUrl: https://twitter.com/i/communities/1495042358068477955
+  type: community
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: GPTE
+  submitUrl: https://gpte.ai/submitatool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: digitalSamaritan
+  submitUrl: https://www.digitalsamaritan.co/75843fhurwi8e8jcheckout
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: gptdemo
+  submitUrl: https://www.gptdemo.net/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: domore
+  submitUrl: https://domore.ai/submittool
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
+  status: dead
+- name: marsx
+  submitUrl: https://www.marsx.dev/aistartups
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: favird
+  submitUrl: https://favird.com/l/aitoolsandapplications
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: saasgpters
+  submitUrl: https://saasgpters.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: active
+- name: gptacademy
+  submitUrl: https://www.gptacademy.co/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: victrays
+  submitUrl: https://victrays.com/submitaitool/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
+  status: dead
+- name: uneedbest
+  submitUrl: https://uneedbest.com/yourbesttool
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+  status: paid
+- name: gptnocode
+  submitUrl: https://gptnocode.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: madgenius
+  submitUrl: https://madgenius.co/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: news
+  submitUrl: https://news.bensbites.co/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list] [verified dead: timeout]'
+  status: dead
+- name: nocodelist
+  submitUrl: https://nocodelist.co/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: postmake
+  submitUrl: https://postmake.io/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: saashub
+  submitUrl: https://www.saashub.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: saasworthy
+  submitUrl: https://www.saasworthy.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: softwareworld
+  submitUrl: https://www.softwareworld.co/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: startupbuffer
+  submitUrl: https://startupbuffer.com/
+  type: website
+  auto: manual
+  lang: en
+  notes: '[from ultimate-submit-list]'
+- name: AppSumo
+  submitUrl: https://sell.appsumo.com/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 83
+- name: SaaS Mantra
+  submitUrl: https://launch-mantra.paperform.co/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 85
+- name: Micro SaaS Examples
+  submitUrl: https://www.microsaasexamples.com/submit-micro-saas?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 47
+- name: Peerlist Launchpad
+  submitUrl: https://peerlist.io/launchpad?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 77
+- name: Open-Launch
+  submitUrl: https://open-launch.com/projects/submit/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 71
+- name: A1 Gallery
+  submitUrl: https://www.a1.gallery/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 34
+- name: TinyLaunch
+  submitUrl: https://www.tinylaunch.com/dashboard/startups/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: Resource FYI
+  submitUrl: https://resource.fyi/account/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 31
+- name: Fazier
+  submitUrl: https://fazier.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 82
+- name: ctrlalt.cc
+  submitUrl: https://ctrlalt.cc/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 50
+- name: SideProjectors
+  submitUrl: https://www.sideprojectors.com/submit/type?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 70
+- name: x/Side Projects
+  submitUrl: https://x.com/i/communities/1825401786217210316?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: TrustMRR
+  submitUrl: https://trustmrr.com/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 70
+- name: DodoMRR
+  submitUrl: https://www.dodomrr.com/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 1
+- name: TrustRoas
+  submitUrl: https://trustroas.com/add-store?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 1
+- name: Turbo0
+  submitUrl: https://turbo0.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 80
+- name: Versily
+  submitUrl: https://versily.com/start/product?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 69
+- name: Aura++
+  submitUrl: https://auraplusplus.com/projects/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: Earlyhunt
+  submitUrl: https://earlyhunt.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 60
+- name: Indiehunt
+  submitUrl: https://indiehunt.io/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 60
+- name: Makerhunt
+  submitUrl: https://makerhunt.io/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 40
+- name: Sidehunt
+  submitUrl: https://sidehunt.io/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 40
+- name: Uno Directory
+  submitUrl: https://uno.directory/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 64
+- name: ScrollLaunch
+  submitUrl: https://www.scrolllaunch.com/dashboard/products/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 64
+- name: PeerPush
+  submitUrl: https://peerpush.net/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 73
+- name: Productburst
+  submitUrl: https://productburst.com/pre-launch?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 40
+- name: Smol Launch
+  submitUrl: https://smollaunch.com/dashboard/products/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: OpenHunts
+  submitUrl: https://openhunts.com/projects/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 68
+- name: ListYourIdea
+  submitUrl: https://listyouridea.com/launch?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 27
+- name: MarketingDB
+  submitUrl: https://marketingdb.live/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 60
+- name: Store.App
+  submitUrl: https://store.app/list?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 55
+- name: Altern
+  submitUrl: https://altern.ai/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 43
+- name: WIP.co
+  submitUrl: https://wip.co/settings/projects/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 55
+- name: StackShare
+  submitUrl: https://stackshare.io/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 79
+- name: Startup Listing
+  submitUrl: https://startuplist.ing/products/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 40
+- name: Tiny Startups
+  submitUrl: https://www.tinystartups.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 71
+- name: Startup Fame
+  submitUrl: https://startupfa.me/dashboard?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 83
+- name: BuiltByIndies
+  submitUrl: https://builtbyindies.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 31
+- name: LaunchIgniter
+  submitUrl: https://launchigniter.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 74
+- name: Startup Fast
+  submitUrl: https://www.startupfa.st/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: FoundrList
+  submitUrl: https://www.foundrlist.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: Firsto
+  submitUrl: https://firsto.co/projects/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 55
+- name: Shipybara
+  submitUrl: https://shipybara.com/projects/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 52
+- name: PromoteProject
+  submitUrl: https://www.promoteproject.com/submit-startup?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 50
+- name: StartupTrusted
+  submitUrl: https://startuptrusted.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 51
+- name: Funnel Directory
+  submitUrl: https://funneldirectory.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 15
+- name: Trust Revenue
+  submitUrl: https://trust-revenue.com/dashboard/startup?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 1
+- name: GreenRocket
+  submitUrl: https://greenrocket.app/create?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 9
+- name: OpenAlternative
+  submitUrl: https://openalternative.co/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 51
+- name: Huzzler
+  submitUrl: https://huzzler.so/products/create?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 60
+- name: ConfettiSaaS
+  submitUrl: https://confettisaas.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 37
+- name: AgentMRR
+  submitUrl: https://agentmrr.com/dashboard/agents?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 22
+- name: StartupLibrary
+  submitUrl: https://startuplibrary.net/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 31
+- name: Product Watch
+  submitUrl: https://productwatch.io/product/create?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: WeekHack
+  submitUrl: https://www.weekhack.com/launches/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 43
+- name: SaaSFame
+  submitUrl: https://saasfame.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 69
+- name: Wired Business
+  submitUrl: https://wired.business/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 77
+- name: Neeed Directory
+  submitUrl: https://neeed.directory/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 72
+- name: DevPages
+  submitUrl: https://devpages.io/submit-a-tool?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 22
+- name: Webspot
+  submitUrl: https://webspot.app/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 27
+- name: BuildVoyage
+  submitUrl: https://buildvoyage.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 41
+- name: Bowora
+  submitUrl: https://bowora.com/register?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 48
+- name: SHIP OR DIE
+  submitUrl: https://shipordie.club/leaderboard?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 11
+- name: SubmitMatic
+  submitUrl: https://submitmatic.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 29
+- name: Find Your SaaS
+  submitUrl: https://www.findyoursaas.com/onboard?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 40
+- name: LaunchPad India
+  submitUrl: https://launchpadindia.co/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 11
+- name: Builders.to
+  submitUrl: https://builders.to/projects/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 48
+- name: Super Launch
+  submitUrl: https://www.superlaun.ch/dashboard/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 62
+- name: ShipBoost
+  submitUrl: https://shipboost.io/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 48
+- name: Forg
+  submitUrl: https://forg.to/product/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 32
+- name: Launch Llama
+  submitUrl: https://tools.launchllama.co/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 68
+- name: FutureStack
+  submitUrl: https://www.usefuturestack.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 4
+- name: ProductFame
+  submitUrl: https://productfame.com/products/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 37
+- name: Lifto
+  submitUrl: https://liftoapp.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 30
+- name: Better Launch
+  submitUrl: https://www.betterlaunch.co/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 58
+- name: BuildHop
+  submitUrl: https://buildhop.io/app/create?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 46
+- name: SaaS Page
+  submitUrl: https://www.saaspa.ge/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 41
+- name: Pro Launch
+  submitUrl: https://prolaunch.net/projects/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 33
+- name: Productivity Directory
+  submitUrl: https://productivity.directory/s/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 40
+- name: LaunchPact
+  submitUrl: https://www.launchpact.io/launches/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 22
+- name: OGFolio
+  submitUrl: https://ogfolio.com/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 13
+- name: Startup.sx
+  submitUrl: https://www.startup.sx/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 31
+- name: Revispy Launchpad
+  submitUrl: https://www.revispy.com/launchpad/create?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories] [verified dead: HTTP 404]'
+  status: dead
+  dr: 28
+- name: JustLaunched
+  submitUrl: https://justlaunched.fyi/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 37
+- name: Open Source Projects
+  submitUrl: https://opensourceprojects.cc/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 6
+- name: SaaSCity
+  submitUrl: https://saascity.io/saascity?submit=1&utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 53
+- name: FindThatSoftware
+  submitUrl: https://findthatsoftware.com/vendors?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: Mydentify
+  submitUrl: https://mydentify.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 29
+- name: The Agents Index
+  submitUrl: https://theagentsindex.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: craked.dev
+  submitUrl: https://www.craked.dev/products?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: Sidebar
+  submitUrl: https://sidebar.io/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 71
+- name: Launchory
+  submitUrl: https://www.launchory.app/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 39
+- name: CitedIndex
+  submitUrl: https://citedindex.com/submit?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: Alt Hunt
+  submitUrl: https://althunt.io/new?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 4
+- name: SaaSBoard
+  submitUrl: https://saasboard.app/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+- name: Outbid
+  submitUrl: https://outbid.lol/?utm_source=launchdb.vercel.app&via=launchdb
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from awesome-saas-directories]'
+  status: active
+  dr: 20
+- name: LinkDR
+  submitUrl: https://linkdr.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from directory-submission-sites]'
+- name: Listing Bott
+  submitUrl: https://listingbott.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from directory-submission-sites]'
+- name: Quicklisting
+  submitUrl: https://quicklist.ing/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from directory-submission-sites]'
+- name: '![Directories'
+  submitUrl: https://img.shields.io/badge/Directories-582-blue?style=for-the-badge
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Yelp
+  submitUrl: https://business.velp.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Business Insider
+  submitUrl: https://www.businessinsider.in/contributors
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: CNET
+  submitUrl: https://www.cnet.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Mashable
+  submitUrl: https://in.mashable.com/website-informati
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: The Verge
+  submitUrl: https://www.theverge.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: EnGadget
+  submitUrl: https://www.engadget.com/about/advertist
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Fast Company
+  submitUrl: https://www.fastcompany.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: PC Mag
+  submitUrl: https://in.pcmag.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 410]'
+  status: dead
+- name: ZDNet
+  submitUrl: https://www.zdnet.com/blog
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ARS Technica
+  submitUrl: https://arstechnica.com/contact-us
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Crunchbase
+  submitUrl: https://www.crunchbase.com/home
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Digital Trends
+  submitUrl: https://www.digitaltrends.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Slate
+  submitUrl: https://slate.com/pitch
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Next Web
+  submitUrl: https://deals.thenextweb.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Venture Beat
+  submitUrl: https://venturebeat.com/quest-posts
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Launched by Lovable
+  submitUrl: https://launched.lovable.app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Make Use Of
+  submitUrl: https://www.makeuseof.com/contributor
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AngelList
+  submitUrl: https://angel.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Android Authority
+  submitUrl: https://www.androidauthority.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Info World
+  submitUrl: https://www.infoworld.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Kotaku
+  submitUrl: https://kotaku.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Boing Boing
+  submitUrl: https://boingboing.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Dev Post
+  submitUrl: https://devpost.com/software
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Digg
+  submitUrl: https://digg.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Pocket Lint
+  submitUrl: https://www.pocket-lint.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Life Hack
+  submitUrl: https://www.lifehack.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Apple Insider
+  submitUrl: https://appleinsider.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Built In
+  submitUrl: https://builtin.com/expert-contributors
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: India Mart
+  submitUrl: https://seller.indiamart.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: PitchBook
+  submitUrl: https://www.pitchbook.com/sponsorship
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Slash Dot
+  submitUrl: http://slashdot.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tech Hive
+  submitUrl: https://www.techhive.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ScamAdviser
+  submitUrl: https://www.scamadviser.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tech Dirt
+  submitUrl: http://techdirt.com/submitstory.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: YC Startup School
+  submitUrl: https://www.startupschool.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Clutch
+  submitUrl: https://clutch.co/review
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Fark
+  submitUrl: https://www.fark.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Programmable Web
+  submitUrl: https://www.programmableweb.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ReadWrite
+  submitUrl: https://readwrite.com/contributor-guideline
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: YourStory
+  submitUrl: https://yourstory.com/companies
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Webrazzi
+  submitUrl: http://webrazzi.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Pocket gamer
+  submitUrl: https://www.pocketgamer.com/pages/cont
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Silicon Angle
+  submitUrl: https://siliconangle.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Up Labs
+  submitUrl: https://www.uplabs.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tech In Asia
+  submitUrl: https://www.techinasia.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ModDB
+  submitUrl: https://www.moddb.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ToucheArcade
+  submitUrl: https://toucharcade.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: F6S
+  submitUrl: https://www.f6s.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Agni
+  submitUrl: https://office.angi.com/app/join/registratio
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Pando
+  submitUrl: https://pando.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Site Jabber
+  submitUrl: https://www.siteiabber.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Starter Story
+  submitUrl: https://www.starterstory.com/share
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Listly
+  submitUrl: https://list.ly
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Lobsters
+  submitUrl: https://lobste.rs
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SpringWise
+  submitUrl: https://www.springwise.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startups UK
+  submitUrl: https://startups.co.uk/contact-us
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tran
+  submitUrl: https://tracxn.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: G2 Stack
+  submitUrl: https://stack.g2.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Sprout24
+  submitUrl: https://sprout24.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Betakit
+  submitUrl: https://betakit.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Land-Book
+  submitUrl: https://land-book.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Merchant Circle
+  submitUrl: https://www.merchantcircle.com/signup/#‹
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Savant
+  submitUrl: https://startupsavant.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tech
+  submitUrl: https://tech.eu
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AgentHunter
+  submitUrl: https://www.agenthunter.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: American Inno
+  submitUrl: https://www.americaninno.com/post-a-star
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: CoFounders Lab
+  submitUrl: https://cofounderslab.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Growjo
+  submitUrl: https://growjo.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Indie Deals
+  submitUrl: https://www.indie.deals
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: BetaPage
+  submitUrl: https://betapage.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Magnitt
+  submitUrl: https://magnitt.com/startups
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: IdeaKiln
+  submitUrl: https://ideakiln.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startups Lab
+  submitUrl: https://startupslab.site
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: DealMirror
+  submitUrl: https://dealmirror.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Artic Startups
+  submitUrl: https://arcticstartup.com/become-a
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Beta Bound
+  submitUrl: https://betabound.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Elpha
+  submitUrl: https://elpha.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Index
+  submitUrl: https://index.co/companies?&
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Inside
+  submitUrl: https://community.inside.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Local
+  submitUrl: https://partners.local.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Robingood
+  submitUrl: https://tools.robingood.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Start Us
+  submitUrl: https://www.startus.cc
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Valuer
+  submitUrl: https://www.valuer.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Webdesign Inspiration
+  submitUrl: https://webdesign-inspiration.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TinyLaunch
+  submitUrl: https://www.tinylaun.ch
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Cuspera e27
+  submitUrl: https://www.cuspera.com/vendors
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Landing Folio
+  submitUrl: https://www.landingfolio.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Lets Venture
+  submitUrl: https://letsventure.com/join/startup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Spoke
+  submitUrl: https://www.spoke.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TeachOnline
+  submitUrl: https://teachonline.ca/tools-trends/best-pr
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Thing Testing
+  submitUrl: https://thingtesting.com/submit-brand
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Unite List
+  submitUrl: https://unitelist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AppaList
+  submitUrl: https://appalist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaasHunt
+  submitUrl: https://saashunt.best
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Apps Zoom
+  submitUrl: http://appszoom.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Feedough
+  submitUrl: https://www.feedough.com/submit-'
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: NoCode Tech
+  submitUrl: https://www.nocode.tech/tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Red Ferret
+  submitUrl: https://www.redferret.net/contact-us
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Startups Watch
+  submitUrl: https://startups.watch
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Women Entrepreneurs Portal
+  submitUrl: https://wep.gov.in/knowledge-bank/mybl
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SoloPush
+  submitUrl: https://solopush.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Launch Vault
+  submitUrl: https://www.launchvault.dev
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: All Top Startups
+  submitUrl: https://alltopstartups.com/submit-st
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AppAgg
+  submitUrl: https://appagg.com/?hl=en
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Breakout List
+  submitUrl: https://breakoutlist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Dev Resources
+  submitUrl: https://devresourc.es
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: InnMind
+  submitUrl: https://innmind.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Netted
+  submitUrl: https://www.netted.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TechBehemoths
+  submitUrl: https://techbehemoths.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: VentureRadar
+  submitUrl: http://ventureradar.com/add_company
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: T5
+  submitUrl: https://t5.dev
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: SaaSpo
+  submitUrl: https://saaspo.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: App Spy
+  submitUrl: https://www.appspy.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Best App for Kids
+  submitUrl: https://www.bestappsforkids.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Cabinet
+  submitUrl: https://www.cabinetm.com/information/m
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: MacTrast
+  submitUrl: http://www.mactrast.com/contact
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Prefundia
+  submitUrl: https://prefundia.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Explore
+  submitUrl: https://startupxplore.com/en/startur
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Techli
+  submitUrl: https://techli.com/contact
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: The Hive Index
+  submitUrl: https://thehiveindex.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Young Upstarts
+  submitUrl: http://youngupstarts.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Appolicious
+  submitUrl: https://www.appolicious.com/contact-us
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Insur-Tech iPhone Life
+  submitUrl: https://insur-tech.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: NoCodeDevs
+  submitUrl: https://nocodedevs.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: IndieHub
+  submitUrl: https://indiehub.best
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Bulletin
+  submitUrl: https://bulletin.so
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Bootstrappers
+  submitUrl: https://bootstrappers.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Indian Yellow Pages
+  submitUrl: https://www.indianyellowpages.com/post-
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 410]'
+  status: dead
+- name: Next Big What
+  submitUrl: https://nextbigwhat.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Tracker
+  submitUrl: https://startuptracker.io/crowdsourcing
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Younoodle
+  submitUrl: http://younoodle.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Best of Web
+  submitUrl: https://www.bestofweb.site
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: HuntScreens.com
+  submitUrl: https://huntscreens.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: IndieHackerStacks
+  submitUrl: https://indiehackerstacks.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ShipYard HQ
+  submitUrl: https://shipyardhq.dev
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TinyLaunchpad
+  submitUrl: https://tinylaunchpad.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: rankinpublic.xyz
+  submitUrl: https://rankinpublic.xyz
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Alternatives.co
+  submitUrl: https://alternatives.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Coindoo
+  submitUrl: https://coindoo.com/submit-press-releast
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 410]'
+  status: dead
+- name: Collaborizm
+  submitUrl: https://www.collaborizm.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: New Startups
+  submitUrl: https://www.new-startups.com/pron
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Similar Site Search
+  submitUrl: http://similarsitesearch.com/webmaster
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Dope
+  submitUrl: https://startupdope.com/submit-nev
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Startup Europe
+  submitUrl: http://startupeurope.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup-List
+  submitUrl: https://www.startups-list.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TapScape
+  submitUrl: http://www.tapscape.com/submit-app-re
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TechBoard
+  submitUrl: https://techboard.com.au
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Fascination
+  submitUrl: https://thefascination.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Tech Blog
+  submitUrl: https://www.thetechblock.com/contact-t
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Your Stack
+  submitUrl: https://yourstack.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Zumvu
+  submitUrl: http://zumvu.com/make-profile.zvx
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Proofstories
+  submitUrl: https://proofstories.io/directory
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startuplister
+  submitUrl: https://startuplister.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: EuroAlternative
+  submitUrl: https://euroalternative.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startups.fm
+  submitUrl: https://startups.fm
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: LLM Relevance
+  submitUrl: https://llmrelevance.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: How Brands Are Built
+  submitUrl: https://howbrandsarebuilt.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Insanely Useful Websites
+  submitUrl: https://insanelyusefulwebsites.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Paggu
+  submitUrl: https://www.paggu.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Project Hatch
+  submitUrl: https://www.projecthatch.co/your-story
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Smart Money Match
+  submitUrl: https://www.smartmoneymatch.com/busin
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Snapmunk
+  submitUrl: https://startups.snapmunk.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Lift
+  submitUrl: http://startuplift.com/submit-your-startup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Startups of London
+  submitUrl: https://startupsoflondon.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Superbcrew
+  submitUrl: https://www.superbcrew.com/about
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Unita
+  submitUrl: https://www.unita.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Amfibi
+  submitUrl: http://www.amfibi.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Growth Junkie
+  submitUrl: https://growthiunkie.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: SaaS Mag
+  submitUrl: https://saasmag.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Guys
+  submitUrl: http://startupguys.net/submit-startup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SubmitHunt
+  submitUrl: https://www.submithunt.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: FiveTaco
+  submitUrl: https://fivetaco.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: HUNT0
+  submitUrl: https://hunt0.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Made with Lovable
+  submitUrl: https://madewithlovable.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Stellar Launch
+  submitUrl: https://stellarlaunch.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Appy Smarts
+  submitUrl: https://www.appysmarts.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Crazy About Startups
+  submitUrl: https://crazyaboutstartups.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Discover Our Town
+  submitUrl: http://www.discoverourtown.com/add
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Future of Saas
+  submitUrl: https://www.futureofsaas.io/contributor-
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Letter List
+  submitUrl: https://letterlist.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Open Startup
+  submitUrl: https://openstartup.tm
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaS Projects
+  submitUrl: https://saasprojects.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Resources
+  submitUrl: https://startupresources.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup World
+  submitUrl: https://www.startupworld.com/conti
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: StartupTile
+  submitUrl: https://startuptile.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Justgotfound
+  submitUrl: https://justgotfound.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startups.fyi
+  submitUrl: https://startups.fyi
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AwesomeIndie
+  submitUrl: https://awesomeindie.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Saassy Board
+  submitUrl: https://saassy-board.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: hot100
+  submitUrl: https://www.hot100.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: American Startups
+  submitUrl: https://americanstartups.com/share-your-s
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Being Guru
+  submitUrl: https://www.beingguru.com/submit-startu
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Coin Scribble
+  submitUrl: http://coinscribble.com/contact
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Growth Kit
+  submitUrl: https://www.growthkit.so
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Open Startup List
+  submitUrl: https://openstartuplist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Romanian Startups
+  submitUrl: https://www.romanianstartups.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Costs
+  submitUrl: https://www.startupcosts.co/signup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Galaxy
+  submitUrl: https://world.startupsgalaxy.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Startup Inspire
+  submitUrl: http://startupinspire.com/startups
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup88
+  submitUrl: https://startup88.com/category/star
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: StartupStage
+  submitUrl: https://startupstage.app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Techendo
+  submitUrl: http://techendo.com/beta
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Startup Inc
+  submitUrl: https://www.thestartupinc.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Topion Networls
+  submitUrl: https://www.topionetworks.com/#new-sitt
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Unboxing Startups
+  submitUrl: https://unboxingstartups.com/contact
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: W3 Catalog
+  submitUrl: http://w3catalog.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tip Season
+  submitUrl: https://tipseason.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Appvita
+  submitUrl: https://www.appvita.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Feed My Startup
+  submitUrl: http://feedmystartup.com/submit-your-st
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: First 100 Users
+  submitUrl: https://first100users.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Geekopedia
+  submitUrl: https://geekopedia.me/write-for-us
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [server error: HTTP 526 — verify]'
+- name: Indie Hustles
+  submitUrl: https://indiehustles.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Karo Startup
+  submitUrl: https://karostartup.com/advertise-with-us
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: KitDB
+  submitUrl: https://kitdb.app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: MicroStartups
+  submitUrl: https://www.microstartups.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Next Big Product
+  submitUrl: http://nextbigproduct.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SpsFeed
+  submitUrl: https://spsfeed.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Startup Button
+  submitUrl: https://www.startupbutton.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Founders
+  submitUrl: https://startupfounders.com.au
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Startup Wizz
+  submitUrl: http://startupwizz.com/submit-a-startup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Startup benchmarks
+  submitUrl: https://www.startupbenchmarks.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: State of Tech
+  submitUrl: https://stateoftech.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Apple Google
+  submitUrl: http://theapplegoogle.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Indianpreneur
+  submitUrl: https://theindianpreneur.com/advertise-
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Startup Journal
+  submitUrl: http://thestartupjournal.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: The Tech Index
+  submitUrl: https://thetechindex.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Tech Map
+  submitUrl: http://thetechmap.com/Account/Login
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Trendy Startups
+  submitUrl: http://trendystartups.com/register
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Webwide
+  submitUrl: http://webwide.io/forums/project-showca
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: What's new on the net
+  submitUrl: https://www.whatsnewonthenet.com/conti
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: madewithbolt
+  submitUrl: https://madewithbolt.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ProjectHunt.me
+  submitUrl: https://projecthunt.me
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: App Listo
+  submitUrl: https://appslisto.com/submit-your-app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Coop Commerce
+  submitUrl: https://www.coopcommerce.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: EBool
+  submitUrl: https://www.ebool.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Owwly
+  submitUrl: https://owwly.com/products/all
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaSRefs
+  submitUrl: https://saasrefs.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Web App Rater
+  submitUrl: https://webapprater.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Dirs.cc
+  submitUrl: https://dirs.cc
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Apps 400
+  submitUrl: https://apps400.com/submit-your-application-fol
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Astro Growth
+  submitUrl: https://www.astrogrowth.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Big Startups
+  submitUrl: https://biqstartups.co/overview/sub
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Creator Supply
+  submitUrl: https://creator.supply
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Finding Startups
+  submitUrl: https://findingstartups.com/startups
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Fuel Up
+  submitUrl: https://fuelup.co/add
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Hackerspad
+  submitUrl: https://hackerspad.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: How to buy SaaS
+  submitUrl: https://www.howtobuysaas.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: IndieStack
+  submitUrl: https://www.indiestack.co/contribute
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Oye Startups
+  submitUrl: https://oyestartups.com/contact
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Promote Project
+  submitUrl: https://www.promoteproiect.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: SaaSified
+  submitUrl: https://Saasified.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Starticorn
+  submitUrl: https://starticorn.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Startup Deals
+  submitUrl: https://www.startupdeals.tech
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Startup John
+  submitUrl: https://www.startupiohn.com/submit-startu
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Startup Roulette
+  submitUrl: http://startuproulette.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Sea
+  submitUrl: http://www.startupsea.com/p/submi
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Startup Tabs
+  submitUrl: https://www.startuptabs.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Wonders
+  submitUrl: https://startupwonders.com/submit/star
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Storyfied
+  submitUrl: https://storyfied.com/get-featured
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Surges
+  submitUrl: https://www.surges.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Taalk
+  submitUrl: https://taalk.com/submit-startup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: That App Show
+  submitUrl: https://thatappshow.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Popular Apps
+  submitUrl: http://thepopularapps.com/submit-app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The Startup Videos
+  submitUrl: http://thestartupvideos.com/submit-
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TheNoCodeCrew
+  submitUrl: https://thenocodecrew.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Viral Indian Diary
+  submitUrl: https://www.viralindiandiary.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Web3 Canvas
+  submitUrl: http://web3canvas.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaSBison
+  submitUrl: https://saasbison.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ScoutForge
+  submitUrl: https://scoutforge.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Alpha Digits
+  submitUrl: https://alphadigits.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Apps Mamma
+  submitUrl: http://appsmamma.com/submit-your-app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Apps Mirror
+  submitUrl: https://appsmirror.com/submit-your-app-fol
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Ask Your Android
+  submitUrl: http://askyourandroid.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Bloombuzz
+  submitUrl: https://bloombuzz.in/joinus
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Emoji Launch
+  submitUrl: https://emojilaunch.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Growing Page
+  submitUrl: https://growingpage.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Inbox World
+  submitUrl: https://inboxworld.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Neede
+  submitUrl: https://neede.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Profit Hunt
+  submitUrl: https://profithunt.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Ready SaaS Go
+  submitUrl: http://readysaasgo.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Space Bandits
+  submitUrl: https://www.spacebandits.io/startups
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Spectacle
+  submitUrl: https://spectacle.is/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Toshilist
+  submitUrl: https://www.toshilist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Under 1000 MRR
+  submitUrl: https://under1000mrr.tools
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Virtual Mojito
+  submitUrl: https://virtualmojito.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Launch Vibe
+  submitUrl: https://www.launchvibe.app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: startuups
+  submitUrl: https://startuups.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Freeble
+  submitUrl: https://freeble.site
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [server error: HTTP 500 — verify]'
+- name: Sumodir
+  submitUrl: https://sumodir.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: launch.cab
+  submitUrl: https://launch.cab
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Trust Pilot
+  submitUrl: http://trustpilot.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Capterra
+  submitUrl: https://www.capterra.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: FinancesOnline
+  submitUrl: https://financesonline.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Spiceworks
+  submitUrl: https://spiceworks.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Software Advice
+  submitUrl: https://www.softwareadvice.com/vendors
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Get App
+  submitUrl: https://www.gartner.com/en/digital-marke
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: GetApp
+  submitUrl: https://getapp.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Trust Radius
+  submitUrl: http://trustradius.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Cloudwards
+  submitUrl: https://cloudwards.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Merchant Maverick
+  submitUrl: https://merchantmaverick.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TechnologyAdvice
+  submitUrl: https://technologyadvice.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Slant
+  submitUrl: http://slant.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Software Suggest
+  submitUrl: http://softwaresuggest.com/vendors
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SelectHub
+  submitUrl: https://selecthub.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: IT Central Station
+  submitUrl: https://itcentralstation.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Croz Desk
+  submitUrl: https://Crozdesk.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Serchen
+  submitUrl: https://www.serchen.com/get-listed
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Tekpon
+  submitUrl: https://tekpon.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Featured Customers
+  submitUrl: https://www.featuredcustomers.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Better Buys
+  submitUrl: https://betterbuys.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: 360Quadrants
+  submitUrl: https://360quadrants.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: FindStack
+  submitUrl: https://findstack.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SoftwareSupp
+  submitUrl: https://softwaresupp.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: ITQlick
+  submitUrl: https://itqlick.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Compare Software
+  submitUrl: https://www.comparasoftware.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Crowd Reviews
+  submitUrl: https://www.crowdreviews.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaSList
+  submitUrl: https://saaslist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: All That SaaS
+  submitUrl: https://allthatsaas.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Discover Cloud
+  submitUrl: https://www.discovercloud.com/become-
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: SaaS Genius
+  submitUrl: https://www.saasgenius.com/free-listing
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: The iPhone App Review
+  submitUrl: http://theiphoneappreview.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Android Apps Review
+  submitUrl: https://www.androidappsreview.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Efficient App
+  submitUrl: https://efficient.app
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaS Directory
+  submitUrl: http://saasdirectory.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Discover CRM
+  submitUrl: https://discovercrm.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Indie Gamer Reviewer
+  submitUrl: https://indiegamereviewer.com/contact-ir
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SuitApp
+  submitUrl: https://suitapp.de
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: App Review Central
+  submitUrl: http://www.appreviewcentral.net/app-sub
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: e27
+  submitUrl: https://e27.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Gust
+  submitUrl: https://gust.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Business to Community
+  submitUrl: https://www.business2community.com/;
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: EU-Startups
+  submitUrl: https://www.eu-startups.com/directory/?'
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Growth Hackers
+  submitUrl: https://growthhackers.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Makerpad
+  submitUrl: http://makerpad.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Latka
+  submitUrl: https://getlatka.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: MakerThrive
+  submitUrl: https://makerthrive.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Makerlog
+  submitUrl: https://getmakerlog.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: No Code Founders
+  submitUrl: https://nocodefounders.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Make.rs
+  submitUrl: https://make.rs
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: PromptZone
+  submitUrl: https://promptzone.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ItsLaunched
+  submitUrl: https://itslaunched.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Growth Hack List
+  submitUrl: https://growthhacklist.com/startup-director
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: SideProjects
+  submitUrl: https://sideprojects.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Get Worm
+  submitUrl: https://getworm.com/submit-startup
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaS Alliance
+  submitUrl: https://saasalliance.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Hopps
+  submitUrl: https://hopps.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaS Community
+  submitUrl: https://saascommunity.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Lunadio
+  submitUrl: https://lunadio.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Maker Lead
+  submitUrl: https://makerlead.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaS Insider
+  submitUrl: https://saasinsider.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: StackList
+  submitUrl: https://stacklist.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Appsolite
+  submitUrl: https://appsolite.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: MakerMove
+  submitUrl: https://makermove.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Ben's Bites
+  submitUrl: https://bensbites.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Navs Site
+  submitUrl: https://navs.site
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Spiff.store
+  submitUrl: https://spiff.store
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ANYFP
+  submitUrl: https://anyfp.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Expify
+  submitUrl: https://expify.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: timeout]'
+  status: dead
+- name: Lachief.io
+  submitUrl: https://lachief.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: TechCrunch
+  submitUrl: https://techcrunch.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Buzzfeed News
+  submitUrl: https://www.buzzfeednews.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Geek Wire
+  submitUrl: https://Geekwire.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Morning Brew
+  submitUrl: https://morningbrew.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Designer News
+  submitUrl: https://designernews.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Inc42
+  submitUrl: https://inc42.com/startup-submissic
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: Tech Co.
+  submitUrl: https://tech.co/contact
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Web Designer News
+  submitUrl: https://webdesignernews.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Vator News
+  submitUrl: https://vator.tv
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Fintech News iLounge
+  submitUrl: https://fintechnews.sq/submit-your-fintec
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: StartupValley News
+  submitUrl: https://www.startupvalley.news/apply-now,
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  status: dead
+- name: PressFarm
+  submitUrl: https://press.farm
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Press Hunt
+  submitUrl: https://presshunt.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Startup Beat
+  submitUrl: https://startupbeat.com/get-featured
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Jona
+  submitUrl: https://jonapr.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Submit Juice
+  submitUrl: https://submitjuice.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Press Notify
+  submitUrl: https://pressnotify.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Promotehour
+  submitUrl: https://promotehour.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Brownbook
+  submitUrl: https://www.brownbook.net
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Callupcontact
+  submitUrl: https://www.callupcontact.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: ExactSeek.com
+  submitUrl: https://www.exactseek.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: HotVsNot.Com
+  submitUrl: https://www.hotvsnot.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Addon Biz
+  submitUrl: https://www.addon.biz
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Sites Directory
+  submitUrl: https://dir.org.vn
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Directory Web Promotion
+  submitUrl: https://www.directorywebpromotion.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Site Promotion Directory
+  submitUrl: https://www.sitepromotion.directory
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Weboworld
+  submitUrl: https://www.weboworld.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: A1 Bookmarks
+  submitUrl: https://www.a1bookmarks.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Text Link Directory
+  submitUrl: https://www.textlinkdirectory.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: OneMillionDirectory
+  submitUrl: https://onemilliondirectory.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Submissions Web Directory
+  submitUrl: https://www.submissionwebdirectory.cor
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Shopify App Store
+  submitUrl: https://apps.shopify.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Stripe App Marketplace
+  submitUrl: https://marketplace.stripe.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: AppExchange
+  submitUrl: https://appexchange.salesforce.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Pipedrive Marketplace
+  submitUrl: https://marketplace.pipedrive.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Integrately
+  submitUrl: https://integrately.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Online Genuises
+  submitUrl: https://onlinegeniuses.com/marketplace-
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Akita SaaS Directory
+  submitUrl: https://akitaapp.com/directory
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: MicroAcquire
+  submitUrl: https://microacquire.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: One Million Screenshots
+  submitUrl: https://onemillionscreenshots.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: stashli.st
+  submitUrl: https://stashli.st
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Ant Directory
+  submitUrl: https://antdirectory.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: NavFolders
+  submitUrl: https://navfolders.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: RapidAPI
+  submitUrl: https://rapidapi.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Public APIs
+  submitUrl: https://public-apis.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: SaaS Place
+  submitUrl: https://saasplace.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from startup-launch-list]'
+- name: Zapier Directory
+  submitUrl: https://zapier.com/apps
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: B2B Stack
+  submitUrl: https://www.b2bstack.com.br
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: TapRefer
+  submitUrl: https://www.taprefer.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: IndieProducts.io
+  submitUrl: https://www.indieproducts.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: PitchGround
+  submitUrl: https://pitchground.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: Dealify
+  submitUrl: https://dealify.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: StackSocial
+  submitUrl: https://stacksocial.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: SaaSPromo
+  submitUrl: https://saaspromo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: Simple.ink
+  submitUrl: https://simple.ink/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: API List
+  submitUrl: https://apilist.fun/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: StartupBlink
+  submitUrl: https://www.startupblink.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: Founder Path
+  submitUrl: https://www.founderpath.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: Cool Startups
+  submitUrl: https://coolstartups.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Demos.co
+  submitUrl: https://demos.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Techjury
+  submitUrl: https://techjury.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: GoodFirms
+  submitUrl: https://www.goodfirms.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: Open SaaS Directory
+  submitUrl: https://opensaas.directory/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: Software Select
+  submitUrl: https://softwareselecthq.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas] [verified dead: DNS resolution failed]'
+  status: dead
+- name: PlatformsDirectory.com
+  submitUrl: https://www.platformsdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: AppRadar
+  submitUrl: https://appradar.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: BuiltWith
+  submitUrl: https://builtwith.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from mahseema-saas]'
+- name: All My Faves
+  submitUrl: https://www.allmyfaves.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: appPicker
+  submitUrl: https://www.apppicker.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: Beta Testing
+  submitUrl: https://betatesting.com/beta-testing
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: BuiltInChicago
+  submitUrl: https://www.builtinchicago.org/send-us-tip
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: G2 Crowd
+  submitUrl: https://www.g2crowd.com/products/new
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: Loop
+  submitUrl: https://app.loopinput.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: PreApps
+  submitUrl: https://www.preapps.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: SaasRow
+  submitUrl: https://saasrow.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: Software Advice
+  submitUrl: https://softwareadvice-markets.questionpro.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: Startups Gallery
+  submitUrl: https://startups.gallery/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from placestopost]'
+- name: saasworthy.com
+  submitUrl: https://mailchi.mp/caea48b0c7ac/saasworthy-product-listing
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas]'
+  status: active
+- name: cloudfindr.co
+  submitUrl: https://www.cloudfindr.co/list-your-software-product/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas]'
+  status: active
+- name: saaspirate.com
+  submitUrl: https://saaspirate.com/submit-a-deal/
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas]'
+- name: saassurf.com
+  submitUrl: https://saassurf.com/submit-a-product#submit
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas]'
+  status: active
+- name: inouts.com
+  submitUrl: https://www.inouts.com/add-service
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas]'
+  status: active
+- name: getbyte.tech
+  submitUrl: https://www.getbyte.tech/listing/email-check
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-saas] [verified dead: DNS resolution failed]'
+  status: dead
+- name: awwwards.com
+  submitUrl: https://www.awwwards.com/submit/
+  type: paid
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+  status: paid
+- name: hotfrog.com
+  submitUrl: https://www.hotfrog.com/add
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+- name: enrollbusiness.com
+  submitUrl: https://th.enrollbusiness.com/Browse-Profiles/1783/Chiang%20Mai
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+- name: trueen.com
+  submitUrl: https://trueen.com/list-your-business/price
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+- name: bunity.com
+  submitUrl: https://www.bunity.com/add-your-business
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+- name: addYP.com
+  submitUrl: https://addyp.com/user/register
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+- name: landingpage.fyi
+  submitUrl: https://landingpage.fyi/submit
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup] [server error: HTTP 402 — verify]'
+  status: active
+- name: localbusinesslisting.org
+  submitUrl: https://www.localbusinesslisting.org/add-listing
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup] [verified dead: HTTP 404]'
+  status: dead
+- name: addonbiz.com
+  submitUrl: https://www.addonbiz.com/add-your-listing/
+  type: free
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+  status: active
+- name: citypages.pro
+  submitUrl: https://citypages.pro/local-business
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup] [verified dead: HTTP 404]'
+  status: dead
+- name: bharathlisting.com
+  submitUrl: https://bharathlisting.com/user/register
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from submitdir-startup]'
+ai-zh:
+- name: 2AGI
+  submitUrl: https://2agi.net/zh/submit
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: connection refused]'
+- name: AIHub
+  submitUrl: https://www.aihub.cn/write
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 403 as of 2026-03
+  status: dead
+- name: ai-bot.cn
+  submitUrl: https://tally.so/r/wkeKz1
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: Quality AI tools only, Tally form
+- name: AI NAV
+  submitUrl: https://www.ainavpro.com/contribute
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: AI大师
+  submitUrl: https://www.aidashi.cn/sl
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: AI智式
+  submitUrl: https://aiwaytools.com/%e7%bd%91%e5%9d%80%e6%8f%90%e4%ba%a4/
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: AI工具箱 (aitool123)
+  submitUrl: https://www.aitool123.cc/%E6%8F%90%E4%BA%A4%E6%94%B6%E5%BD%95/
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: connection refused]'
+- name: 工具达人AI导航
+  submitUrl: http://toolsdar.mikecrm.com/nix44in
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 映技派
+  submitUrl: https://www.yjpoo.com/submit-ai-tool/
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 深度AI导航
+  submitUrl: https://www.deepdhai.com/submit
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 一起用AI
+  submitUrl: https://17yongai.com/submit-website
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 403 as of 2026-03
+  status: dead
+- name: 懂AI
+  submitUrl: https://www.dongaiapp.com/sub
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: connection refused]'
+- name: 南城FE AI导航
+  submitUrl: https://nancheng.fun/contribute
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: connection refused]'
+- name: zhexieai
+  submitUrl: https://zhexieai.com/%e6%8f%90%e4%ba%a4%e7%bd%91%e5%9d%80
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: Cooltools
+  submitUrl: https://backdata.net/submit-site.html
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: iforai
+  submitUrl: https://iforai.com/submit_website/
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 未来百科
+  submitUrl: https://nav.6aiq.com/contribute
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: DNS resolution failed]'
+- name: 123AI导航
+  submitUrl: https://www.fsl123.com/contribute
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: AI导航猫
+  submitUrl: https://www.h1z1tmc.com/submit
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 500 as of 2026-03
+  status: dead
+- name: AIGC工具导航
+  submitUrl: https://www.aigc.cn/submit
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: AiTime.Space
+  submitUrl: https://aitime.space/submit
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 404 as of 2026-03
+  status: dead
+- name: AI导航网 (94kan)
+  submitUrl: https://ai.94kan.cn/submit
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: AIGC便利店
+  submitUrl: https://aigclist.com/submit-ai-tools-free/
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: '4000+ AI tools [verified dead: HTTP 404]'
+  status: dead
+- name: Jay的资源库
+  submitUrl: https://www.lovejay.top/%e7%bd%91%e7%ab%99%e6%8a%95%e7%a8%bf
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 404 as of 2026-03
+  status: dead
+- name: 知否Box AI导航
+  submitUrl: https://www.zhifoubox.com/submission
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: 牛牛导航
+  submitUrl: https://aoh.cc/contribute
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 404 as of 2026-03
+  status: dead
+- name: 乐易AI导航
+  submitUrl: https://leiydz.com/contribute
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 502 as of 2026-03
+  status: dead
+- name: 海外导航网
+  submitUrl: https://www.hhlink.com/%E6%8F%90%E4%BA%A4%E6%96%B0%E7%BD%91%E7%AB%99
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 智鹭AI
+  submitUrl: https://www.aiheron.com/promote
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: 8187+ products, 24h review
+- name: 老北鼻AI导航
+  submitUrl: https://lbbai.com/contribute
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: AI工具箱 (ailookme)
+  submitUrl: https://www.ailookme.com/%e7%bd%91%e5%9d%80%e6%8f%90%e4%ba%a4
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: AI驿站
+  submitUrl: https://www.51aiyz.com/about
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 403 as of 2026-03
+  status: dead
+- name: AI导航网 (aiopenminds)
+  submitUrl: https://jinshuju.net/f/BhEFyJ
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: 金数据 form
+general-zh:
+- name: ABABTOOLS
+  submitUrl: https://ababtools.com/?post=1292
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: Free developer product listing
+- name: 新趣集
+  submitUrl: https://xinquji.com/
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: ProductHunt-like for China
+- name: Mergeek
+  submitUrl: https://mergeek.com/publish_project
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 挖互联网
+  submitUrl: https://tigg.cc/share
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: Free innovative tools only
+- name: 线圈
+  submitUrl: https://xquan.net/help?tab=submit-guide
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 一网一匠
+  submitUrl: https://ywyj.cn/
+  type: form
+  auto: 'yes'
+  lang: zh
+  status: dead
+  notes: '[verified dead: timeout]'
+- name: Solo 社区
+  submitUrl: https://solo.xin/product
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 电商导航网
+  submitUrl: https://www.dianshangdaohang.cn/shoulu/
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: 'E-commerce only [verified dead: DNS resolution failed]'
+  status: dead
+- name: 名站在线
+  submitUrl: http://www.fwol.cn/infos_add.php
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 63243网址导航
+  submitUrl: https://www.63243.com/about/add.html
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: 小木屋
+  submitUrl: https://wechalet.cn/appstore/add
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: IT桔子
+  submitUrl: https://www.itjuzi.com/addcompany
+  type: form
+  auto: 'no'
+  lang: zh
+  notes: 412 as of 2026-03
+  status: dead
+- name: 笛卡
+  submitUrl: https://dizkaz.com/
+  type: form
+  auto: 'yes'
+  lang: zh
+- name: FUUN.FUN
+  submitUrl: https://fuun.fun/talk.html
+  type: form
+  auto: 'yes'
+  lang: zh
+  notes: Fun/quirky web apps only
+community:
+- name: Show HN (Hacker News)
+  submitUrl: https://news.ycombinator.com/submit
+  type: article
+  auto: manual
+  lang: en
+  notes: High value, needs genuine engagement
+- name: Product Hunt
+  submitUrl: https://www.producthunt.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Anti-bot, manual only
+- name: Dev Hunt
+  submitUrl: https://devhunt.org/
+  type: listing
+  auto: manual
+  lang: en
+- name: Uneed
+  submitUrl: https://www.uneed.best/promote-your-tool
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Free but queued
+- name: Indie Hackers
+  submitUrl: https://www.indiehackers.com/products
+  type: listing
+  auto: manual
+  lang: en
+- name: dev.to
+  submitUrl: https://dev.to/
+  type: article
+  auto: manual
+  lang: en
+- name: Hashnode
+  submitUrl: https://hashnode.com/discussions
+  type: article
+  auto: manual
+  lang: en
+  status: dead
+  notes: '[verified dead: HTTP 410]'
+- name: HackerNoon
+  submitUrl: https://hackernoon.com/
+  type: article
+  auto: manual
+  lang: en
+- name: 即刻
+  submitUrl: https://web.okjike.com/
+  type: article
+  auto: manual
+  lang: zh
+  notes: Best Chinese indie community
+- name: V2EX
+  submitUrl: https://www.v2ex.com/go/create
+  type: article
+  auto: manual
+  lang: zh
+- name: W2solo
+  submitUrl: https://w2solo.com/topics/newproduct
+  type: article
+  auto: manual
+  lang: zh
+- name: 掘金
+  submitUrl: https://juejin.cn/
+  type: article
+  auto: manual
+  lang: zh
+- name: HelloGitHub
+  submitUrl: https://hellogithub.com/
+  type: listing
+  auto: manual
+  lang: zh
+awesome:
+- name: 中国独立开发者项目列表
+  submitUrl: https://github.com/1c7/chinese-independent-developer/issues
+  type: github
+  auto: manual
+  lang: zh
+- name: Best App
+  submitUrl: https://github.com/hzlzh/Best-App/issues
+  type: github
+  auto: manual
+  lang: zh
+- name: 科技爱好者周刊
+  submitUrl: https://github.com/ruanyf/weekly/issues
+  type: github
+  auto: manual
+  lang: zh
+  notes: Ruanyifeng's weekly, high influence
+- name: 独立开发变现周刊
+  submitUrl: https://github.com/ljinkai/weekly/issues
+  type: github
+  auto: manual
+  lang: zh
+reddit:
+- name: r/SideProject
+  submitUrl: https://reddit.com/r/sideproject
+  type: article
+  auto: manual
+  lang: en
+- name: r/AlphaandBetausers
+  submitUrl: https://www.reddit.com/r/alphaandbetausers/
+  type: article
+  auto: manual
+  lang: en
+- name: r/IMadeThis
+  submitUrl: https://www.reddit.com/r/IMadeThis/
+  type: article
+  auto: manual
+  lang: en
+- name: r/Startups
+  submitUrl: https://reddit.com/r/startups
+  type: article
+  auto: manual
+  lang: en
+- name: r/Entrepreneur
+  submitUrl: https://reddit.com/r/entrepreneur
+  type: article
+  auto: manual
+  lang: en
+- name: r/InternetIsBeautiful
+  submitUrl: https://www.reddit.com/r/InternetIsBeautiful/
+  type: article
+  auto: manual
+  lang: en
+- name: r/webdev (Showoff Saturday)
+  submitUrl: https://www.reddit.com/r/webdev/
+  type: article
+  auto: manual
+  lang: en
+  notes: Only on Saturdays
+- name: r/opensource
+  submitUrl: https://www.reddit.com/r/opensource/
+  type: article
+  auto: manual
+  lang: en
+- name: r/selfhosted
+  submitUrl: https://www.reddit.com/r/selfhosted/
+  type: article
+  auto: manual
+  lang: en
+- name: r/buildinpublic
+  submitUrl: https://www.reddit.com/r/buildinpublic/
+  type: article
+  auto: manual
+  lang: en
+travel:
+- name: TripAdvisor
+  submitUrl: https://www.tripadvisor.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Claim your business/listing; review platform
+  dofollow: false
+  dr: 94
+- name: Foursquare
+  submitUrl: https://foursquare.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Claim venue listing
+  dofollow: false
+  dr: 93
+- name: Google Business Profile
+  submitUrl: https://www.google.com/business/
+  type: listing
+  auto: manual
+  lang: multi
+  notes: Local SEO essential for travel sites
+  dofollow: false
+  dr: 100
+- name: Yelp
+  submitUrl: https://www.yelp.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Business listings for travel/hospitality
+  dofollow: false
+  dr: 93
+- name: StumbleUpon (Mix)
+  submitUrl: https://mix.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Content discovery platform
+  dofollow: false
+  dr: 88
+- name: Flipboard
+  submitUrl: https://about.flipboard.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Magazine-style content curation
+  dofollow: false
+  dr: 95
+- name: Pinterest
+  submitUrl: https://www.pinterest.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Visual discovery — huge for travel
+  dofollow: false
+  dr: 96
+- name: AllTop
+  submitUrl: https://alltop.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: Topical blog aggregator — submit your travel blog
+  dofollow: true
+  dr: 68
+- name: Blogarama
+  submitUrl: https://www.blogarama.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Blog directory — travel category
+  dofollow: true
+  dr: 45
+- name: Blogging Fusion
+  submitUrl: https://www.bloggingfusion.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Blog directory with travel category
+  dofollow: true
+  dr: 40
+- name: TravelBlogs.io
+  submitUrl: https://travelblogs.io/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: 'Travel blog directory [verified dead: DNS resolution failed]'
+  dofollow: true
+  dr: 30
+  status: dead
+- name: BlogCatalog
+  submitUrl: https://www.blogcatalog.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: Blog directory + community
+  dofollow: true
+  dr: 55
+- name: World Travel Guide
+  submitUrl: https://www.worldtravelguide.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: Travel guide directory
+  dofollow: true
+  dr: 60
+- name: Traveldudes
+  submitUrl: https://traveldudes.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: Travel blog directory
+  dofollow: true
+  dr: 35
+- name: Viator
+  submitUrl: https://www.viator.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Tours/experiences marketplace (affiliate)
+  dofollow: false
+  dr: 90
+- name: GetYourGuide
+  submitUrl: https://www.getyourguide.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Tours marketplace (affiliate)
+  dofollow: false
+  dr: 90
+- name: Hostelworld
+  submitUrl: https://www.hostelworld.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Hostel/backpacker listings
+  dofollow: false
+  dr: 82
+- name: Lonely Planet (Thorn Tree)
+  submitUrl: https://www.lonelyplanet.com/
+  type: community
+  auto: manual
+  lang: en
+  notes: Travel forum — share guides
+  dofollow: true
+  dr: 88
+- name: Quora Travel
+  submitUrl: https://www.quora.com/topic/Travel
+  type: community
+  auto: manual
+  lang: en
+  notes: Answer travel questions, link back
+  dofollow: false
+  dr: 94
+- name: Medium
+  submitUrl: https://medium.com/new-story
+  type: article
+  auto: manual
+  lang: en
+  notes: Cross-post travel articles (dofollow)
+  dofollow: true
+  dr: 95
+- name: LinkedIn Articles
+  submitUrl: https://www.linkedin.com/post/new/
+  type: article
+  auto: manual
+  lang: en
+  notes: Cross-post as article (dofollow)
+  dofollow: true
+  dr: 98
+- name: Substack
+  submitUrl: https://substack.com/
+  type: article
+  auto: manual
+  lang: en
+  notes: Newsletter platform — cross-post
+  dofollow: true
+  dr: 90
+- name: Reddit r/travel
+  submitUrl: https://www.reddit.com/r/travel/
+  type: community
+  auto: manual
+  lang: en
+  notes: Travel community — share posts
+  dofollow: false
+  dr: 93
+- name: Dev.to (travel tag)
+  submitUrl: https://dev.to/new
+  type: article
+  auto: manual
+  lang: en
+  notes: Dev community — tech travel posts
+  dofollow: true
+  dr: 89
+- name: Hashnode
+  submitUrl: https://hashnode.com/
+  type: article
+  auto: manual
+  lang: en
+  notes: Dev blogging platform
+  dofollow: true
+  dr: 83
+- name: Indie Hackers (travel products)
+  submitUrl: https://www.indiehackers.com/newproduct
+  type: listing
+  auto: manual
+  lang: en
+  notes: 'Founder community — travel SaaS/tools [verified dead: HTTP 404]'
+  dofollow: true
+  dr: 81
+  status: dead

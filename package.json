@@ -1,0 +1,50 @@
+{
+  "name": "linkflow",
+  "version": "0.1.0",
+  "description": "LinkFlow — zero-cost backlink & directory submission engine: vetted directory database, AI-tailored submission payloads, tracker, and proof-of-submission reports.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sankalp Singh",
+  "bin": {
+    "linkflow": "bin/linkflow.js"
+  },
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "data/directories.yaml",
+    "README.md",
+    "CREDITS.md",
+    "LICENSE",
+    "llms.txt"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "linkflow": "node bin/linkflow.js",
+    "linkflow:dry": "node bin/linkflow.js submit --dry-run",
+    "test": "node tests/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "seo",
+    "backlinks",
+    "directories",
+    "link-building",
+    "startup",
+    "launch",
+    "automation",
+    "ai"
+  ],
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "js-yaml": "^4.3.2",
+    "playwright": "^1.62.1"
+  }
+}

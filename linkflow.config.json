@@ -1,0 +1,16 @@
+{
+  "siteName": "Your Product Name",
+  "siteUrl": "https://example.com",
+  "siteDescription": "One honest sentence: what it is and who it's for.",
+  "tags": ["saas", "ai"],
+  "contentDomain": "SaaS product",
+  "writingSample": "2-3 sentences in your site's voice — LinkFlow matches this.",
+  "ai": {
+    "provider": "openai",
+    "baseUrl": "http://192.168.0.254:20128/v1",
+    "apiKey": "your-omniroute-key",
+    "model": "auto/best-free",
+    "maxCallsPerRun": 20
+  },
+  "pacing": { "minSeconds": 60, "perDay": 10 }
+}

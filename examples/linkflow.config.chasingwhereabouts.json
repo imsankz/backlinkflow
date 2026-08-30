@@ -1,0 +1,16 @@
+{
+  "siteName": "Chasing Whereabouts",
+  "siteUrl": "https://chasingwhereabouts.com",
+  "siteDescription": "Family-friendly travel blog with detailed city guides, itineraries, and local tips for exploring Europe with kids.",
+  "tags": ["travel", "family", "blog", "europe"],
+  "contentDomain": "travel blog",
+  "writingSample": "We wandered through the quiet streets of Stockholm's Gamla Stan with our toddler, finding playgrounds tucked between the pastel buildings. Here's how to see the city without losing your mind — or your kids.",
+  "ai": {
+    "provider": "openai",
+    "baseUrl": "http://192.168.0.254:20128/v1",
+    "apiKey": "sk-local",
+    "model": "auto/best-free",
+    "maxCallsPerRun": 20
+  },
+  "pacing": { "minSeconds": 60, "perDay": 10 }
+}

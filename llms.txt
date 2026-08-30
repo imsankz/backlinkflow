@@ -1,0 +1,13 @@
+# LinkFlow
+
+Zero-cost backlink & directory submission engine for indie hackers.
+
+## Core files
+- `src/index.ts` — CLI entry (list, search, submit, payload, status, report, stats, init)
+- `src/database.ts` — directories.yaml loader + search
+- `src/payload.ts` — AI/template payload generator
+- `src/ai.ts` — OpenAI-compatible AI client (OmniRoute-ready, SSE-tolerant)
+- `src/tracker.ts` — submission tracker (.linkflow/tracker.json)
+- `src/report.ts` — proof-of-submission report (.linkflow/report.md)
+- `data/directories.yaml` — 258-site vetted directory database
+- `linkflow.config.json` — site + AI config
