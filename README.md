@@ -121,6 +121,9 @@ No hardcoded sites. Examples in `examples/`.
 | `backlinkflow status` | Tracker summary (submitted/pending/failed) |
 | `backlinkflow report` | Regenerate proof-of-submission report |
 | `backlinkflow stats` | Database stats (counts by category, alive/dead) |
+| `backlinkflow indexnow <url>` | Ping IndexNow (Bing/Yandex/Naver/Seznam) + Google for instant indexing |
+| `backlinkflow awesome <repo> --dry-run` | Generate awesome-list PR snippet (never opens PRs) |
+| `backlinkflow measure <url>` | Measure backlinks via free Common Crawl index |
 | `backlinkflow db:review` | Flag DB quality issues (dead links, homepage-as-submit) |
 | `backlinkflow db:regenerate` | Rebuild DB from source lists |
 | `backlinkflow init` | Write config template |
@@ -303,8 +306,8 @@ examples/                 # 2 example site configs
 
 - [x] **v0.1** — directory DB, AI payloads, tracker, reports
 - [x] **v0.2** — Playwright automation engine (`--go`), site adapters, pacing, proof screenshots
-- [ ] **v0.3** — GitHub awesome-list PR generator, IndexNow pings
-- [ ] **v0.4** — seoflow integration (measure backlinks before/after submission)
+- [x] **v0.3** — IndexNow pinger, awesome-list PR generator
+- [x] **v0.4** — Common Crawl backlink measurement
 - [ ] **v0.5** — Badge-handling component (the Submitator moat we haven't replicated)
 
 ---
