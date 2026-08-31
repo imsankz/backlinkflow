@@ -15,6 +15,7 @@
  *   linkflow indexnow <url> [--skip-verify] [--urls a b c]   Ping IndexNow + Google (v0.3)
  *   linkflow awesome <repo> --dry-run            Generate awesome-list PR snippet (dry-run only, v0.3)
  *   linkflow measure <url> [--json]              Measure backlinks via free sources (v0.4)
+ *   linkflow badge [list|show|install]           Badge registry + install instructions (v0.5)
  *   linkflow init                                Print config template
  */
 import fs from 'fs';
@@ -368,6 +369,55 @@ async function cmdMeasure(): Promise<void> {
   console.log('\n  Tip: run again after submissions to diff before/after.');
 }
 
+/** v0.5 — badge registry + install instructions (the Submitator moat). */
+async function cmdBadge(): Promise<void> {
+  const sub = VERB_ARG || 'list';
+  const { loadBadges, findBadge, sortedBadges, badgeHtml, badgeJsx, installInstructions } = await import('./badges.js');
+
+  if (sub === 'list') {
+    const badges = sortedBadges();
+    console.log('\nBacklinkFlow badge registry');
+    console.log('─'.repeat(50));
+    console.log(`  ${badges.length} badge-requiring directories\n`);
+    for (const b of badges) {
+      console.log(`  ${b.required ? '🔒' : '  '} ${b.name.padEnd(28)} DR${b.dr ?? '?'}${b.required ? ' (required)' : ''}`);
+      console.log(`     ${b.badgeUrl}`);
+    }
+    console.log('\n  Use: backlinkflow badge show <name> | install [--framework nextjs|html|astro]');
+    return;
+  }
+
+  if (sub === 'show') {
+    const name = rawArgs[2] && !rawArgs[2].startsWith('--') ? rawArgs[2] : null;
+    if (!name) {
+      console.log('Usage: backlinkflow badge show <directory-name>');
+      process.exit(1);
+    }
+    const b = findBadge(name);
+    if (!b) {
+      console.log(`  No badge found for "${name}". Try: backlinkflow badge list`);
+      process.exit(1);
+    }
+    console.log(`\n${b.name} (DR ${b.dr})${b.required ? ' — REQUIRED' : ''}`);
+    if (b.notes) console.log(`  ${b.notes}`);
+    console.log(`\n  HTML:`);
+    console.log(badgeHtml(b));
+    console.log(`\n  JSX (Next.js):`);
+    console.log(badgeJsx(b));
+    return;
+  }
+
+  if (sub === 'install') {
+    const framework = (flag('--framework') || 'nextjs') as 'nextjs' | 'html' | 'astro' | 'unknown';
+    const badges = sortedBadges();
+    const doc = installInstructions(badges, framework);
+    console.log(doc);
+    return;
+  }
+
+  console.log('Usage: backlinkflow badge [list|show <name>|install [--framework nextjs|html|astro]]');
+}
+
 async function main(): Promise<void> {
   switch (VERB) {
     case 'list': await cmdList(); break;
@@ -382,9 +432,10 @@ async function main(): Promise<void> {
     case 'indexnow': await cmdIndexNow(); break;
     case 'awesome': await cmdAwesome(); break;
     case 'measure': await cmdMeasure(); break;
+    case 'badge': await cmdBadge(); break;
     case 'init': cmdInit(); break;
     default:
-      console.log(`Unknown command: ${VERB}\nRun 'backlinkflow' with: list | search | submit | payload | status | report | stats | db:review | db:regenerate | indexnow | awesome | measure | init`);
+      console.log(`Unknown command: ${VERB}\nRun 'backlinkflow' with: list | search | submit | payload | status | report | stats | db:review | db:regenerate | indexnow | awesome | measure | badge | init`);
       process.exit(1);
   }
 }

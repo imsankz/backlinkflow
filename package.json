@@ -1,6 +1,6 @@
 {
   "name": "backlinkflow",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "description": "LinkFlow — zero-cost backlink & directory submission engine: vetted directory database, AI-tailored submission payloads, tracker, and proof-of-submission reports.",
   "type": "module",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "dist",
     "bin",
     "data/directories.yaml",
+    "data/badges.yaml",
     "README.md",
     "CREDITS.md",
     "LICENSE",

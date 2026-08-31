@@ -1,0 +1,114 @@
+# BacklinkFlow — Badge Registry
+# Directories that require (or reward) displaying a badge on your site.
+# Badges open high-DR directories and jump submission queues.
+#
+# Fields:
+#   name:        Directory name (matches data/directories.yaml)
+#   badgeUrl:    URL of the badge image to embed
+#   href:        Where the badge links (usually the directory listing/submit page)
+#   alt:         Alt text
+#   width:       Display width in px (badges are usually wide/short)
+#   height:      Display height in px
+#   dr:          Domain rating (for sorting)
+#   required:    true = directory requires the badge for acceptance
+#   notes:       Extra info
+
+- name: Product Hunt
+  badgeUrl: https://api.producthunt.com/widgets/embed-image/v1/featured.svg
+  href: https://www.producthunt.com/
+  alt: Featured on Product Hunt
+  width: 250
+  height: 54
+  dr: 91
+  required: false
+  notes: Standard launch badge widget
+
+- name: StartupFame
+  badgeUrl: https://www.startupfame.com/badge.svg
+  href: https://www.startupfame.com/
+  alt: Featured on StartupFame
+  width: 200
+  height: 50
+  dr: 83
+  required: true
+  notes: Badge-gated directory — badge required for listing
+
+- name: Turbo0
+  badgeUrl: https://turbo0.com/badge.svg
+  href: https://turbo0.com/
+  alt: Featured on Turbo0
+  width: 200
+  height: 50
+  dr: 80
+  required: true
+  notes: Badge-gated directory
+
+- name: Dang.ai
+  badgeUrl: https://dang.ai/badge.svg
+  href: https://dang.ai/
+  alt: Featured on Dang.ai
+  width: 200
+  height: 50
+  dr: 81
+  required: true
+  notes: Badge-gated directory
+
+- name: Toolpilot
+  badgeUrl: https://www.toolpilot.ai/badge.svg
+  href: https://www.toolpilot.ai/
+  alt: Featured on Toolpilot
+  width: 200
+  height: 50
+  dr: 78
+  required: true
+  notes: Badge-gated directory
+
+- name: Twelve Tools
+  badgeUrl: https://twelvetools.com/badge.svg
+  href: https://twelvetools.com/
+  alt: Featured on Twelve Tools
+  width: 200
+  height: 50
+  dr: 81
+  required: true
+  notes: Badge-gated directory
+
+- name: Microlaunch
+  badgeUrl: https://microlaunch.net/badge.svg
+  href: https://microlaunch.net/
+  alt: Featured on Microlaunch
+  width: 200
+  height: 50
+  dr: 62
+  required: true
+  notes: Badge-gated directory
+
+- name: AIStage
+  badgeUrl: https://aistage.ai/badge.svg
+  href: https://aistage.ai/
+  alt: Featured on AIStage
+  width: 200
+  height: 50
+  dr: 72
+  required: true
+  notes: Badge-gated directory
+
+- name: IndexMachine
+  badgeUrl: https://indexmachine.io/badge.svg
+  href: https://indexmachine.io/
+  alt: Indexed by IndexMachine
+  width: 200
+  height: 50
+  dr: 65
+  required: false
+  notes: Free indexing service — displays their badge
+
+- name: There's An AI For That
+  badgeUrl: https://theresanaiforthat.com/badge.svg
+  href: https://theresanaiforthat.com/
+  alt: Featured on There's An AI For That
+  width: 200
+  height: 50
+  dr: 77
+  required: false
+  notes: May require badge for featured placement

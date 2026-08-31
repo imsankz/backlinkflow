@@ -5,6 +5,7 @@ import { loadDirectories, searchDirectories, categories, dbStats } from '../dist
 import { templatePayload, generatePayload } from '../dist/payload.js';
 import { loadConfig } from '../dist/config.js';
 import { loadTracker, recordSubmission, alreadySubmitted, trackerSummary, saveTracker } from '../dist/tracker.js';
+import { loadBadges, findBadge, sortedBadges, badgeHtml, installInstructions } from '../dist/badges.js';
 
 let pass = 0, fail = 0;
 function t(name, fn) {
@@ -69,6 +70,25 @@ t('tracker records + dedupes', () => {
 
   // cleanup
   saveTracker(pre);
+});
+
+t('badge registry loads 10+ entries', () => {
+  const badges = loadBadges();
+  if (badges.length < 10) throw new Error(`expected >=10, got ${badges.length}`);
+});
+
+t('badge find works + html generated', () => {
+  const b = findBadge('Product Hunt');
+  if (!b) throw new Error('Product Hunt badge not found');
+  const html = badgeHtml(b);
+  if (!html.includes('<img') || !html.includes('producthunt')) throw new Error('bad HTML');
+  const sorted = sortedBadges();
+  if (sorted[0].required !== true) throw new Error('required badges should sort first');
+});
+
+t('install instructions include framework guidance', () => {
+  const doc = installInstructions(loadBadges(), 'nextjs');
+  if (!doc.includes('Badge installation (nextjs)') || !doc.includes('app/layout.tsx')) throw new Error('missing nextjs guidance');
 });
 
 console.log(`\n${pass} passed, ${fail} failed\n`);

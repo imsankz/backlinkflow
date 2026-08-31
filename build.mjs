@@ -46,5 +46,6 @@ if (watch) {
 
 // Copy YAML database into dist so the CLI can find it at runtime
 cpSync(path.join(root, 'data', 'directories.yaml'), path.join(dist, 'directories.yaml'));
+cpSync(path.join(root, 'data', 'badges.yaml'), path.join(dist, 'badges.yaml'));
 
 console.log('LinkFlow build complete → dist/');

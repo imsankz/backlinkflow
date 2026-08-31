@@ -124,6 +124,7 @@ No hardcoded sites. Examples in `examples/`.
 | `backlinkflow indexnow <url>` | Ping IndexNow (Bing/Yandex/Naver/Seznam) + Google for instant indexing |
 | `backlinkflow awesome <repo> --dry-run` | Generate awesome-list PR snippet (never opens PRs) |
 | `backlinkflow measure <url>` | Measure backlinks via free Common Crawl index |
+| `backlinkflow badge [list\|show <name>\|install]` | Badge registry + install instructions (the high-DR moat) |
 | `backlinkflow db:review` | Flag DB quality issues (dead links, homepage-as-submit) |
 | `backlinkflow db:regenerate` | Rebuild DB from source lists |
 | `backlinkflow init` | Write config template |
@@ -308,7 +309,23 @@ examples/                 # 2 example site configs
 - [x] **v0.2** — Playwright automation engine (`--go`), site adapters, pacing, proof screenshots
 - [x] **v0.3** — IndexNow pinger, awesome-list PR generator
 - [x] **v0.4** — Common Crawl backlink measurement
-- [ ] **v0.5** — Badge-handling component (the Submitator moat we haven't replicated)
+- [x] **v0.5** — Badge handling (registry + install instructions — the high-DR moat)
+- [ ] **v0.6** — Automated badge install (inject into site footer via config path)
+
+---
+
+## Badge handling (v0.5)
+
+The highest-DR directories are badge-gated: they only accept your listing if you display their badge. Submitator's "never paste a badge again" is their killer feature. BacklinkFlow does it open-source:
+
+```bash
+backlinkflow badge list                          # 10 badge-requiring dirs (7 required)
+backlinkflow badge show "StartupFame"            # HTML + JSX snippet for one badge
+backlinkflow badge install --framework nextjs    # full install instructions + all snippets
+backlinkflow badge install --framework html      # plain HTML variant
+```
+
+Badges open DR 80+ directories (StartupFame DR83, Dang.ai DR81, Turbo0 DR80) and jump submission queues. Registry lives in `data/badges.yaml` — add yours with a PR. Badge URLs are best-effort; verify they load before submitting.
 
 ---
 
