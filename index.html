@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="BacklinkFlow — zero-cost backlink & directory submission engine. 1,123 vetted directories, AI-tailored copy, Playwright automation, proof-of-submission reports. MIT licensed."/>
+  <meta property="og:title" content="BacklinkFlow — Zero-Cost Backlink Submission Engine"/>
+  <meta property="og:description" content="1,123 vetted directories. AI-tailored submission copy. Playwright browser automation. Proof-of-submission reports. No SaaS, no $79 upsell. MIT licensed."/>
+  <meta property="og:image" content="https://imsankz.github.io/backlinkflow/og-image.png"/>
+  <meta property="og:url" content="https://imsankz.github.io/backlinkflow/"/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="BacklinkFlow — Zero-Cost Backlink Engine"/>
+  <meta name="twitter:description" content="1,123 directories, AI copy, Playwright automation. $0. MIT licensed."/>
+  <title>BacklinkFlow — Zero-Cost Backlink Engine</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔗%3C/text%3E%3Csvg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet"/>
+  <link href="assets/flow-design.css" rel="stylesheet"/>
+  <style>
+    body { background: #0f172a; }
+    .hero-bg { position: relative; overflow: hidden; }
+    .hero-bg::before {
+      content: ''; position: absolute;
+      top: -50%; left: -50%;
+      width: 200%; height: 200%;
+      background: linear-gradient(135deg, #38bdf8, #7c3aed, #a855f7);
+      opacity: 0.04; filter: blur(100px); z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" class="logo">
+          <span class="logo-icon">🔗</span>
+          <span>BacklinkFlow</span>
+        </a>
+        <nav style="display:flex; gap:24px; align-items:center;">
+          <a href="#features">What it does</a>
+          <a href="#commands">Commands</a>
+          <a href="#comparison">VS Paid</a>
+          <a href="#series">The Flow Series</a>
+          <a href="https://github.com/imsankz/backlinkflow" class="btn btn-small btn-primary" style="margin-left:16px;">GitHub →</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero hero-bg">
+    <div class="container hero-content">
+      <h1>
+        Zero-cost <span class="highlight">backlink &amp; directory</span>
+        <span class="highlight">submission engine</span>
+        for indie hackers
+      </h1>
+      <p>
+        1,123 vetted directories · AI-tailored submission copy per directory ·
+        Playwright browser automation · proof-of-submission reports.
+        <strong>No SaaS, no credits, no $79 upsell.</strong>
+      </p>
+
+      <div class="badges">
+        <span class="badge">1,123 directories</span>
+        <span class="badge">npm install -g backlinkflow</span>
+        <span class="badge">Node 18+</span>
+        <span class="badge">MIT License</span>
+        <span class="badge">Free forever</span>
+      </div>
+
+      <div class="cta">
+        <a href="https://github.com/imsankz/backlinkflow#quick-start" class="btn btn-primary">🚀 npm install -g backlinkflow</a>
+        <a href="#comparison" class="btn btn-secondary">VS Submitator</a>
+      </div>
+      <p class="note" style="color: var(--text-dim); font-size: 14px;">
+        The only thing you bring is your own AI endpoint (OmniRoute, OpenAI, any OpenAI-compatible API).
+      </p>
+    </div>
+  </section>
+
+  <section class="container" style="margin-top: -40px; margin-bottom: 40px;">
+    <div class="flow-selector">
+      <a href="https://imsankz.github.io/secflow/" class="flow-pill">🔐 SECflow</a>
+      <a href="https://imsankz.github.io/seoflow/" class="flow-pill">🌊 SeoFlow</a>
+      <a href="https://imsankz.github.io/backlinkflow/" class="flow-pill active">🔗 BacklinkFlow</a>
+    </div>
+  </section>
+
+  <section class="section-centered">
+    <div class="container">
+      <h2 class="section-title">What BacklinkFlow Does</h2>
+      <p class="section-subtitle">
+        Three things every paid directory submission service bundles into one dashboard.
+        We do the same three, but free, self-hostable, and with your own AI endpoint.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon">📋</div>
+          <h3>1,123 Vetted Directories</h3>
+          <p>
+            Across 9 categories (SaaS, AI, travel, startup, general, community,
+            reddit, etc.). Merged from 11 open-source lists, deduplicated, and
+            live-verified. 876 confirmed alive, 221 marked dead with reason,
+            26 marked paid.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🤖</div>
+          <h3>AI-Tailored Copy</h3>
+          <p>
+            Per-directory tagline + description matching your site's voice.
+            Uses your AI endpoint — typically free via OmniRoute or OpenAI-compatible APIs.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🦭</div>
+          <h3>Playwright Automation</h3>
+          <p>
+            Real browser submissions via <code>--go</code>. Headless Chromium
+            with smart field detection. Handles complex forms, CAPTCHAs via
+            manual checkpoint, and per-site pacing.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">📸</div>
+          <h3>Proof of Submission</h3>
+          <p>
+            Screenshots + per-directory markdown report.
+            <code>.linkflow/report.md</code> + <code>.linkflow/proofs/*.png</code>
+            — the same proof format Submitator charges for.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🔍</div>
+          <h3>Live Verification</h3>
+          <p>
+            876 directories live-checked via <code>scripts/check-urls.py</code>
+            (concurrent HTTP + DNS). 221 marked dead with reason. 26 marked paid.
+            No padding with self-owned link farms.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">⚙️</div>
+          <h3>Multi-Site Support</h3>
+          <p>
+            One tool, multiple products. Each site = its own config file.
+            Works with SaaS, travel blogs, dev tools, or any site.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="background: var(--surface);">
+    <div class="container" style="padding: 0;">
+      <h2 class="section-title">Commands</h2>
+      <p class="section-subtitle">Single CLI — everything you need to manage submissions.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><code>backlinkflow list [--category X] [--limit N]</code></td><td>List directories in the database</td></tr>
+          <tr><td><code>backlinkflow search &lt;query&gt;</code></td><td>Search directories by name/notes/URL</td></tr>
+          <tr><td><code>backlinkflow submit &lt;url&gt; [--dry-run] [--limit N] [--go]</code></td><td>Generate payloads + submit. <code>--go</code> = real Playwright automation</td></tr>
+          <tr><td><code>backlinkflow payload &lt;url&gt;</code></td><td>AI-tailored submission copy only (no submission)</td></tr>
+          <tr><td><code>backlinkflow status</code></td><td>Tracker summary (submitted/pending/failed)</td></tr>
+          <tr><td><code>backlinkflow report</code></td><td>Regenerate proof-of-submission markdown</td></tr>
+          <tr><td><code>backlinkflow stats</code></td><td>Database stats (alive/dead/paid by category)</td></tr>
+          <tr><td><code>backlinkflow indexnow &lt;url&gt;</code></td><td>Ping IndexNow (Bing/Yandex/Naver/Seznam) + Google</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section-centered">
+    <div class="container">
+      <h2 class="section-title">Database Stats</h2>
+
+      <div class="stats-row" style="margin-top: 40px;">
+        <div>
+          <div class="stat-number" style="font-size: 2.5rem;">1,123</div>
+          <div class="stat-label">Total directories</div>
+        </div>
+        <div>
+          <div class="stat-number" style="font-size: 2.5rem; color: var(--success);">876</div>
+          <div class="stat-label">Verified alive</div>
+        </div>
+        <div>
+          <div class="stat-number" style="font-size: 2.5rem; color: var(--danger);">221</div>
+          <div class="stat-label">Marked dead</div>
+        </div>
+      </div>
+
+      <div class="features-grid" style="margin-top: 40px;">
+        <div class="feature-card">
+          <div class="icon">🗺️</div>
+          <h3>9 Categories</h3>
+          <p>
+            SaaS, AI, travel, startup, general, community, reddit, etc.
+            Each category has hand-picked directories relevant to your site type.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">✅</div>
+          <h3>183 Auto-Submittable</h3>
+          <p>
+            Real form adapters via Playwright. Submit automatically with
+            <code>--go</code>. The rest require manual submission with AI-generated copy.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">💰</div>
+          <h3>Free</h3>
+          <p>
+            $0. You provide the AI endpoint (typically free via OmniRoute).
+            No paid APIs, no SaaS subscription.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparison" class="container">
+    <div class="container" style="padding: 0;">
+      <h2 class="section-title">BacklinkFlow vs Paid Competitors</h2>
+      <p class="section-subtitle">
+        The only thing they do that we don't is charge you for it.
+      </p>
+
+      <div class="comparison-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Submitator</th>
+              <th>ListingBott</th>
+              <th>BoringLaunch</th>
+              <th><span class="badge-gradient">BacklinkFlow</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Directories</strong></td>
+              <td>~150</td>
+              <td>~250</td>
+              <td>~200</td>
+              <td class="check">1,123 (876 alive)</td>
+            </tr>
+            <tr>
+              <td><strong>Cost</strong></td>
+              <td>$29–79</td>
+              <td>$499</td>
+              <td>$249</td>
+              <td class="check">$0</td>
+            </tr>
+            <tr>
+              <td><strong>Submission time</strong></td>
+              <td>24–48h</td>
+              <td>24–48h</td>
+              <td>7 days</td>
+              <td class="check">24–48h (with <code>--go</code>)</td>
+            </tr>
+            <tr>
+              <td><strong>Your AI endpoint</strong></td>
+              <td class="x-mark">—</td>
+              <td class="x-mark">—</td>
+              <td class="x-mark">—</td>
+              <td class="check">✅ OpenAI-compatible</td>
+            </tr>
+            <tr>
+              <td><strong>Self-hostable</strong></td>
+              <td class="x-mark">—</td>
+              <td class="x-mark">—</td>
+              <td class="x-mark">—</td>
+              <td class="check">✅ MIT</td>
+            </tr>
+            <tr>
+              <td><strong>Source list</strong></td>
+              <td class="x-mark">Proprietary</td>
+              <td class="x-mark">Proprietary</td>
+              <td class="x-mark">Proprietary</td>
+              <td class="check">✅ CREDITS.md</td>
+            </tr>
+            <tr>
+              <td><strong>Proof of submission</strong></td>
+              <td class="check">✓</td>
+              <td class="check">✓</td>
+              <td class="check">✓</td>
+              <td class="check">✓ Screenshots + markdown</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="quick-start" class="container" style="background: var(--surface);">
+    <div class="container" style="padding: 0;">
+      <h2 class="section-title">Quick Start</h2>
+      <p class="section-subtitle">Get your first submissions planned in under a minute.</p>
+
+      <pre><code># 1. Install
+npm install -g backlinkflow
+
+# 2. Initialize + edit config (.env.local with your AI endpoint)
+backlinkflow init
+
+# 3. Explore the database
+backlinkflow stats
+backlinkflow list --category startup --limit 10
+
+# 4. Generate AI-tailored copy (dry-run, no submission)
+backlinkflow submit https://yoursite.com --dry-run --limit 10
+
+# 5. Real automation — Playwright submits for you
+backlinkflow submit https://yoursite.com --go --limit 10
+
+# 6. Track progress
+backlinkflow status
+backlinkflow report</code></pre>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="https://github.com/imsankz/backlinkflow" class="btn btn-primary">📦 Install BacklinkFlow on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="series" style="background: var(--surface);">
+    <div class="container">
+      <h2 class="section-title">The *Flow* Series</h2>
+      <p class="section-subtitle">
+        Three zero-cost CLI tools built on the same idea: free engines + your own AI agent.
+        MIT licensed. No SaaS upsells. All work with the same OmniRoute / OpenAI-compatible endpoint.
+      </p>
+
+      <div class="stats-row" style="margin-top: 40px;">
+        <div>
+          <div style="font-size: 48px; margin-bottom: 16px;">🔐</div>
+          <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">SECflow</h3>
+          <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 12px;">
+            Security scanning — gitleaks, trivy, npm audit
+          </p>
+          <a href="https://imsankz.github.io/secflow/" class="btn btn-small btn-secondary">View SECflow →</a>
+        </div>
+        <div>
+          <div style="font-size: 48px; margin-bottom: 16px;">🌊</div>
+          <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">SeoFlow</h3>
+          <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 12px;">
+            AI-powered SEO pipeline — audit, content gen, GSC
+          </p>
+          <a href="https://imsankz.github.io/seoflow/" class="btn btn-small btn-secondary">View SeoFlow →</a>
+        </div>
+        <div>
+          <div style="font-size: 48px; margin-bottom: 16px;">🔗</div>
+          <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">BacklinkFlow</h3>
+          <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 12px;">
+            Backlink & directory submission — 1,123 directories, Playwright
+          </p>
+          <span class="badge" style="background: var(--gradient); color: white;">You are here</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>BacklinkFlow</h4>
+          <ul>
+            <li><a href="https://github.com/imsankz/backlinkflow">GitHub</a></li>
+            <li><a href="https://www.npmjs.com/package/backlinkflow">npm</a></li>
+            <li><a href="https://github.com/imsankz/backlinkflow#quick-start">Quick Start</a></li>
+            <li><a href="https://github.com/imsankz/backlinkflow#commands">Commands</a></li>
+            <li><a href="https://github.com/imsankz/backlinkflow/releases">Releases</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Docs</h4>
+          <ul>
+            <li><a href="https://github.com/imsankz/backlinkflow#database">Database</a></li>
+            <li><a href="https://github.com/imsankz/backlinkflow#configuration">Config</a></li>
+            <li><a href="https://github.com/imsankz/backlinkflow#architecture">Architecture</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>The Flow Series</h4>
+          <ul>
+            <li><a href="https://imsankz.github.io/secflow/">SECflow</a> — Security scanning</li>
+            <li><a href="https://imsankz.github.io/seoflow/">SeoFlow</a> — SEO pipeline</li>
+            <li><a href="https://imsankz.github.io/backlinkflow/">BacklinkFlow</a> — Backlinks</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Built by</h4>
+          <ul>
+            <li><a href="https://github.com/imsankz">@imsankz</a></li>
+            <li><div id="kofiwidget2"></div></li>
+            <li><span style="color: var(--text-dim); font-size: 13px;">MIT License</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>BacklinkFlow v0.5.0 · MIT License · Zero-cost directory submission — 1,123 vetted directories</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init('Buy me a Coffee', '#72a4f2', 'B0B4EDYFG');
+    kofiwidget2.draw();
+  </script>
+</body>
+</html>
