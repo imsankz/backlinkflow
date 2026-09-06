@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imsankz.github.io/backlinkflow/sitemap.xml
