@@ -3,14 +3,13 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>BacklinkFlow — Open-Source Backlink &amp; Directory Submission Tool</title>
+<title>BacklinkFlow — Open-Source Backlink &amp; Directory Submission Engine</title>
 <meta name="description" content="Submit your site to 1,123 vetted directories with AI-tailored copy and real Playwright browser automation. Free, MIT-licensed, self-hosted — $0 vs $29–499 for paid tools."/>
 <meta name="robots" content="index, follow"/>
 <meta name="author" content="imsankz"/>
-<meta name="theme-color" content="#09090b"/>
+<meta name="theme-color" content="#050507"/>
 <link rel="canonical" href="https://imsankz.github.io/backlinkflow/"/>
 
-<!-- Open Graph -->
 <meta property="og:site_name" content="BacklinkFlow"/>
 <meta property="og:title" content="BacklinkFlow — Zero-Cost Backlink &amp; Directory Submission Engine"/>
 <meta property="og:description" content="1,123 directories. AI-tailored copy. Playwright submits. Proof reports. $0. MIT."/>
@@ -19,7 +18,6 @@
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="en_US"/>
 
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="BacklinkFlow — Zero-Cost Backlink &amp; Directory Submission Engine"/>
 <meta name="twitter:description" content="1,123 vetted directories, AI-tailored copy, real browser automation, proof reports. Free and MIT-licensed."/>
@@ -28,10 +26,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔗%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
 <link href="assets/flow-design.css" rel="stylesheet"/>
 
-<!-- Structured data: SoftwareApplication -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -46,299 +43,493 @@
   "license": "https://github.com/imsankz/backlinkflow/blob/main/LICENSE",
   "url": "https://imsankz.github.io/backlinkflow/",
   "mainEntityOfPage": "https://imsankz.github.io/backlinkflow/",
-  "author": {
-    "@type": "Person",
-    "name": "imsankz",
-    "url": "https://github.com/imsankz"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "author": {"@type": "Person","name": "imsankz","url": "https://github.com/imsankz"},
+  "offers": {"@type": "Offer","price": "0","priceCurrency": "USD"}
 }
 </script>
-
-<!-- Structured data: FAQPage -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is BacklinkFlow really free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. It's MIT-licensed and costs $0 to run — you only need access to an AI endpoint, and free local models through Ollama, LM Studio, or vLLM work fine."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need an OpenAI account?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. BacklinkFlow works with any OpenAI-compatible endpoint, including OpenAI, Anthropic, Groq, OpenRouter, or a local model server."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between --dry-run and --go?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "--dry-run generates and shows the submission plan without recording or sending anything. --go launches a real headless Chromium browser through Playwright and actually fills in and submits the forms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many of the 1,123 directories are actually usable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "876 are live-verified through concurrent HTTP and DNS checks, 221 are flagged dead with a reason, and 26 are marked paid-only — tracked transparently instead of padding the count."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I run it for more than one product?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. BacklinkFlow is config-driven, so each site gets its own configuration file and you can run submissions for multiple products from one install."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from Submitator, ListingBott, or BoringLaunch?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Those charge $29 to $499 for a directory list, AI-written copy, and a status report. BacklinkFlow provides the same three things for $0, plus it's self-hostable and fully open source."
-      }
-    }
+    {"@type": "Question","name": "Is BacklinkFlow really free?","acceptedAnswer": {"@type": "Answer","text": "Yes. It's MIT-licensed and costs $0 to run — you only need access to an AI endpoint, and free local models through Ollama, LM Studio, or vLLM work fine."}},
+    {"@type": "Question","name": "Do I need an OpenAI account?","acceptedAnswer": {"@type": "Answer","text": "No. BacklinkFlow works with any OpenAI-compatible endpoint, including OpenAI, Anthropic, Groq, OpenRouter, or a local model server."}},
+    {"@type": "Question","name": "What's the difference between --dry-run and --go?","acceptedAnswer": {"@type": "Answer","text": "--dry-run generates and shows the submission plan without recording or sending anything. --go launches a real headless Chromium browser through Playwright and actually fills in and submits the forms."}},
+    {"@type": "Question","name": "How many of the 1,123 directories are actually usable?","acceptedAnswer": {"@type": "Answer","text": "876 are live-verified through concurrent HTTP and DNS checks, 221 are flagged dead with a reason, and 26 are marked paid-only — tracked transparently instead of padding the count."}},
+    {"@type": "Question","name": "Can I run it for more than one product?","acceptedAnswer": {"@type": "Answer","text": "Yes. BacklinkFlow is config-driven, so each site gets its own configuration file and you can run submissions for multiple products from one install."}},
+    {"@type": "Question","name": "How is this different from Submitator, ListingBott, or BoringLaunch?","acceptedAnswer": {"@type": "Answer","text": "Those charge $29 to $499 for a directory list, AI-written copy, and a status report. BacklinkFlow provides the same three things for $0, plus it's self-hostable and fully open source."}}
   ]
 }
 </script>
 </head>
 <body>
+<div class="bg-orbs" aria-hidden="true"><div class="bg-orb bg-orb--1"></div><div class="bg-orb bg-orb--2"></div><div class="bg-orb bg-orb--3"></div></div>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><div class="progress-bar" id="progressBar"></div></div>
+
 <a href="#main" class="skip-link">Skip to content</a>
 
-<header><div class="container"><div class="header-inner">
-<a href="#" class="logo"><span class="logo-icon" aria-hidden="true">🔗</span><span>BacklinkFlow</span></a>
-<nav aria-label="Primary">
-<a href="#features">What it does</a>
-<a href="#commands">Commands</a>
-<a href="#comparison">Compare</a>
-<a href="#series">Series</a>
-<a href="https://github.com/imsankz/backlinkflow" class="btn btn-small btn-primary">GitHub →</a>
-</nav>
-</div></div></header>
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="#" class="brand" aria-label="BacklinkFlow home">
+        <span class="brand-mark" aria-hidden="true">🔗</span>
+        <span class="brand-word">BacklinkFlow <span>· MIT</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <div class="nav-links" id="navLinks">
+          <a href="#features">What it does</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#commands">Commands</a>
+          <a href="#comparison">Compare</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="nav-actions">
+          <a href="https://github.com/imsankz/backlinkflow" class="btn btn-secondary btn-small" style="gap:6px">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            GitHub
+          </a>
+          <a href="https://github.com/imsankz/backlinkflow#quick-start" class="btn btn-primary btn-small">Get started →</a>
+          <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
 
 <main id="main">
 
-<section class="hero"><div class="container">
-<nav class="flow-selector reveal" style="margin-bottom:32px" aria-label="Flow series">
-<a href="https://imsankz.github.io/SECflow/" class="flow-pill">🔐 SECflow</a>
-<a href="https://imsankz.github.io/SEOflow/" class="flow-pill">🌊 SeoFlow</a>
-<a href="https://imsankz.github.io/backlinkflow/" class="flow-pill active" aria-current="page">🔗 BacklinkFlow</a>
-</nav>
-<h1 class="reveal">Directory submits,<br/><span class="gradient-text">without the $79 upsell</span></h1>
-<p class="reveal">1,123 vetted directories. Per-directory AI copy in your voice. Real Playwright browser submits. Screenshot proof. You bring only your AI endpoint.</p>
-<div class="cta reveal">
-<a href="https://github.com/imsankz/backlinkflow#quick-start" class="btn btn-primary">🚀 npm install -g backlinkflow</a>
-<a href="#comparison" class="btn btn-secondary">vs Submitator</a>
-</div>
-<p class="hero-note reveal">876 alive · 221 dead-flagged · 26 paid-flagged · MIT</p>
-<div class="trust-badges reveal">
-<a href="https://github.com/imsankz/backlinkflow/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" height="20"/></a>
-<a href="https://github.com/imsankz/backlinkflow/blob/main/package.json"><img src="https://img.shields.io/badge/node-%3E%3D18-green.svg" alt="Node.js 18 or later" height="20"/></a>
-<a href="https://github.com/imsankz/backlinkflow"><img src="https://img.shields.io/github/stars/imsankz/backlinkflow?style=flat&label=stars&color=818cf8" alt="GitHub stars" height="20"/></a>
-<a href="#series"><img src="https://img.shields.io/badge/flow--series-BacklinkFlow%20%7C%20SeoFlow%20%7C%20SECflow-blueviolet" alt="Part of the flow series" height="20"/></a>
-</div>
-</div></section>
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="flow-selector reveal">
+      <a href="https://imsankz.github.io/SECflow/" class="flow-pill">🔐 SECflow</a>
+      <a href="https://imsankz.github.io/SEOflow/" class="flow-pill">🌊 SeoFlow</a>
+      <a href="https://imsankz.github.io/backlinkflow/" class="flow-pill active" aria-current="page">🔗 BacklinkFlow</a>
+    </div>
 
-<section id="features"><div class="container section-centered">
-<h2 class="section-title reveal">What it does</h2>
-<p class="section-subtitle reveal">The three things paid directory-submission services bundle into a dashboard — a target list, AI-written copy, and a status report — free, self-hosted, and honest about what's actually alive.</p>
-<div class="stats-row reveal" style="margin-bottom:16px">
-<div class="stat-card"><div class="stat-number">1,123</div><div class="stat-label">Directories</div><div class="stat-desc">9 categories, 11 open-source lists merged</div></div>
-<div class="stat-card"><div class="stat-number">876</div><div class="stat-label">Alive</div><div class="stat-desc">Live-verified via concurrent HTTP + DNS</div></div>
-<div class="stat-card"><div class="stat-number">183</div><div class="stat-label">Auto-submittable</div><div class="stat-desc">Playwright form adapters, --go mode</div></div>
-</div>
-<div class="features-grid">
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">📋</div><h3>Curated directory database</h3><p>SaaS, AI, travel, startup, general, community, Reddit. Deduped and live-verified — no link-farm padding.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">🤖</div><h3>AI copy per directory</h3><p>Tagline and description matching your site's voice, generated through your own OpenAI-compatible endpoint.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">🎭</div><h3>Real browser submits</h3><p>Headless Chromium with smart field detection. <code>--dry-run</code> plans it, <code>--go</code> actually submits.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">📸</div><h3>Proof-of-submission reports</h3><p>Screenshots plus a per-directory markdown report — the same proof paid tools charge for, at $0.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">🔍</div><h3>Honest curation</h3><p>Dead links are flagged with a reason and paid walls are marked. Every source is credited in CREDITS.md.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">⚙️</div><h3>Multi-site, one tool</h3><p>Config-driven, not hardcoded. One install runs submissions for as many products as you manage.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">🏅</div><h3>Badge-gated directory handling</h3><p>Generates the HTML/JSX snippet and install steps for high-DR directories (DR80+) that require a backlink badge before they'll list you.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">📡</div><h3>Instant indexing ping</h3><p><code>backlinkflow indexnow</code> notifies Bing, Yandex, Naver, Seznam, and Google as soon as a page is live.</p></div>
-<div class="feature-card reveal"><div class="icon" aria-hidden="true">📊</div><h3>Backlink measurement</h3><p>Track backlinks you've picked up using the free Common Crawl index — no paid backlink-checker API required.</p></div>
-</div>
+    <div class="eyebrow reveal">
+      <span class="eyebrow-dot" aria-hidden="true"></span>
+      <span><strong>1,123</strong> vetted directories · <strong>876</strong> alive · 9 categories</span>
+      <a href="#comparison">See why it's free <span aria-hidden="true">↗</span></a>
+    </div>
 
-<div class="reveal" style="margin-top:64px;text-align:left;max-width:760px;margin-left:auto;margin-right:auto">
-<h3 style="font-size:18px;font-weight:700;margin-bottom:8px">Inside the database</h3>
-<p style="color:var(--text-secondary);font-size:14px;margin-bottom:24px;line-height:1.7">1,123 entries merged from 11 open-source directory lists, deduplicated, and sorted into 9 categories:</p>
-<div class="table-scroll"><div class="comparison-table">
-<table>
-<thead><tr><th>Category</th><th>Directories</th></tr></thead>
-<tbody>
-<tr><td><strong>Startup</strong></td><td>612</td></tr>
-<tr><td><strong>AI tools</strong></td><td>331</td></tr>
-<tr><td><strong>AI (Chinese)</strong></td><td>33</td></tr>
-<tr><td><strong>General</strong></td><td>80</td></tr>
-<tr><td><strong>General (Chinese)</strong></td><td>14</td></tr>
-<tr><td><strong>Travel</strong></td><td>26</td></tr>
-<tr><td><strong>Community</strong></td><td>13</td></tr>
-<tr><td><strong>Reddit</strong></td><td>10</td></tr>
-<tr><td><strong>Awesome lists</strong></td><td>4</td></tr>
-</tbody>
-</table>
-</div></div>
-</div>
-</div></section>
+    <h1 class="reveal">Directory submits,<br/><span class="gradient-text">without the $79 upsell</span></h1>
+    <p class="hero-desc reveal">Per-directory AI copy in your voice. Real Playwright browser automation. Screenshot proof reports. You bring only your AI endpoint — local models work fine.</p>
 
-<section id="how-it-works"><div class="container section-centered">
-<h2 class="section-title reveal">How it works</h2>
-<p class="section-subtitle reveal">Five commands from install to a proof report in your inbox.</p>
-<ol class="steps-list reveal">
-<li class="step-item">
-<div>
-<h3>Install &amp; initialize</h3>
-<p>Install the CLI globally, then run <code>backlinkflow init</code> to write a starter config file.</p>
-</div>
-</li>
-<li class="step-item">
-<div>
-<h3>Point it at your AI endpoint</h3>
-<p>Add your site details and an OpenAI-compatible endpoint — OpenAI, Anthropic, Groq, OpenRouter, or a local model — to <code>linkflow.config.json</code> and <code>.env.local</code>.</p>
-</div>
-</li>
-<li class="step-item">
-<div>
-<h3>Plan it with --dry-run</h3>
-<p>See exactly which directories would get submitted and what copy would be used, without touching anything.</p>
-</div>
-</li>
-<li class="step-item">
-<div>
-<h3>Submit for real with --go</h3>
-<p>Playwright launches headless Chromium, detects each directory's form fields, and fills and submits them automatically, pacing itself per day.</p>
-</div>
-</li>
-<li class="step-item">
-<div>
-<h3>Check status &amp; pull the report</h3>
-<p><code>backlinkflow status</code> shows submitted, pending, and failed; <code>backlinkflow report</code> regenerates the proof-of-submission markdown with screenshots.</p>
-</div>
-</li>
-</ol>
-</div></section>
+    <div class="hero-ctas reveal">
+      <a href="https://github.com/imsankz/backlinkflow#quick-start" class="btn btn-primary" style="padding:14px 22px;font-size:15px">
+        <span>🚀</span> npm install -g backlinkflow
+      </a>
+      <a href="#how-it-works" class="btn btn-secondary" style="padding:14px 20px">See how it works →</a>
+    </div>
 
-<section id="commands"><div class="container section-centered">
-<h2 class="section-title reveal">Commands</h2>
-<p class="section-subtitle reveal">Plan dry, then go live.</p>
-<div style="max-width:640px;margin:0 auto;text-align:left" class="reveal"><pre><code>backlinkflow stats
-backlinkflow list --category startup --limit 10
-backlinkflow submit https://yoursite.com --dry-run --limit 10
-backlinkflow submit https://yoursite.com --go --limit 10
-backlinkflow badge install --framework html
-backlinkflow indexnow https://yoursite.com
-backlinkflow measure https://yoursite.com
-backlinkflow status
-backlinkflow report   # → .linkflow/report.md</code></pre></div>
-</div></section>
+    <div class="hero-note reveal">
+      <span>✦ MIT licensed</span> <span class="dot2"></span>
+      <span>Node ≥18</span> <span class="dot2"></span>
+      <span>Self-hosted</span> <span class="dot2"></span>
+      <span>Your own AI endpoint</span>
+    </div>
 
-<section id="comparison"><div class="container section-centered">
-<h2 class="section-title reveal">BacklinkFlow vs paid tools</h2>
-<p class="section-subtitle reveal">They charge for what is open data plus a five-line AI call.</p>
-<div class="table-scroll"><div class="comparison-table reveal"><table>
-<thead><tr><th></th><th><span class="badge-gradient">BacklinkFlow</span></th><th>Submitator</th><th>ListingBott</th><th>BoringLaunch</th></tr></thead>
-<tbody>
-<tr><td><strong>Directories</strong></td><td class="check">1,123 (876 alive)</td><td>~150</td><td>~250</td><td>~200</td></tr>
-<tr><td><strong>Cost</strong></td><td class="check">$0</td><td>$29–79</td><td>$499</td><td>$249</td></tr>
-<tr><td><strong>Time to submit</strong></td><td class="check">24–48h with --go</td><td>24–48h</td><td>1 month</td><td>7 days</td></tr>
-<tr><td><strong>Your own AI endpoint</strong></td><td class="check">✓</td><td class="x-mark">—</td><td class="x-mark">—</td><td class="x-mark">—</td></tr>
-<tr><td><strong>Self-hostable</strong></td><td class="check">✓</td><td class="x-mark">—</td><td class="x-mark">—</td><td class="x-mark">—</td></tr>
-<tr><td><strong>Source list published</strong></td><td class="check">✓ CREDITS.md</td><td class="x-mark">Hidden</td><td class="x-mark">Hidden</td><td class="x-mark">Hidden</td></tr>
-<tr><td><strong>Badge-gated directory handling</strong></td><td class="check">✓ registry + snippets</td><td class="check">✓</td><td class="check">✓</td><td class="x-mark">—</td></tr>
-<tr><td><strong>Open source</strong></td><td class="check">✓ MIT</td><td class="x-mark">—</td><td class="x-mark">—</td><td class="x-mark">—</td></tr>
-</tbody></table></div></div>
-</div></section>
+    <div class="trust reveal">
+      <a href="https://github.com/imsankz/backlinkflow/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" height="20"/></a>
+      <a href="https://github.com/imsankz/backlinkflow/blob/main/package.json"><img src="https://img.shields.io/badge/node-%3E%3D18-green.svg" alt="Node.js 18 or later" height="20"/></a>
+      <a href="https://github.com/imsankz/backlinkflow"><img src="https://img.shields.io/github/stars/imsankz/backlinkflow?style=flat&label=stars&color=818cf8" alt="GitHub stars" height="20"/></a>
+      <a href="#series"><img src="https://img.shields.io/badge/flow--series-BacklinkFlow%20%7C%20SeoFlow%20%7C%20SECflow-blueviolet" alt="Part of the flow series" height="20"/></a>
+    </div>
 
-<section id="faq"><div class="container section-centered">
-<h2 class="section-title reveal">Frequently asked questions</h2>
-<p class="section-subtitle reveal">Everything people ask before their first submit run.</p>
-<div class="faq-list reveal">
-<details class="faq-item">
-<summary>Is BacklinkFlow really free?</summary>
-<p>Yes. It's MIT-licensed and costs $0 to run — you only need access to an AI endpoint, and free local models through Ollama, LM Studio, or vLLM work fine.</p>
-</details>
-<details class="faq-item">
-<summary>Do I need an OpenAI account?</summary>
-<p>No. BacklinkFlow works with any OpenAI-compatible endpoint, including OpenAI, Anthropic, Groq, OpenRouter, or a local model server.</p>
-</details>
-<details class="faq-item">
-<summary>What's the difference between --dry-run and --go?</summary>
-<p><code>--dry-run</code> generates and shows the submission plan without recording or sending anything. <code>--go</code> launches a real headless Chromium browser through Playwright and actually fills in and submits the forms.</p>
-</details>
-<details class="faq-item">
-<summary>How many of the 1,123 directories are actually usable?</summary>
-<p>876 are live-verified through concurrent HTTP and DNS checks, 221 are flagged dead with a reason, and 26 are marked paid-only — tracked transparently instead of padding the count.</p>
-</details>
-<details class="faq-item">
-<summary>Can I run it for more than one product?</summary>
-<p>Yes. BacklinkFlow is config-driven, so each site gets its own configuration file and you can run submissions for multiple products from one install.</p>
-</details>
-<details class="faq-item">
-<summary>How is this different from Submitator, ListingBott, or BoringLaunch?</summary>
-<p>Those charge $29 to $499 for a directory list, AI-written copy, and a status report. BacklinkFlow provides the same three things for $0, plus it's self-hostable and fully open source.</p>
-</details>
-</div>
-</div></section>
+    <!-- Visual preview -->
+    <div class="hero-visual reveal" role="img" aria-label="BacklinkFlow terminal preview showing submit dry-run and directory status">
+      <div class="window-bar">
+        <div style="display:flex;align-items:center;gap:12px">
+          <span class="window-dots"><i></i><i></i><i></i></span>
+          <span class="window-title"><span style="opacity:0.6">●</span> <b>backlinkflow — zsh</b> <span style="opacity:0.35">— 80×24</span></span>
+        </div>
+        <div class="window-actions">
+          <span class="chip live">● live</span>
+          <span class="chip">--dry-run</span>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="terminal">
+          <div class="term-line"><span class="prompt">$</span> <span class="cmd">backlinkflow submit https://yoursite.com --dry-run --limit 10</span></div>
+          <div class="term-line"><span class="dim">→ Loading 1,123 directories · 9 categories · CREDITS.md</span></div>
+          <div class="term-line"><span class="dim">→ AI copy via</span> <span class="accent">your endpoint</span> <span class="dim">· voice-matched per directory</span></div>
+          <div style="height:10px"></div>
+          <div class="term-block">
+            <div class="term-row"><span class="term-k">Target</span><span class="term-v">https://yoursite.com</span></div>
+            <div class="term-row"><span class="term-k">Plan</span><span class="term-v ok">10 queued · 0 sent (dry-run)</span></div>
+            <div class="term-row"><span class="term-k">AI</span><span class="term-v">OpenAI-compatible · local OK</span></div>
+            <div class="term-row"><span class="term-k">Proof</span><span class="term-v">screenshots + report.md</span></div>
+          </div>
+          <div class="term-line"><span class="green">✔</span> <span class="cmd">Would submit to 10 directories</span> <span class="dim">· run with --go to execute</span></div>
+          <div class="term-line"><span class="dim">10:42:11</span> <span class="muted">detected form fields</span> <span class="accent">title, url, description, tags</span></div>
+          <div class="progress-mini" aria-hidden="true"><i></i></div>
+          <div class="term-line" style="margin-top:8px"><span class="prompt">$</span> <span class="cmd" style="opacity:0.6">backlinkflow report <span class="dim"># → .linkflow/report.md</span></span></div>
+        </div>
+        <div class="window-side">
+          <div class="side-head">
+            <h4>Live status</h4>
+            <a href="#comparison">Proof sample →</a>
+          </div>
+          <div class="mini-stats">
+            <div class="mini-card"><b class="grad">1,123</b><span>Total</span></div>
+            <div class="mini-card"><b style="color:#10b981">876</b><span>Alive</span></div>
+            <div class="mini-card"><b>183</b><span>Auto</span></div>
+          </div>
+          <div class="dir-list">
+            <div class="dir-item">
+              <div class="dir-icon">🚀</div>
+              <div class="dir-meta"><div class="dir-name">BetaList</div><div class="dir-cat">Startup · DR 72</div></div>
+              <span class="dir-status ok">ready</span>
+            </div>
+            <div class="dir-item">
+              <div class="dir-icon">🤖</div>
+              <div class="dir-meta"><div class="dir-name">FutureTools</div><div class="dir-cat">AI tools · DR 68</div></div>
+              <span class="dir-status ok">ready</span>
+            </div>
+            <div class="dir-item">
+              <div class="dir-icon">🌐</div>
+              <div class="dir-meta"><div class="dir-name">Unearthed</div><div class="dir-cat">General · badge gated</div></div>
+              <span class="dir-status pending">badge</span>
+            </div>
+            <div class="dir-item" style="opacity:0.7">
+              <div class="dir-icon">📡</div>
+              <div class="dir-meta"><div class="dir-name">IndexNow</div><div class="dir-cat">Instant ping · Bing/Yandex</div></div>
+              <span class="dir-status soon">soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section id="series"><div class="container section-centered">
-<h2 class="section-title reveal">The <span class="gradient-text">flow</span> series</h2>
-<p class="section-subtitle reveal">Free engines plus your own AI agent as the "smart" layer. MIT, npm-published, no upsells.</p>
-<div class="flow-cards">
-<div class="flow-card reveal"><div class="icon" aria-hidden="true">🔐</div><h3>SECflow</h3><p>Security scanning for AI-driven repos — gitleaks, Trivy, npm audit, and custom regex.</p><a href="https://imsankz.github.io/SECflow/" class="btn btn-small btn-secondary">View →</a></div>
-<div class="flow-card reveal"><div class="icon" aria-hidden="true">🌊</div><h3>SeoFlow</h3><p>AI-powered SEO pipeline — audits, internal linking, content generation, Search Console.</p><a href="https://imsankz.github.io/SEOflow/" class="btn btn-small btn-secondary">View →</a></div>
-<div class="flow-card reveal"><div class="icon" aria-hidden="true">🔗</div><h3>BacklinkFlow</h3><p>Directory &amp; backlink submission engine. You are here.</p><span class="tag">You are here</span></div>
-</div></div></section>
+<!-- FEATURES -->
+<section id="features">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">What it does</div>
+      <h2 class="section-title">The three things paid tools bundle — <span class="muted">free, honest, self-hosted</span></h2>
+      <p class="section-subtitle">A vetted list, AI-written copy in your voice, and a proof report. BacklinkFlow does it with browser automation and transparent curation — no hidden lists.</p>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat">
+        <div class="stat-top"><div class="stat-icon">📦</div><span class="stat-trend">+ live verified</span></div>
+        <div class="stat-number grad">1,123</div>
+        <div class="stat-label">Directories</div>
+        <div class="stat-desc">9 categories from 11 open-source lists, deduped and normalized.</div>
+      </div>
+      <div class="stat">
+        <div class="stat-top"><div class="stat-icon">✅</div><span class="stat-trend">78% alive</span></div>
+        <div class="stat-number">876</div>
+        <div class="stat-label">Alive &amp; checked</div>
+        <div class="stat-desc">Concurrent HTTP + DNS verification. Dead flagged with reason.</div>
+      </div>
+      <div class="stat">
+        <div class="stat-top"><div class="stat-icon">🤖</div><span class="stat-trend">Playwright</span></div>
+        <div class="stat-number grad">183</div>
+        <div class="stat-label">Auto-submittable</div>
+        <div class="stat-desc">Smart field detection in headless Chromium, paced per day.</div>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature reveal">
+        <div class="feature-icon">📋</div>
+        <h3>Curated directory database</h3>
+        <p>SaaS, AI, travel, startup, general, community, Reddit. No link-farm padding — every source credited in CREDITS.md.</p>
+        <ul><li>Deduped 11 lists → 1,123</li><li>9 categories</li></ul>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">🤖</div>
+        <h3>AI copy per directory</h3>
+        <p>Tagline + description matching your site's voice, generated through your own OpenAI-compatible endpoint.</p>
+        <ul><li>OpenAI / Anthropic / Groq / local</li><li>Per-directory tuning</li></ul>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">🎭</div>
+        <h3>Real browser submits</h3>
+        <p>Headless Chromium with smart field detection. <span class="mono" style="color:#38bdf8">--dry-run</span> plans, <span class="mono" style="color:#34d399">--go</span> actually submits.</p>
+        <ul><li>Playwright adapters</li><li>Paced daily submissions</li></ul>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">📸</div>
+        <h3>Proof-of-submission reports</h3>
+        <p>Screenshots + per-directory markdown report — the same proof paid tools charge for, at $0.</p>
+        <div class="feature-foot"><span>.linkflow/report.md</span><a href="#commands">Generate →</a></div>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">🔍</div>
+        <h3>Honest curation</h3>
+        <p>Dead links flagged with reason, paid walls marked. Transparent instead of inflating the count.</p>
+        <ul><li>221 dead-flagged</li><li>26 paid-only</li></ul>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">⚙️</div>
+        <h3>Multi-site, one tool</h3>
+        <p>Config-driven, not hardcoded. One install runs submissions for as many products as you manage.</p>
+        <ul><li>linkflow.config.json</li><li>.env.local per project</li></ul>
+      </div>
+      <div class="feature wide reveal">
+        <div class="feature-icon">🏅</div>
+        <h3>Badge-gated directory handling</h3>
+        <p>Some high-DR directories require a backlink badge before listing you. BacklinkFlow ships a registry for DR80+ sites and generates the HTML/JSX snippet + install steps.</p>
+        <div class="feature-foot"><span>DR80+ · HTML / JSX / Next.js</span><a href="#commands">badge install →</a></div>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">📡</div>
+        <h3>Instant IndexNow ping</h3>
+        <p>Notify Bing, Yandex, Naver, Seznam and Google the moment a page is live.</p>
+        <div class="feature-foot"><span>backlinkflow indexnow</span><span style="color:#10b981">● instant</span></div>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-icon">📊</div>
+        <h3>Backlink measurement</h3>
+        <p>Track picked-up backlinks via the free Common Crawl index — no paid checker API required.</p>
+        <div class="feature-foot"><span>backlinkflow measure</span><span style="color:#a1a1aa">free</span></div>
+      </div>
+    </div>
+
+    <div class="db-card reveal">
+      <div class="db-head">
+        <div>
+          <h3>Inside the database</h3>
+          <p>1,123 entries merged from 11 sources · sorted into 9 categories</p>
+        </div>
+        <span class="chip" style="background:rgba(99,102,241,0.12);border-color:rgba(99,102,241,0.2);color:#a5b4fc">CREDITS.md</span>
+      </div>
+      <div class="db-body">
+        <div class="db-row"><span class="db-label">Startup</span><div class="db-track"><div class="db-fill" style="width:54.4%"></div></div><span class="db-count">612</span></div>
+        <div class="db-row"><span class="db-label">AI tools</span><div class="db-track"><div class="db-fill" style="width:29.5%;background:linear-gradient(90deg,#8b5cf6,#6366f1)"></div></div><span class="db-count">331</span></div>
+        <div class="db-row"><span class="db-label">General</span><div class="db-track"><div class="db-fill" style="width:7.1%;background:linear-gradient(90deg,#06b6d4,#6366f1)"></div></div><span class="db-count">80</span></div>
+        <div class="db-row"><span class="db-label">AI (Chinese)</span><div class="db-track"><div class="db-fill" style="width:2.9%"></div></div><span class="db-count">33</span></div>
+        <div class="db-row"><span class="db-label">Travel</span><div class="db-track"><div class="db-fill" style="width:2.3%"></div></div><span class="db-count">26</span></div>
+        <div class="db-row"><span class="db-label">General (CN)</span><div class="db-track"><div class="db-fill" style="width:1.2%"></div></div><span class="db-count">14</span></div>
+        <div class="db-row"><span class="db-label">Community</span><div class="db-track"><div class="db-fill" style="width:1.15%"></div></div><span class="db-count">13</span></div>
+        <div class="db-row"><span class="db-label">Reddit</span><div class="db-track"><div class="db-fill" style="width:0.9%"></div></div><span class="db-count">10</span></div>
+        <div class="db-row"><span class="db-label">Awesome lists</span><div class="db-track"><div class="db-fill" style="width:0.35%"></div></div><span class="db-count">4</span></div>
+        <div class="db-legend">
+          <span><i style="background:#6366f1"></i> 876 alive</span>
+          <span><i style="background:#71717a"></i> 221 dead-flagged</span>
+          <span><i style="background:#f59e0b"></i> 26 paid-flagged</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">How it works</div>
+      <h2 class="section-title">Five commands from install to proof</h2>
+      <p class="section-subtitle">Plan dry, then go live. Every run is paced, logged, and screenshotted.</p>
+    </div>
+    <div class="steps reveal">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div><h3>Install &amp; initialize</h3><p>Install the CLI globally, then run <code>backlinkflow init</code> to write a starter config file with sensible defaults.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div><h3>Point it at your AI endpoint</h3><p>Add your site details and any OpenAI-compatible endpoint — OpenAI, Anthropic, Groq, OpenRouter, or a local Ollama / LM Studio / vLLM server — to <code>linkflow.config.json</code> and <code>.env.local</code>.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div><h3>Plan it with --dry-run</h3><p>Preview exactly which directories would be submitted and what copy would be used, without recording or sending anything.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div><h3>Submit for real with --go</h3><p>Playwright launches headless Chromium, detects each directory's form fields, and fills + submits automatically, pacing itself per day.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div><h3>Check status &amp; pull the report</h3><p><code>backlinkflow status</code> shows submitted / pending / failed; <code>backlinkflow report</code> regenerates the markdown with screenshots.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMANDS -->
+<section id="commands">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">Commands</div>
+      <h2 class="section-title">Plan dry, then go live</h2>
+      <p class="section-subtitle">Copy, paste, ship. Works with npm, pnpm, yarn and bun.</p>
+    </div>
+    <div class="terminal-card reveal">
+      <div class="window-bar">
+        <div style="display:flex;align-items:center;gap:12px">
+          <span class="window-dots"><i></i><i></i><i></i></span>
+          <span class="window-title"><b>terminal</b> <span style="opacity:0.4">— backlinkflow</span></span>
+        </div>
+        <button class="copy-btn" id="copyBtn" type="button"><span id="copyLabel">Copy all</span> <span aria-hidden="true">⎘</span></button>
+      </div>
+      <div class="code"><pre id="codeBlock"><span class="c1"># inspect the database</span>
+<span class="c2">backlinkflow</span> <span class="c3">stats</span>
+<span class="c2">backlinkflow</span> <span class="c3">list</span> <span class="c4">--category</span> startup <span class="c4">--limit</span> 10
+
+<span class="c1"># plan vs execute</span>
+<span class="c2">backlinkflow</span> <span class="c3">submit</span> https://yoursite.com <span class="c5">--dry-run</span> <span class="c4">--limit</span> 10
+<span class="c2">backlinkflow</span> <span class="c3">submit</span> https://yoursite.com <span class="c6">--go</span> <span class="c4">--limit</span> 10
+
+<span class="c1"># extras</span>
+<span class="c2">backlinkflow</span> <span class="c3">badge</span> install <span class="c4">--framework</span> html
+<span class="c2">backlinkflow</span> <span class="c3">indexnow</span> https://yoursite.com
+<span class="c2">backlinkflow</span> <span class="c3">measure</span> https://yoursite.com
+<span class="c2">backlinkflow</span> <span class="c3">status</span>
+<span class="c2">backlinkflow</span> <span class="c3">report</span>   <span class="c1"># → .linkflow/report.md</span></pre></div>
+    </div>
+    <p class="reveal" style="text-align:center;margin-top:16px;color:var(--text-4);font-size:13px">Tip: start with <span class="mono" style="color:var(--text-3)">--limit 10</span> and inspect <span class="mono" style="color:var(--text-3)">.linkflow/report.md</span> before scaling to <span class="mono" style="color:var(--text-3)">--limit 100</span>.</p>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section id="comparison">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">Comparison</div>
+      <h2 class="section-title">BacklinkFlow vs paid tools</h2>
+      <p class="section-subtitle">They charge for what is open data + a five-line AI call. We ship the same three things — plus proof.</p>
+    </div>
+    <div class="table-scroll reveal"><div class="comparison-wrap"><table>
+      <thead><tr><th></th><th class="col-highlight"><span class="badge-gradient">BacklinkFlow</span></th><th>Submitator</th><th>ListingBott</th><th>BoringLaunch</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Directories</strong></td><td class="check col-highlight">1,123 (876 alive)</td><td>~150</td><td>~250</td><td>~200</td></tr>
+        <tr><td><strong>Cost</strong></td><td class="check col-highlight">$0</td><td>$29–79</td><td>$499</td><td>$249</td></tr>
+        <tr><td><strong>Time to submit</strong></td><td class="check col-highlight">24–48h with --go</td><td>24–48h</td><td>1 month</td><td>7 days</td></tr>
+        <tr><td><strong>Your own AI endpoint</strong></td><td class="check col-highlight">✓ Any</td><td class="x">—</td><td class="x">—</td><td class="x">—</td></tr>
+        <tr><td><strong>Self-hostable</strong></td><td class="check col-highlight">✓</td><td class="x">—</td><td class="x">—</td><td class="x">—</td></tr>
+        <tr><td><strong>Source list published</strong></td><td class="check col-highlight">✓ CREDITS.md</td><td class="x">Hidden</td><td class="x">Hidden</td><td class="x">Hidden</td></tr>
+        <tr><td><strong>Badge-gated handling</strong></td><td class="check col-highlight">✓ registry + snippets</td><td class="check">✓</td><td class="check">✓</td><td class="x">—</td></tr>
+        <tr><td><strong>Open source</strong></td><td class="check col-highlight">✓ MIT</td><td class="x">—</td><td class="x">—</td><td class="x">—</td></tr>
+      </tbody>
+    </table></div></div>
+    <p class="reveal" style="text-align:center;margin-top:14px;color:var(--text-5);font-size:12.5px">Prices as of Aug 2025 · BacklinkFlow is MIT and npm-published. No affiliate links.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">FAQ</div>
+      <h2 class="section-title">Everything people ask before their first run</h2>
+      <p class="section-subtitle">If it's not here, open an issue on GitHub — we answer fast.</p>
+    </div>
+    <div class="faq reveal">
+      <details class="faq-item"><summary>Is BacklinkFlow really free?</summary><p>Yes. It's MIT-licensed and costs $0 to run — you only need access to an AI endpoint, and free local models through Ollama, LM Studio, or vLLM work fine.</p></details>
+      <details class="faq-item"><summary>Do I need an OpenAI account?</summary><p>No. BacklinkFlow works with any OpenAI-compatible endpoint, including OpenAI, Anthropic, Groq, OpenRouter, or a local model server.</p></details>
+      <details class="faq-item"><summary>What's the difference between --dry-run and --go?</summary><p><code>--dry-run</code> generates and shows the submission plan without recording or sending anything. <code>--go</code> launches a real headless Chromium browser through Playwright and actually fills in and submits the forms.</p></details>
+      <details class="faq-item"><summary>How many of the 1,123 directories are actually usable?</summary><p>876 are live-verified through concurrent HTTP and DNS checks, 221 are flagged dead with a reason, and 26 are marked paid-only — tracked transparently instead of padding the count.</p></details>
+      <details class="faq-item"><summary>Can I run it for more than one product?</summary><p>Yes. BacklinkFlow is config-driven, so each site gets its own configuration file and you can run submissions for multiple products from one install.</p></details>
+      <details class="faq-item"><summary>How is this different from Submitator, ListingBott, or BoringLaunch?</summary><p>Those charge $29 to $499 for a directory list, AI-written copy, and a status report. BacklinkFlow provides the same three things for $0, plus it's self-hostable and fully open source.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- SERIES -->
+<section id="series">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">Ecosystem</div>
+      <h2 class="section-title">The <span class="gradient-text">flow</span> series</h2>
+      <p class="section-subtitle">Free engines plus your own AI agent as the "smart" layer. MIT, npm-published, no upsells.</p>
+    </div>
+    <div class="flow-cards">
+      <div class="flow-card reveal"><div class="icon">🔐</div><h3>SECflow</h3><p>Security scanning for AI-driven repos — gitleaks, Trivy, npm audit, and custom regex.</p><a href="https://imsankz.github.io/SECflow/" class="btn btn-secondary btn-small">View →</a></div>
+      <div class="flow-card reveal"><div class="icon">🌊</div><h3>SeoFlow</h3><p>AI-powered SEO pipeline — audits, internal linking, content generation, Search Console.</p><a href="https://imsankz.github.io/SEOflow/" class="btn btn-secondary btn-small">View →</a></div>
+      <div class="flow-card reveal" style="border-color:rgba(99,102,241,0.35);box-shadow:0 0 0 1px rgba(99,102,241,0.15) inset"><div class="icon" style="background:var(--gradient);color:white;border-color:transparent;box-shadow:0 6px 20px rgba(99,102,241,0.3)">🔗</div><h3>BacklinkFlow</h3><p>Directory &amp; backlink submission engine. You are here.</p><span class="tag">You are here · 1,123 dirs</span></div>
+    </div>
+  </div>
+</section>
 
 </main>
 
-<footer><div class="container">
-<div class="footer-grid">
-<div class="footer-col"><h4>BacklinkFlow</h4><ul>
-<li><a href="https://github.com/imsankz/backlinkflow">GitHub</a></li>
-<li><a href="https://www.npmjs.com/package/backlinkflow">npm</a></li>
-<li><a href="https://github.com/imsankz/backlinkflow/releases">Releases</a></li>
-<li><a href="#how-it-works">How it works</a></li>
-<li><a href="#faq">FAQ</a></li>
-</ul></div>
-<div class="footer-col"><h4>Docs</h4><ul>
-<li><a href="https://github.com/imsankz/backlinkflow#database">Database</a></li>
-<li><a href="https://github.com/imsankz/backlinkflow#configuration">Config</a></li>
-<li><a href="https://github.com/imsankz/backlinkflow/blob/main/CREDITS.md">Source credits</a></li>
-</ul></div>
-<div class="footer-col"><h4>Series</h4><ul>
-<li><a href="https://imsankz.github.io/SECflow/">SECflow</a></li>
-<li><a href="https://imsankz.github.io/SEOflow/">SeoFlow</a></li>
-<li><a href="https://imsankz.github.io/backlinkflow/">BacklinkFlow</a></li>
-</ul></div>
-<div class="footer-col"><h4>Built by</h4><ul>
-<li><a href="https://github.com/imsankz">@imsankz</a></li>
-<li><a href="https://ko-fi.com/chasingwhereabouts">Buy a coffee</a></li>
-<li><div id="kofiwidget2"></div></li>
-<li><span style="color:var(--text-muted);font-size:13px">MIT</span></li>
-</ul></div>
-</div>
-<div class="footer-bottom"><p>BacklinkFlow · MIT · 1,123 directories, $0 · free forever</p></div>
-</div></footer>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4><span class="brand-mark" style="width:32px;height:32px;border-radius:9px;font-size:16px">🔗</span> BacklinkFlow</h4>
+        <p>Open-source directory submission engine with AI-tailored copy, Playwright automation, and screenshot proof. MIT · $0 vs $29–499.</p>
+        <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+          <a href="https://github.com/imsankz/backlinkflow" class="btn btn-secondary btn-small">GitHub</a>
+          <a href="https://www.npmjs.com/package/backlinkflow" class="btn btn-secondary btn-small">npm</a>
+        </div>
+      </div>
+      <div class="footer-col"><h5>Product</h5><ul>
+        <li><a href="#features">What it does</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#commands">Commands</a></li>
+        <li><a href="#comparison">Comparison</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Docs</h5><ul>
+        <li><a href="https://github.com/imsankz/backlinkflow#database">Database</a></li>
+        <li><a href="https://github.com/imsankz/backlinkflow#configuration">Config</a></li>
+        <li><a href="https://github.com/imsankz/backlinkflow/blob/main/CREDITS.md">Source credits</a></li>
+        <li><a href="https://github.com/imsankz/backlinkflow/releases">Releases</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Series</h5><ul>
+        <li><a href="https://imsankz.github.io/SECflow/">SECflow</a></li>
+        <li><a href="https://imsankz.github.io/SEOflow/">SeoFlow</a></li>
+        <li><a href="https://imsankz.github.io/backlinkflow/">BacklinkFlow</a></li>
+        <li><a href="https://github.com/imsankz">@imsankz</a></li>
+        <li><a href="https://ko-fi.com/chasingwhereabouts">Buy a coffee</a> <span style="color:var(--text-5)">· MIT</span></li>
+      </ul><div id="kofiwidget2" style="margin-top:10px"></div></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 BacklinkFlow · MIT · 1,123 directories, $0 · Free forever. Built by <a href="https://github.com/imsankz">@imsankz</a></p>
+      <p style="display:flex;gap:12px"><a href="https://github.com/imsankz/backlinkflow">GitHub</a> <a href="https://www.npmjs.com/package/backlinkflow">npm</a> <a href="sitemap.xml">Sitemap</a></p>
+    </div>
+  </div>
+</footer>
 
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:0.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// progress
+const bar=document.getElementById('progressBar');
+addEventListener('scroll',()=>{const h=document.documentElement;const p=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;if(bar) bar.style.width=p+'%';},{passive:true});
+
+// mobile
+const toggle=document.getElementById('mobileToggle');
+const nav=document.getElementById('navLinks');
+if(toggle&&nav){
+  toggle.addEventListener('click',()=>{
+    const open=nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open?'true':'false');
+    toggle.setAttribute('aria-label', open?'Close menu':'Open menu');
+  });
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));
+}
+
+// copy
+const btn=document.getElementById('copyBtn');
+const code=document.getElementById('codeBlock');
+const label=document.getElementById('copyLabel');
+if(btn&&code){
+  btn.addEventListener('click', async()=>{
+    const text=code.innerText;
+    try{await navigator.clipboard.writeText(text);}catch(e){
+      const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();
+    }
+    const prev=label.textContent;
+    label.textContent='Copied!';
+    btn.classList.add('copied');
+    setTimeout(()=>{label.textContent=prev;btn.classList.remove('copied')},1600);
+  });
+}
 </script>
 <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-<script type="text/javascript">kofiwidget2.init('Buy me a Coffee','#72a4f2','B0B4EDYFG');kofiwidget2.draw();</script>
-</body></html>
+<script type="text/javascript">try{kofiwidget2.init('Buy me a Coffee','#6366f1','B0B4EDYFG');kofiwidget2.draw();}catch(e){}</script>
+</body>
+</html>
