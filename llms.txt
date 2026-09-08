@@ -1,13 +1,33 @@
 # BacklinkFlow
 
-Zero-cost backlink & directory submission engine for indie hackers.
+Zero-cost backlink & directory submission engine for indie hackers. npm `backlinkflow`, MIT.
+AI-coded operating instructions: read AGENTS.md (root). Node ≥ 18, ESM. `npm run build` first
+(bin launcher requires dist/), verify with `npm test`.
 
 ## Core files
-- `src/index.ts` — CLI entry (list, search, submit, payload, status, report, stats, init)
-- `src/database.ts` — directories.yaml loader + search
-- `src/payload.ts` — AI/template payload generator
-- `src/ai.ts` — OpenAI-compatible AI client (OmniRoute-ready, SSE-tolerant)
+- `src/index.ts` — CLI entry + flag parsing (commands below; no verb → list)
+- `src/database.ts` — directories.yaml loader + search + stats
+- `src/payload.ts` — AI/template payload generator (strict JSON, SSE-tolerant)
+- `src/ai.ts` — OpenAI-compatible AI client (OmniRoute-ready; env AI_BASE_URL/AI_API_KEY/AI_MODEL)
+- `src/config.ts` — linkflow.config.json + .env.local loader
 - `src/tracker.ts` — submission tracker (.linkflow/tracker.json)
 - `src/report.ts` — proof-of-submission report (.linkflow/report.md)
-- `data/directories.yaml` — 258-site vetted directory database
-- `linkflow.config.json` — site + AI config
+- `src/indexnow.ts` — IndexNow + Google pinger (v0.3)
+- `src/awesome.ts` — awesome-list PR snippet generator (v0.3)
+- `src/measure.ts` — free backlink measurement via Common Crawl (v0.4)
+- `src/badges.ts` — badge registry command (v0.5)
+- `src/engine/` — Playwright browser automation (browser, fields, adapters, submit)
+- `data/directories.yaml` — vetted directory database (1,100+ entries; see `backlinkflow stats`)
+- `data/badges.yaml` — badge registry for badge-gated directories
+- `scripts/sources/backlink-pilot-targets.yaml` — regeneration baseline (dual-write with directories.yaml)
+- `examples/linkflow.config.*.json` — per-site config templates
+- `linkflow.config.json` — site + AI config (ai.baseUrl/apiKey/model, pacing)
+
+## Commands
+`list [--category X] [--limit N]` · `search <query>` · `submit <site-url> [--dry-run] [--limit N] [--category X] [--go]`
+· `payload <site-url> [--directory X]` · `status` · `report` · `stats` · `db:review` · `db:regenerate`
+· `indexnow <url> [--skip-verify] [--urls a b c]` · `awesome <owner/repo> --dry-run` · `measure <url> [--json]`
+· `badge [list|show <name>|install --framework nextjs|html|astro]` · `init`
+
+Runtime state (gitignored): `.linkflow/` tracker, report, proofs. AI endpoint optional — template
+fallback when unset; per-run AI call budget in config (`maxCallsPerRun`).
