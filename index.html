@@ -8,6 +8,7 @@
 <meta name="robots" content="index, follow"/>
 <meta name="author" content="imsankz"/>
 <meta name="theme-color" content="#050507"/>
+<meta name="color-scheme" content="dark"/>
 <link rel="canonical" href="https://imsankz.github.io/backlinkflow/"/>
 
 <meta property="og:site_name" content="BacklinkFlow"/>
@@ -26,8 +27,15 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔗%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://storage.ko-fi.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
 <link href="assets/flow-design.css" rel="stylesheet"/>
+<link rel="sitemap" type="application/xml" href="sitemap.xml"/>
+<meta name="keywords" content="backlink, directory submission, seo, backlink automation, playwright, open source, mit, link building"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="BacklinkFlow — 1,123 directories, AI copy, Playwright"/>
+<meta name="twitter:creator" content="@imsankz"/>
 
 <script type="application/ld+json">
 {
@@ -129,6 +137,11 @@
       <a href="#how-it-works" class="btn btn-secondary" style="padding:14px 20px">See how it works →</a>
     </div>
 
+    <div class="hero-install reveal" aria-label="Install command">
+      <code><span>$</span> npm install -g backlinkflow</code>
+      <button type="button" id="heroCopy">Copy</button>
+    </div>
+
     <div class="hero-note reveal">
       <span>✦ MIT licensed</span> <span class="dot2"></span>
       <span>Node ≥18</span> <span class="dot2"></span>
@@ -136,11 +149,11 @@
       <span>Your own AI endpoint</span>
     </div>
 
-    <div class="trust reveal">
-      <a href="https://github.com/imsankz/backlinkflow/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" height="20"/></a>
-      <a href="https://github.com/imsankz/backlinkflow/blob/main/package.json"><img src="https://img.shields.io/badge/node-%3E%3D18-green.svg" alt="Node.js 18 or later" height="20"/></a>
-      <a href="https://github.com/imsankz/backlinkflow"><img src="https://img.shields.io/github/stars/imsankz/backlinkflow?style=flat&label=stars&color=818cf8" alt="GitHub stars" height="20"/></a>
-      <a href="#series"><img src="https://img.shields.io/badge/flow--series-BacklinkFlow%20%7C%20SeoFlow%20%7C%20SECflow-blueviolet" alt="Part of the flow series" height="20"/></a>
+    <div class="trust-pills reveal" aria-label="Trust badges">
+      <a class="trust-pill" href="https://github.com/imsankz/backlinkflow/blob/main/LICENSE" target="_blank" rel="noopener"><span class="dot green"></span> <b>MIT</b> licensed</a>
+      <a class="trust-pill" href="https://github.com/imsankz/backlinkflow/blob/main/package.json" target="_blank" rel="noopener"><b>Node</b> ≥ 18</a>
+      <a class="trust-pill" href="https://github.com/imsankz/backlinkflow" target="_blank" rel="noopener" id="starPill"><svg width="12" height="12" viewBox="0 0 16 16" fill="#f59e0b" aria-hidden="true"><path d="M8 1.5l1.75 3.55 3.92.57-2.84 2.77.67 3.91L8 10.6l-3.5 1.84.67-3.91L2.33 5.62l3.92-.57L8 1.5z"/></svg> <b>1</b>&nbsp;star</a>
+      <a class="trust-pill" href="#series"><span class="dot"></span> <b>flow series</b>&nbsp;· SECflow · SeoFlow</a>
     </div>
 
     <!-- Visual preview -->
@@ -303,7 +316,7 @@
           <h3>Inside the database</h3>
           <p>1,123 entries merged from 11 sources · sorted into 9 categories</p>
         </div>
-        <span class="chip" style="background:rgba(99,102,241,0.12);border-color:rgba(99,102,241,0.2);color:#a5b4fc">CREDITS.md</span>
+        <a href="https://github.com/imsankz/backlinkflow/blob/main/CREDITS.md" target="_blank" rel="noopener" class="chip" style="background:rgba(99,102,241,0.12);border-color:rgba(99,102,241,0.2);color:#a5b4fc;text-decoration:none">CREDITS.md →</a>
       </div>
       <div class="db-body">
         <div class="db-row"><span class="db-label">Startup</span><div class="db-track"><div class="db-fill" style="width:54.4%"></div></div><span class="db-count">612</span></div>
@@ -366,6 +379,12 @@
       <h2 class="section-title">Plan dry, then go live</h2>
       <p class="section-subtitle">Copy, paste, ship. Works with npm, pnpm, yarn and bun.</p>
     </div>
+    <div class="tabs reveal" role="tablist" aria-label="Package manager">
+      <button class="tab active" data-pm="npm" role="tab" aria-selected="true">npm</button>
+      <button class="tab" data-pm="pnpm" role="tab" aria-selected="false">pnpm</button>
+      <button class="tab" data-pm="yarn" role="tab" aria-selected="false">yarn</button>
+      <button class="tab" data-pm="bun" role="tab" aria-selected="false">bun</button>
+    </div>
     <div class="terminal-card reveal">
       <div class="window-bar">
         <div style="display:flex;align-items:center;gap:12px">
@@ -374,7 +393,10 @@
         </div>
         <button class="copy-btn" id="copyBtn" type="button"><span id="copyLabel">Copy all</span> <span aria-hidden="true">⎘</span></button>
       </div>
-      <div class="code"><pre id="codeBlock"><span class="c1"># inspect the database</span>
+      <div class="code"><pre id="codeBlock"><span class="c1"># install</span>
+<span class="c2" id="installCmd">npm install -g backlinkflow</span>
+
+<span class="c1"># inspect the database</span>
 <span class="c2">backlinkflow</span> <span class="c3">stats</span>
 <span class="c2">backlinkflow</span> <span class="c3">list</span> <span class="c4">--category</span> startup <span class="c4">--limit</span> 10
 
@@ -414,7 +436,7 @@
         <tr><td><strong>Open source</strong></td><td class="check col-highlight">✓ MIT</td><td class="x">—</td><td class="x">—</td><td class="x">—</td></tr>
       </tbody>
     </table></div></div>
-    <p class="reveal" style="text-align:center;margin-top:14px;color:var(--text-5);font-size:12.5px">Prices as of Aug 2025 · BacklinkFlow is MIT and npm-published. No affiliate links.</p>
+    <p class="reveal" style="text-align:center;margin-top:14px;color:var(--text-5);font-size:12.5px">Prices as of Sep 2026 · BacklinkFlow is MIT and npm-published. No affiliate links.</p>
   </div>
 </section>
 
@@ -482,27 +504,38 @@
       </div>
 
       <div class="sponsor-tiers reveal">
-        <div class="sponsor-tier">
+        <a href="https://ko-fi.com/chasingwhereabouts" target="_blank" rel="noopener" class="sponsor-tier" style="text-decoration:none">
           <div class="tier-name">Coffee</div>
           <b>$5 <small>once</small></b>
           <p>Thank-you coffee. Covers a day of live-checks for ~200 dirs.</p>
-        </div>
-        <div class="sponsor-tier" style="border-color:rgba(234,74,170,0.35);box-shadow:0 0 0 1px rgba(234,74,170,0.12) inset">
+        </a>
+        <a href="https://github.com/sponsors/imsankz" target="_blank" rel="noopener" class="sponsor-tier" style="border-color:rgba(234,74,170,0.35);box-shadow:0 0 0 1px rgba(234,74,170,0.12) inset;text-decoration:none">
           <div class="tier-name" style="color:#f472b6">Sponsor · $10/mo</div>
           <b>$10 <small>/ month</small></b>
           <p>Weekly verifications + logo on README. Most popular.</p>
-        </div>
-        <div class="sponsor-tier">
+        </a>
+        <a href="https://github.com/sponsors/imsankz" target="_blank" rel="noopener" class="sponsor-tier" style="text-decoration:none">
           <div class="tier-name">Team · for agencies</div>
           <b>$49 <small>/ month</small></b>
           <p>For teams running many sites. Prioritized adapters + callout.</p>
-        </div>
+        </a>
       </div>
 
       <div class="sponsor-impact reveal">
         <div><i>🔍</i><div><strong>Keeps 876 alive</strong><span>Concurrent HTTP + DNS + manual review each week — so you never submit to dead links.</span></div></div>
         <div><i>🤖</i><div><strong>Playwright adapters</strong><span>183 form detectors maintained as directories change their markup.</span></div></div>
         <div><i>📦</i><div><strong>New directories</strong><span>11 source lists merged, deduped, categorized — and growing with your requests.</span></div></div>
+      </div>
+
+      <div class="sponsor-wall reveal">
+        <div class="sponsor-wall-left">
+          <div class="sponsor-wall-avatars"><span>⭐</span><span style="background:var(--gradient);color:white;border:none">♡</span><span>☕</span></div>
+          <div>
+            <p><strong>Be the first sponsor</strong> — your logo here</p>
+            <p>2 slots on landing + README. <a href="https://github.com/sponsors/imsankz" target="_blank" rel="noopener" style="color:var(--text-3)">Claim →</a></p>
+          </div>
+        </div>
+        <a href="https://github.com/sponsors/imsankz" target="_blank" rel="noopener" class="btn btn-sponsor btn-small">Become sponsor →</a>
       </div>
 
       <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px">
@@ -572,7 +605,7 @@
       </ul></div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 BacklinkFlow · MIT · 1,123 directories, $0 · Free forever. Built by <a href="https://github.com/imsankz">@imsankz</a></p>
+      <p>© 2026 BacklinkFlow · MIT · 1,123 directories, $0 · Free forever. Built by <a href="https://github.com/imsankz">@imsankz</a></p>
       <p style="display:flex;gap:12px"><a href="https://github.com/imsankz/backlinkflow">GitHub</a> <a href="https://www.npmjs.com/package/backlinkflow">npm</a> <a href="sitemap.xml">Sitemap</a></p>
     </div>
   </div>
@@ -590,15 +623,20 @@ addEventListener('scroll',()=>{const h=document.documentElement;const p=(h.scrol
 const toggle=document.getElementById('mobileToggle');
 const nav=document.getElementById('navLinks');
 if(toggle&&nav){
+  const svgOpen='<path d="M6 6l12 12M18 6L6 18"/>';
+  const svgClosed='<path d="M4 7h16M4 12h16M4 17h16"/>';
   toggle.addEventListener('click',()=>{
     const open=nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', open?'true':'false');
     toggle.setAttribute('aria-label', open?'Close menu':'Open menu');
+    toggle.querySelector('svg').innerHTML = open ? svgOpen : svgClosed;
   });
-  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.querySelector('svg').innerHTML=svgClosed}));
+  document.addEventListener('click',(e)=>{if(nav.classList.contains('open') && !nav.contains(e.target) && !toggle.contains(e.target)){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.querySelector('svg').innerHTML=svgClosed}});
+  addEventListener('keydown',(e)=>{if(e.key==='Escape'&&nav.classList.contains('open')){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.querySelector('svg').innerHTML=svgClosed;toggle.focus()}});
 }
 
-// copy
+// copy main
 const btn=document.getElementById('copyBtn');
 const code=document.getElementById('codeBlock');
 const label=document.getElementById('copyLabel');
@@ -614,6 +652,41 @@ if(btn&&code){
     setTimeout(()=>{label.textContent=prev;btn.classList.remove('copied')},1600);
   });
 }
+// hero copy
+const heroBtn=document.getElementById('heroCopy');
+if(heroBtn){
+  heroBtn.addEventListener('click', async()=>{
+    const text='npm install -g backlinkflow';
+    try{await navigator.clipboard.writeText(text);}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}
+    const prev=heroBtn.textContent;heroBtn.textContent='Copied!';heroBtn.classList.add('copied');setTimeout(()=>{heroBtn.textContent=prev;heroBtn.classList.remove('copied')},1600);
+  });
+}
+// tabs
+const tabs=document.querySelectorAll('.tab');
+const installCmd=document.getElementById('installCmd');
+const pmMap={npm:'npm install -g backlinkflow',pnpm:'pnpm add -g backlinkflow',yarn:'yarn global add backlinkflow',bun:'bun add -g backlinkflow'};
+tabs.forEach((t,i)=>{
+  t.addEventListener('click',()=>{
+    tabs.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-selected','false')});
+    t.classList.add('active');t.setAttribute('aria-selected','true');
+    if(installCmd && pmMap[t.dataset.pm]) installCmd.textContent=pmMap[t.dataset.pm];
+  });
+  t.addEventListener('keydown',(e)=>{
+    if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
+      e.preventDefault();
+      const dir=e.key==='ArrowRight'?1:-1;
+      const next=(i+dir+tabs.length)%tabs.length;
+      tabs[next].focus();tabs[next].click();
+    }
+  });
+});
+// live stars (best-effort, no error if rate-limited)
+fetch('https://api.github.com/repos/imsankz/backlinkflow').then(r=>r.json()).then(d=>{
+  const pill=document.getElementById('starPill');
+  if(pill && d && typeof d.stargazers_count==='number'){
+    pill.innerHTML='<svg width="12" height="12" viewBox="0 0 16 16" fill="#f59e0b" aria-hidden="true"><path d="M8 1.5l1.75 3.55 3.92.57-2.84 2.77.67 3.91L8 10.6l-3.5 1.84.67-3.91L2.33 5.62l3.92-.57L8 1.5z"/></svg> <b>'+d.stargazers_count+'</b>&nbsp;star'+(d.stargazers_count===1?'':'s');
+  }
+}).catch(()=>{});
 </script>
 <!-- Ko-fi — fixed floating + inline buttons above; Widget_2.js kept as fallback but overlay is primary -->
 <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
