@@ -65,11 +65,18 @@ name back in when editing).
   link-in-bio platforms, subreddits, etc. qualify.
 - `data/badges.yaml` — badge registry (name, badgeUrl, href, alt, width/height, dr, required, notes).
   Badge URLs are best-effort — verify they load before relying on them.
-- **Dual-write rule**: curated categories/entries added to the shipped YAML MUST be mirrored into
-  `scripts/sources/backlink-pilot-targets.yaml` (snake_case fields there). `db:regenerate` rebuilds
-  directories.yaml from that baseline and only preserves `travel` from the current file — a category
-  added to only one file silently disappears on the next regeneration. Re-run the regen + `npm test`
-  after touching either.
+- **Regeneration is non-destructive (union-preserving)**: `db:regenerate` seeds from the current
+  `directories.yaml` and merges the backlink-pilot baseline + external lists as net-new additions
+  only. Curated entries win collisions — dead/paid flags, verified-dead reasons, notes, DR and
+  source-less categories (`travel`, `dr-tracker`, `linkinbio`, …) are always preserved. The rebuild
+  also dedupes within a category (name+domain and name+brand, keeping the first/curated copy) and
+  normalizes YAML formatting (drops `#` comments), so the file is fully reproducible — run it twice
+  and the second pass is byte-identical.
+- **Dual-write rule (still recommended)**: curated categories/entries added to `directories.yaml`
+  SHOULD be mirrored into `scripts/sources/backlink-pilot-targets.yaml` (snake_case fields there) so
+  fresh builds and the baseline stay in sync. Entries are no longer silently lost on regen, but
+  DELETING an entry requires removing it from BOTH files — a rebuild re-adds from the mirror anything
+  missing from directories.yaml. Re-run the regen + `npm test` after touching either.
 - Prefer **keeping entries with `status: dead/paid` + reason** over deleting them (user preference);
   liveness notes like `[verified dead: <reason>]` go in `notes`.
 - When adding a shipped data file, add it to package.json `files` AND the `build.mjs` dist copy list.
