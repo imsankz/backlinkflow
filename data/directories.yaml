@@ -66,22 +66,22 @@ ai:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: AiDude
   submitUrl: https://aidude.pro/submit-your-tool
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 404]'
+  status: dead
 - name: AI Homes
   submitUrl: https://aihomes.io/submit/submit-tool
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: AI Library
   submitUrl: https://library.phygital.plus/tool-submission
   type: form
@@ -120,8 +120,8 @@ ai:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: AI News Guru
   submitUrl: https://ainews.guru/ai-app-submission/
   type: form
@@ -197,8 +197,8 @@ ai:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: DigiProToolz
   submitUrl: https://digiprotoolz.com/contact-us/
   type: form
@@ -233,8 +233,8 @@ ai:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 404]'
+  status: dead
 - name: Free AI Tools Directory
   submitUrl: https://free-ai-tools-directory.com/submit-request/
   type: form
@@ -287,8 +287,8 @@ ai:
   type: form
   auto: 'yes'
   lang: multi
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: Supertools
   submitUrl: https://supertools.therundown.ai/submit
   type: form
@@ -304,8 +304,8 @@ ai:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 404]'
+  status: dead
 - name: SEOFAI
   submitUrl: https://seofai.com/submit-tool/
   type: form
@@ -465,8 +465,8 @@ ai:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 404]'
+  status: dead
 - name: Cipinet
   submitUrl: https://www.cipinet.com/submit.php
   type: form
@@ -521,7 +521,7 @@ ai:
   notes: '[from ultimate-submit-list]'
   status: paid
 - name: aitools
-  submitUrl: https://aitools.fyi/zh
+  submitUrl: https://www.aitools.directory/contact
   type: website
   auto: manual
   lang: en
@@ -581,13 +581,6 @@ ai:
   lang: en
   notes: '[from ultimate-submit-list] [verified dead: timeout]'
   status: dead
-- name: Free AI Tool
-  submitUrl: https://freeaitool.co/aialternatives?scroll=yes
-  type: website
-  auto: manual
-  lang: en
-  notes: '[from ultimate-submit-list]'
-  status: paid
 - name: toolspedia
   submitUrl: https://www.toolspedia.io/submittool/
   type: website
@@ -686,13 +679,6 @@ ai:
   lang: en
   notes: '[from ultimate-submit-list] [verified dead: HTTP 404]'
   status: dead
-- name: aitools
-  submitUrl: https://www.aitools.directory/contact
-  type: website
-  auto: manual
-  lang: en
-  notes: '[from ultimate-submit-list]'
-  status: paid
 - name: AI Top Picks
   submitUrl: https://www.aitoppicks.com/
   type: website
@@ -1040,12 +1026,6 @@ ai:
   auto: manual
   lang: en
   notes: '[from startup-launch-list]'
-- name: toolfolio
-  submitUrl: https://toolfolio.io
-  type: form
-  auto: manual
-  lang: en
-  notes: '[from startup-launch-list]'
 - name: ToolHub
   submitUrl: https://toolhub.me
   type: form
@@ -1283,12 +1263,6 @@ ai:
   auto: manual
   lang: en
   notes: '[from mahseema-saas]'
-- name: AI Directory
-  submitUrl: https://aidirectory.wiki
-  type: form
-  auto: manual
-  lang: en
-  notes: '[from launch-platforms]'
 - name: AI Dir
   submitUrl: https://aidir.wiki
   type: form
@@ -1466,6 +1440,12 @@ ai:
   auto: manual
   lang: en
   notes: '[from best-of-ai]'
+- name: SaaS Directory
+  submitUrl: https://saasdirectory.dev/submit
+  type: sign in
+  auto: manual
+  lang: en
+  notes: '[from saasdirectory.dev]'
 - name: AI Parabellum
   submitUrl: https://aiparabellum.com
   type: form
@@ -1648,7 +1628,7 @@ ai:
   type: form
   auto: manual
   lang: en
-  notes: '[from best-of-ai] [server error: HTTP 406 — verify]'
+  notes: '[from best-of-ai]'
 - name: Intelligent Tools
   submitUrl: https://intelligenttools.co/
   type: form
@@ -1890,7 +1870,7 @@ ai:
   type: free
   auto: manual
   lang: en
-  notes: '[from submitdir-ai] [server error: HTTP 402 — verify]'
+  notes: '[from submitdir-ai]'
   status: active
 - name: lookaitools.com
   submitUrl: https://lookaitools.com/account/login/?redirect=https%3A%2F%2Flookaitools.com%2Fsubmit-listing%2F
@@ -2062,7 +2042,7 @@ ai:
   type: free
   auto: manual
   lang: en
-  notes: '[from submitdir-ai] [server error: HTTP 402 — verify]'
+  notes: '[from submitdir-ai]'
   status: active
 - name: synoptica.com
   submitUrl: https://synoptica.com/submit-an-ai-tool/?ref=aidirectori.es
@@ -2110,8 +2090,4957 @@ ai:
   type: sign in
   auto: manual
   lang: en
-  notes: '[from submitdir-startup] [server error: HTTP 500 — verify]'
+  notes: '[from submitdir-startup]'
+- name: AIDirectory
+  submitUrl: https://aidirectory.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: AIDir
+  submitUrl: https://aidir.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: AI Tools Arena
+  submitUrl: https://aitoolsarena.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: AI Tools Guru
+  submitUrl: https://aitoolguru.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: AI Tools List
+  submitUrl: https://aitoolslist.io/submit-ai-tool/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: All Things AI
+  submitUrl: https://allthingsai.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: aitools.inc
+  submitUrl: https://aitools.inc/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: AiToolz Dir
+  submitUrl: https://www.aitoolzdir.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: DataLook.io
+  submitUrl: https://datalook.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Dessign
+  submitUrl: https://dessign.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Desifounder
+  submitUrl: https://desifounder.com/spotlight
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Direct2App
+  submitUrl: https://www.direct2app.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Deeplaunch.io
+  submitUrl: https://deeplaunch.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Evolmagazine.com
+  submitUrl: https://www.evolmagazine.com/en/tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Foundr
+  submitUrl: https://foundr.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Future AI Guide
+  submitUrl: https://tools.futureaiguide.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Futurepedia Wiki
+  submitUrl: https://futurepedia.wiki
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: FutureTools
+  submitUrl: https://www.futuretools.io/submit-a-tool
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: FastLaunch
+  submitUrl: https://fastlaunch.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: IA sur mesure
+  submitUrl: https://iasurmesure.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories] [verified dead: DNS resolution failed]'
+  status: dead
+- name: Insidr AI Directory
+  submitUrl: https://www.insidr.ai/submit-tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Kick Product
+  submitUrl: https://kickproduct.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Makerlist.io
+  submitUrl: https://makerlist.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: NeonRev
+  submitUrl: https://www.neonrev.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Startuplist.in
+  submitUrl: https://startuplist.in/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories] [verified dead: connection refused]'
+  status: dead
+- name: Spiff.store
+  submitUrl: https://spiff.store/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Stackviv
+  submitUrl: https://stackviv.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Submit AI Tools
+  submitUrl: https://submitaitools.org/submit-your-ai-tool/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: THANK JOHN
+  submitUrl: https://www.thankjohn.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Toolify.ai
+  submitUrl: https://www.toolify.ai/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: TopAI.tools
+  submitUrl: https://topai.tools/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: Tool Pilot
+  submitUrl: https://www.toolpilot.ai/pages/submit-your-ai-tool
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: TrustList
+  submitUrl: https://www.trustlist.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories]'
+- name: TrustedBy
+  submitUrl: https://www.trustedby.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from best-of-ai/ai-directories] [verified dead: timeout]'
+  status: dead
+- name: AI Tools Club
+  submitUrl: https://aitoolsclub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI of the Day
+  submitUrl: https://aioftheday.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI Hunting
+  submitUrl: https://aihunting.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AiHunted
+  submitUrl: https://aihunted.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Top Apps AI
+  submitUrl: https://topapps.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI Tools Global
+  submitUrl: https://aitoolsglobal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Toolata
+  submitUrl: https://toolata.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI For Work
+  submitUrl: https://ai-for.work/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Alternativetoai
+  submitUrl: https://alternativetoai.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Grasp.ai
+  submitUrl: https://grasp.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI Tools Vault
+  submitUrl: https://aitoolsvault.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Free AI Tools
+  submitUrl: https://freeaitools.us/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Toolbuddy
+  submitUrl: https://toolbuddy.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI Apps
+  submitUrl: https://aiapps.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: Directory.ai
+  submitUrl: https://directory.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI Explore
+  submitUrl: https://aiexplore.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: AI For Everyone
+  submitUrl: https://aiforeveryone.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: BetaFamily
+  submitUrl: https://betafamily.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: The Startup List
+  submitUrl: https://thestartuplist.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from lovedbyai]'
+- name: NoCode List
+  submitUrl: https://nocodelist.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: B2B Stack
+  submitUrl: https://b2bstack.com.br/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: App Radar
+  submitUrl: https://appradar.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: Cool Startups
+  submitUrl: https://coolstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: Startup Lift
+  submitUrl: https://startuplift.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: API List
+  submitUrl: https://apilist.fun/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: Open SaaS Directory
+  submitUrl: https://opensaasdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to]'
+- name: CodeHype
+  submitUrl: https://codehype.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from codehype]'
+- name: WebCatalog
+  submitUrl: https://webcatalog.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: Toolio
+  submitUrl: https://toolio.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: AIPURE
+  submitUrl: https://aipure.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: AI Tools One
+  submitUrl: https://aitoolsone.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: funfun.tools
+  submitUrl: https://funfun.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: AI Tool Directory
+  submitUrl: https://tooldirectory.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: GenAI Works
+  submitUrl: https://genai.works/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: AllAboutAI.com
+  submitUrl: https://www.allaboutai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: AI Top Reviews
+  submitUrl: https://aitopreviews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: SoftGist
+  submitUrl: https://softgist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: DigitalTools
+  submitUrl: https://digitaltools.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: Tech Pilot
+  submitUrl: https://techpilot.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: Powerusers AI
+  submitUrl: https://powerusers.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: RushTechHub
+  submitUrl: https://rushtechhub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from enumhq]'
+- name: Proven Expert
+  submitUrl: https://provenexpert.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: YourStory
+  submitUrl: https://yourstory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: Merchantcircle
+  submitUrl: https://www.merchantcircle.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: Smartcustomer
+  submitUrl: https://www.smartcustomer.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: MossAI
+  submitUrl: https://mossai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: DigitalAgencynetwork
+  submitUrl: https://digitalagencynetwork.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: n49
+  submitUrl: https://n49.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: FindUsHere
+  submitUrl: https://findushere.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: Orynth
+  submitUrl: https://orynth.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: Webwiki
+  submitUrl: https://webwiki.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: ActiveSearchResults
+  submitUrl: https://activesearchresults.com/addwebsite.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: PeerPush
+  submitUrl: https://peerpush.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: Good AI Tools
+  submitUrl: https://goodaitools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: GetLatka
+  submitUrl: https://getlatka.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: Startup Fast
+  submitUrl: https://startupfast.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: OpenLaunch
+  submitUrl: https://openlaunch.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from nicklaunches]'
+- name: MCP.so
+  submitUrl: https://mcp.so/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from position.digital]'
+- name: MCP Market
+  submitUrl: https://mcp-market.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from position.digital]'
+- name: Toolsify
+  submitUrl: https://toolsify.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from submitmap]'
+- name: Tools Roller
+  submitUrl: https://toolsroller.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from submitmap]'
+- name: AI Findr
+  submitUrl: https://ai-findr.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from submitmap]'
+- name: Directory for AI
+  submitUrl: https://directoryforai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from submitmap]'
+- name: T0 AI
+  submitUrl: https://t0ai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from submitmap]'
+- name: SaaSGrow
+  submitUrl: https://saasgrow.app/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: OutDR
+  submitUrl: https://outdr.lol/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Unsplash
+  submitUrl: https://unsplash.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Forbes Cloud 100
+  submitUrl: https://forbes.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Huffingtonpost
+  submitUrl: https://huffingtonpost.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Guardian Technology
+  submitUrl: https://theguardian.com/technology
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Time
+  submitUrl: https://time.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: HuffPost
+  submitUrl: https://huffpost.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Forbes Technology
+  submitUrl: https://forbes.com/technology
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechCrunch
+  submitUrl: https://techcrunch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Quora
+  submitUrl: https://quora.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Better Business Bureau
+  submitUrl: https://bbb.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Engadget
+  submitUrl: https://engadget.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Gizmodo
+  submitUrl: https://gizmodo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Wired
+  submitUrl: https://wired.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Mashable India
+  submitUrl: https://in.mashable.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CNET
+  submitUrl: https://cnet.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Psychology Today
+  submitUrl: https://psychologytoday.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Verge
+  submitUrl: https://theverge.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Wall Street Journal
+  submitUrl: https://wsj.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Dribbble
+  submitUrl: https://dribbble.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Behance
+  submitUrl: https://behance.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PCMag
+  submitUrl: https://pcmag.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Toolhouse
+  submitUrl: https://aitoolhouse.gumroad.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Softonic
+  submitUrl: https://en.softonic.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Entrepreneur
+  submitUrl: https://entrepreneur.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BostInno
+  submitUrl: https://bizjournals.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Digg
+  submitUrl: https://digg.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Fastcompany
+  submitUrl: https://fastcompany.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Slate
+  submitUrl: https://slate.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: VentureBeat
+  submitUrl: https://venturebeat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Inc.com
+  submitUrl: https://inc.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Bing Places
+  submitUrl: https://bingplaces.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Gartner
+  submitUrl: https://gartner.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Stripe
+  submitUrl: https://stripe.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Android Authority
+  submitUrl: https://androidauthority.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Healthline
+  submitUrl: https://healthline.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Android Central
+  submitUrl: https://androidcentral.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PC World
+  submitUrl: https://pcworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MIT Technology Review
+  submitUrl: https://technologyreview.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Awwwards
+  submitUrl: https://awwwards.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: YellowPages
+  submitUrl: https://yellowpages.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Softpedia
+  submitUrl: https://softpedia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MakeUseOf
+  submitUrl: https://makeuseof.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Atlassian
+  submitUrl: https://atlassian.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Register UK
+  submitUrl: https://theregister.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Smashing Magazine
+  submitUrl: https://smashingmagazine.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Geek Wire
+  submitUrl: https://geekwire.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FreeCodeCamp
+  submitUrl: https://freecodecamp.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechRepublic
+  submitUrl: https://techrepublic.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tech in Asia
+  submitUrl: https://techinasia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BuzzFeed News
+  submitUrl: https://buzzfeednews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Betakit
+  submitUrl: https://betakit.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SitePoint Forums
+  submitUrl: https://sitepoint.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: InfoWorld
+  submitUrl: https://infoworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Pocket-lint
+  submitUrl: https://pocket-lint.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Css Design Awards
+  submitUrl: https://cssdesignawards.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Addictive Tips
+  submitUrl: https://addictivetips.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SiliconANGLE
+  submitUrl: https://siliconangle.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Towards Data Science
+  submitUrl: https://towardsdatascience.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Android Headlines
+  submitUrl: https://androidheadlines.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: One Page Love
+  submitUrl: https://onepagelove.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CodeProject
+  submitUrl: https://codeproject.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Nextdoor
+  submitUrl: https://nextdoor.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tech.co
+  submitUrl: https://tech.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Pitchbook
+  submitUrl: https://pitchbook.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Mac Stories
+  submitUrl: https://macstories.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Angie's List
+  submitUrl: https://angieslist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Fark
+  submitUrl: https://fark.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MarketingProfs
+  submitUrl: https://marketingprofs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SiteInspire
+  submitUrl: https://siteinspire.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Biggerpockets
+  submitUrl: https://biggerpockets.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CSS Winner
+  submitUrl: https://csswinner.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Inc42
+  submitUrl: https://inc42.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: e27
+  submitUrl: https://e27.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SubmissionWebDirectory
+  submitUrl: https://submissionwebdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Unmatched Style
+  submitUrl: https://unmatchedstyle.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Digest
+  submitUrl: https://startupdigest.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Next Big What
+  submitUrl: https://nextbigwhat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Getting Smart
+  submitUrl: https://gettingsmart.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Versily
+  submitUrl: https://versily.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Sitejabber
+  submitUrl: https://sitejabber.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Babel Slack
+  submitUrl: https://babelslack.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Vccircle
+  submitUrl: https://vccircle.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Somuch
+  submitUrl: https://somuch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Web Designer News
+  submitUrl: https://webdesignernews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: How Brands Are Built
+  submitUrl: https://howbrandsarebuilt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Cloud Native Computing Foundation
+  submitUrl: https://cncf.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Built in Chicago
+  submitUrl: https://builtinchicago.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Ecomm Design
+  submitUrl: https://ecommdesign.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Made With Vuejs
+  submitUrl: https://madewithvuejs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Gust
+  submitUrl: https://gust.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: EU-Startups
+  submitUrl: https://eu-startups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Spot SaaS
+  submitUrl: https://spotsaas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Ebool
+  submitUrl: https://ebool.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Webguru Awards
+  submitUrl: https://webguruawards.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Growth Hackers
+  submitUrl: https://growthhackers.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Comparably
+  submitUrl: https://comparably.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: NextGen Tools
+  submitUrl: https://nextgentools.me/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tapscape
+  submitUrl: https://tapscape.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Grind
+  submitUrl: https://startupgrind.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Acquire.com
+  submitUrl: https://acquire.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Acid Tools
+  submitUrl: https://acidtools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Woy.ai
+  submitUrl: https://woy.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Popular AI Tools
+  submitUrl: https://popularaitools.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Craftwork.design
+  submitUrl: https://craftwork.design/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CSS Nectar
+  submitUrl: https://cssnectar.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Trendz
+  submitUrl: https://aitrendz.xyz/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: eLocal
+  submitUrl: https://elocal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Unboxing Startups
+  submitUrl: https://unboxingstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Super Launch
+  submitUrl: https://superlaunch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MaRS DD
+  submitUrl: https://marsdd.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Page
+  submitUrl: https://indiepage.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Cloud Foundry
+  submitUrl: https://cloudfoundry.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Technology Advice
+  submitUrl: https://technologyadvice.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: All my faves
+  submitUrl: https://allmyfaves.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie.Deals
+  submitUrl: https://indiedeals.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tidy Repo
+  submitUrl: https://tidydepo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AIAI.Tools
+  submitUrl: https://aiai.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Cloud Findr
+  submitUrl: https://cloudfindr.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Freebie Supply
+  submitUrl: https://freebiesupply.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startupxplore
+  submitUrl: https://startupxplore.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MarketingDB
+  submitUrl: https://marketingdb.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hotfrog
+  submitUrl: https://hotfrog.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Layers.to
+  submitUrl: https://layers.to/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Webrazzi
+  submitUrl: https://webrazzi.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startups Lab
+  submitUrl: https://startupslab.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AlphaDigits
+  submitUrl: https://alphadigits.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Abi Logic
+  submitUrl: https://abilogic.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: EZLocal
+  submitUrl: https://ezlocal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Mind the product
+  submitUrl: https://mindtheproduct.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Data Quest
+  submitUrl: https://dataquest.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI With Me
+  submitUrl: https://aiwith.me/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PromoteProject
+  submitUrl: https://promoteproject.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Killer Startups
+  submitUrl: https://killerstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechDirectory
+  submitUrl: https://techdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Godly
+  submitUrl: https://godly.website/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MaxieBestOf
+  submitUrl: https://maxiebestof.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: NextBigWhat
+  submitUrl: https://nextbigwhat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: WP Newsify
+  submitUrl: https://wpnewsify.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Shipybara
+  submitUrl: https://shipybara.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Unite List
+  submitUrl: https://unitelist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AppAgg
+  submitUrl: https://appagg.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Similar Site Search
+  submitUrl: https://similarsitesearch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product School
+  submitUrl: https://productschool.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: StartupLister
+  submitUrl: https://startuplister.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter] [verified dead: HTTP 404]'
+  status: dead
+- name: Changelog
+  submitUrl: https://changelog.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Venture Village
+  submitUrl: https://venturevillage.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Show Me Local
+  submitUrl: https://showmelocal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: findstack
+  submitUrl: https://findstack.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Letter List
+  submitUrl: https://letterlist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DokeyAI
+  submitUrl: https://dokeyai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FoundrList
+  submitUrl: https://foundrlist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: EarlyHunt
+  submitUrl: https://earlyhunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AlterOpen
+  submitUrl: https://alteropen.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Built At Lightspeed
+  submitUrl: https://builtatlightspeed.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch (trylaunch.ai)
+  submitUrl: https://trylaunch.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Makerthrive
+  submitUrl: https://makerthrive.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CoFoundersLab
+  submitUrl: https://cofounderslab.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Appa List
+  submitUrl: https://appalist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: OpenAlternative
+  submitUrl: https://openalternative.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaasHunt
+  submitUrl: https://saashunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Lib Hunt
+  submitUrl: https://libhunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Apps 400
+  submitUrl: https://apps400.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Spectacle
+  submitUrl: https://spectacle.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Appscribed
+  submitUrl: https://appscribed.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DevDojo
+  submitUrl: https://devdojo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Snap Munk
+  submitUrl: https://snapmunk.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Feedough
+  submitUrl: https://feedough.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Techli
+  submitUrl: https://techli.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Huzzler
+  submitUrl: https://huzzler.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Idea Kiln
+  submitUrl: https://ideakiln.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: RankInPublic
+  submitUrl: https://rankinpublic.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Betabound
+  submitUrl: https://betabound.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SelectHub
+  submitUrl: https://selecthub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Commerce Cream
+  submitUrl: https://commercecream.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Dope
+  submitUrl: https://startupdope.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Netted
+  submitUrl: https://netted.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Web App Rater
+  submitUrl: https://webapprater.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Landing Page
+  submitUrl: https://saaslandingpage.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Tech Suite
+  submitUrl: https://aitechsuite.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: devRant
+  submitUrl: https://devrant.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Starter Story
+  submitUrl: https://starterstory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Micro SaaS Examples
+  submitUrl: https://microsaasexamples.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Pinkary
+  submitUrl: https://pinkary.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tech Faster
+  submitUrl: https://techfaster.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Elpha
+  submitUrl: https://elpha.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: eCommerceFuel
+  submitUrl: https://ecommercefuel.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: One Thing Well
+  submitUrl: https://onethingwell.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SoloPush
+  submitUrl: https://solopush.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Thing Testing
+  submitUrl: https://thingtesting.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DoMore.ai
+  submitUrl: https://domore.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Sidebar
+  submitUrl: https://sidebar.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Gadget Nutz
+  submitUrl: https://gadgetnutz.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Fastlane Forum
+  submitUrl: https://fastlaneforum.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Venture Radar
+  submitUrl: https://ventureradar.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Bizzbo
+  submitUrl: https://bizzbo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Landbook
+  submitUrl: https://landbook.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Resource.fyi
+  submitUrl: https://resource.fyi/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startups.fyi
+  submitUrl: https://startups.fyi/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The AI Navigator
+  submitUrl: https://theainavigator.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Techlo Media
+  submitUrl: https://techlomedia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PFolios
+  submitUrl: https://pfolios.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Read.cv
+  submitUrl: https://read.cv/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startupbeat
+  submitUrl: https://startupbeat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BetaTesting
+  submitUrl: https://betatesting.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Proofstories
+  submitUrl: https://proofstories.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Cartcraze
+  submitUrl: https://cartcraze.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Online Geniuses
+  submitUrl: https://onlinegeniuses.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product HQ
+  submitUrl: https://producthq.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TinyLaunchpad
+  submitUrl: https://tinylaunchpad.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Future Startup
+  submitUrl: https://futurestartup.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Bunity
+  submitUrl: https://bunity.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FilterIO
+  submitUrl: https://filterio.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Superb Crew
+  submitUrl: https://superbcrew.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Web3Canvas
+  submitUrl: https://web3canvas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: IIndieHub
+  submitUrl: https://iindiehub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Landingfolio
+  submitUrl: https://landingfolio.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ITQlick
+  submitUrl: https://itqlick.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Frameplate
+  submitUrl: https://frameplate.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: UX Design Weekly
+  submitUrl: https://uxdesignweekly.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Resources
+  submitUrl: https://startupresources.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechTrendin
+  submitUrl: https://techtrendin.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startups.fm
+  submitUrl: https://startups.fm/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Nocode.tech
+  submitUrl: https://nocode.tech/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BAI
+  submitUrl: https://bai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Insane
+  submitUrl: https://insane.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Dead Simple Sites
+  submitUrl: https://deadsimplesites.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Popular Apps
+  submitUrl: https://thepopularapps.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: buildspace
+  submitUrl: https://buildspace.so/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Foundigy
+  submitUrl: https://foundigy.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tech Tools Directory
+  submitUrl: https://techtoolsdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: launch.cab
+  submitUrl: https://launch.cab/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Made with Lovable
+  submitUrl: https://madewithlovable.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Saaspa.ge
+  submitUrl: https://saaspa.ge/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: All GPTs
+  submitUrl: https://allgpts.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Flat Trendz
+  submitUrl: https://flattrendz.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FMHY
+  submitUrl: https://fmhy.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Pitch
+  submitUrl: https://startuppitch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Classical Finance
+  submitUrl: https://classicalfinance.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PublicAPIs.dev
+  submitUrl: https://publicapis.dev/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ShipYardHQ
+  submitUrl: https://shipyardhq.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Admire The Web
+  submitUrl: https://admiretheweb.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: HD Robots
+  submitUrl: https://hdrobots.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: UI Goodies
+  submitUrl: https://uigoodies.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Apps Mamma
+  submitUrl: https://appsmamma.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Women in Technology
+  submitUrl: https://womenintechnology.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Techboard
+  submitUrl: https://techboard.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Stash
+  submitUrl: https://aistash.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup88
+  submitUrl: https://startup88.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: RomanianStartups.com
+  submitUrl: https://romanianstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechBehemoths
+  submitUrl: https://techbehemoths.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Dark
+  submitUrl: https://dark.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startups List
+  submitUrl: https://startupslist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: No Code Founders
+  submitUrl: https://nocodefounders.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Find Your SaaS
+  submitUrl: https://findyoursaas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SubmitHunt
+  submitUrl: https://submithunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tools RobinGood
+  submitUrl: https://toolsrobingood.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Dark Mode Design
+  submitUrl: https://darkmodedesign.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Flat Ui
+  submitUrl: https://flatui.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TYY
+  submitUrl: https://tyy.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Promotehour
+  submitUrl: https://promotehour.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: New Startups
+  submitUrl: https://newstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: EuroAlternative
+  submitUrl: https://euroalternative.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Directory World
+  submitUrl: https://directoryworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Tools Explorer
+  submitUrl: https://aitoolsexplorer.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: iOS Developers
+  submitUrl: https://iosdevelopers.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Growmance
+  submitUrl: https://growmance.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product-Led Alliance
+  submitUrl: https://productledalliance.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Hive Index
+  submitUrl: https://thehiveindex.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Accounting Apps
+  submitUrl: https://aiaccountingapps.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Tool Bus
+  submitUrl: https://thetoolbus.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GenZ VCs
+  submitUrl: https://genzvcs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: aat.ee
+  submitUrl: https://aat.ee/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: List Your Idea
+  submitUrl: https://listyouridea.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Stellar Launch
+  submitUrl: https://stellarlaunch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Alive Directory
+  submitUrl: https://alivedirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AIToolly
+  submitUrl: https://aitoolly.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Techendo
+  submitUrl: https://techendo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Taalk.com
+  submitUrl: https://taalk.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BuiltByIndies
+  submitUrl: https://builtbyindies.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LLM Relevance
+  submitUrl: https://llmrelevance.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ProductLaunchpad
+  submitUrl: https://productlaunchpad.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Neede
+  submitUrl: https://neede.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Design spells
+  submitUrl: https://designspells.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Creative Tribes
+  submitUrl: https://creativetribes.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: founderio
+  submitUrl: https://founderio.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startuptabs
+  submitUrl: https://startuptabs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Worm
+  submitUrl: https://worm.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startups.watch
+  submitUrl: https://startups.watch/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DodoDirectory
+  submitUrl: https://dododirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: HUNT0
+  submitUrl: https://hunt0.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SumoDir
+  submitUrl: https://sumodir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: 9Sites.net
+  submitUrl: https://9sites.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Front-end Developers
+  submitUrl: https://frontenddevelopers.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Directory
+  submitUrl: https://indiedirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Saas Css
+  submitUrl: https://saascss.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Roozna
+  submitUrl: https://roozna.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Awesome AI Tools
+  submitUrl: https://awesomeaitools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Search Engine OF AI
+  submitUrl: https://searchengineofai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AIGO.tools
+  submitUrl: https://aigo.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TipSeason
+  submitUrl: https://tipseason.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Bulletin
+  submitUrl: https://bulletin.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: IndieHackerStacks
+  submitUrl: https://indiehackerstacks.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Best Web Design Tools
+  submitUrl: https://bestwebdesigntools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechLondon
+  submitUrl: https://techlondon.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TOOOLS.design
+  submitUrl: https://toools.design/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hot100.ai
+  submitUrl: https://hot100.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Best Tools
+  submitUrl: https://aibesttools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Educator Tools
+  submitUrl: https://educatortools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Spotlight
+  submitUrl: https://startupspotlight.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: All Mac Apps
+  submitUrl: https://allmacapps.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Boilerplate Hub
+  submitUrl: https://boilerplatehub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Deck Gallery
+  submitUrl: https://deckgallery.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Landing Pages
+  submitUrl: https://landingpages.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: First 100 Users
+  submitUrl: https://first100users.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GPTAcademy
+  submitUrl: https://gptacademy.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Landscape
+  submitUrl: https://landscape.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Unita
+  submitUrl: https://unita.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Owwly
+  submitUrl: https://owwly.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Alternatives.co
+  submitUrl: https://alternatives.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tailkits.com
+  submitUrl: https://tailkits.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Android United
+  submitUrl: https://androidunited.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Startup Project
+  submitUrl: https://startupproject.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Startup INC
+  submitUrl: https://thestartupinc.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ToolList.ai
+  submitUrl: https://toollist.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Productivity Directory
+  submitUrl: https://productivity.directory/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: OSSsoftware.org
+  submitUrl: https://osssoftware.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Remotely One
+  submitUrl: https://remotely.one/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PostMaker
+  submitUrl: https://postmaker.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Postmake
+  submitUrl: https://postmake.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Saassy Board
+  submitUrl: https://saassyboard.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: startuups
+  submitUrl: https://startuups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Apps Mirror
+  submitUrl: https://appsmirror.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Canopy Directory
+  submitUrl: https://canopydirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Lachief.io
+  submitUrl: https://lachief.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AImojo
+  submitUrl: https://aimojo.pro/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Fuse.kiwi
+  submitUrl: https://fuse.kiwi/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Kernal
+  submitUrl: https://kernal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Nocode Devs
+  submitUrl: https://nocodevs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: JustGotFound
+  submitUrl: https://justgotfound.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Made with Bolt
+  submitUrl: https://madewithbolt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SEOUL Startups
+  submitUrl: https://seoulstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AwesomeIndie
+  submitUrl: https://awesomeindie.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Best Top
+  submitUrl: https://aibesttop.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MakerMove
+  submitUrl: https://makermove.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Scout
+  submitUrl: https://toolscout.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Firebase
+  submitUrl: https://firebase.google.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TEXTIFY
+  submitUrl: https://textify.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Search
+  submitUrl: https://ai-search.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MavTools
+  submitUrl: https://mavtools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Igniter AI
+  submitUrl: https://igniterai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Open Startup ListBase
+  submitUrl: https://openstartuplistbase.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Monkey Ai Tools
+  submitUrl: https://monkeyaitools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Awesome
+  submitUrl: https://aiawesome.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Postioo
+  submitUrl: https://postioo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MarsX
+  submitUrl: https://marsx.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ToolsForHumans.ai
+  submitUrl: https://toolsforhumans.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Gpts Hunter
+  submitUrl: https://gptshunter.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Storefront Design
+  submitUrl: https://storefrontdesign.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FoundersList
+  submitUrl: https://founderslist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Insanely cool tools
+  submitUrl: https://insanelycooltools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DailyPings
+  submitUrl: https://dailypings.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Apprater
+  submitUrl: https://apprater.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: WeAreNoCode
+  submitUrl: https://wearenocode.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Europe
+  submitUrl: https://startupeurope.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: 1000 Tools
+  submitUrl: https://1000tools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FeedMyStartup
+  submitUrl: https://feedmystartup.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie London
+  submitUrl: https://indielondon.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI ToolBoard
+  submitUrl: https://aitoolboard.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Apps Thunder
+  submitUrl: https://appsthunder.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Broadwise.org
+  submitUrl: https://broadwise.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Outreach Desk
+  submitUrl: https://outreachdesk.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ToolSalad
+  submitUrl: https://toolsalad.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Webthat
+  submitUrl: https://webthat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Website Hunt
+  submitUrl: https://websitehunt.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Microstartups
+  submitUrl: https://microstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch Vibe
+  submitUrl: https://launchvibe.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Microsoft Dev Chat
+  submitUrl: https://microsoftdevchat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hackers Pad
+  submitUrl: https://hackerspad.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GrowthBoosters
+  submitUrl: https://growthboosters.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Roulette
+  submitUrl: https://startuproulette.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Ultimate ChatGPT Database
+  submitUrl: https://theultimatechatgptdatabase.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Snowball club
+  submitUrl: https://snowballclub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: StartupTile
+  submitUrl: https://startuptile.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MadGenius
+  submitUrl: https://madgenius.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Starticorn
+  submitUrl: https://starticorn.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: NextPedia
+  submitUrl: https://nextpedia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Belkins B2B Sales
+  submitUrl: https://belkins.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Silicon Prairie Tech
+  submitUrl: https://siliconprairietech.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Founderopedia
+  submitUrl: https://founderopedia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: indiehacker.tools
+  submitUrl: https://indiehacker.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launchy.tools
+  submitUrl: https://launchy.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GitHub Showcase
+  submitUrl: https://github.com/showcase
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Stack Overflow
+  submitUrl: https://stackoverflow.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Slack App Directory
+  submitUrl: https://slack.com/apps
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Chrome Web Store
+  submitUrl: https://chrome.google.com/webstore
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Zapier App Directory
+  submitUrl: https://zapier.com/apps
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Wikipedia
+  submitUrl: https://wikipedia.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Open Collective
+  submitUrl: https://opencollective.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Built In
+  submitUrl: https://builtin.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: n8n Integrations
+  submitUrl: https://n8n.io/integrations
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Geekflare Tools
+  submitUrl: https://geekflare.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CrunchBase News
+  submitUrl: https://crunchbase.com/news
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Spotlight by Y Combinator
+  submitUrl: https://spotlight.ycombinator.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BOTW (Best of the Web)
+  submitUrl: https://botw.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Notion Marketplace
+  submitUrl: https://notion.so/marketplace
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Glassdoor
+  submitUrl: https://glassdoor.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MAGNiTT
+  submitUrl: https://magnitt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Goodies
+  submitUrl: https://indiegoodies.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Pipedream Sources
+  submitUrl: https://pipedream.com/sources
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BetaPage
+  submitUrl: https://betapage.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Detailed.com
+  submitUrl: https://detailed.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Viesearch
+  submitUrl: https://viesearch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Make App Directory
+  submitUrl: https://makeappdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Make.rs
+  submitUrl: https://make.rs/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BigStartups
+  submitUrl: https://bigstartups.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: lbbai
+  submitUrl: https://lbbai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: once.tools
+  submitUrl: https://once.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Simple Lister
+  submitUrl: https://simplelister.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Designspiration
+  submitUrl: https://designspiration.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TechRadar Pro
+  submitUrl: https://techradar.co.uk/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hot Scripts
+  submitUrl: https://hotscripts.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Weboworld
+  submitUrl: https://weboworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Link Centre
+  submitUrl: https://linkcentre.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CurateClick
+  submitUrl: https://curateclick.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Family Friendly Sites
+  submitUrl: https://familyfriendlysites.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Steemhunt
+  submitUrl: https://steemhunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Trusted Reviews
+  submitUrl: https://trustedreviews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaSPirate
+  submitUrl: https://saaspirate.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Aithor AI Directory
+  submitUrl: https://aithor.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Owler
+  submitUrl: https://owler.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Magai's AI Library
+  submitUrl: https://magaisailibrary.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Browser
+  submitUrl: https://saasbrowser.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DailyBot AI
+  submitUrl: https://dailybot.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Founderkit
+  submitUrl: https://founderkit.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Callupcontact
+  submitUrl: https://callupcontact.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Secret Search Engine Labs
+  submitUrl: https://secretsearchenginelabs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: That App Show
+  submitUrl: https://thatappshow.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: WeekHack
+  submitUrl: https://weekhack.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startupworld
+  submitUrl: https://startupworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AISuperHub
+  submitUrl: https://aisuperhub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DevPages
+  submitUrl: https://devpages.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Find Cool Tools
+  submitUrl: https://findcooltools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SideProjects.net
+  submitUrl: https://sideprojects.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Ramen.Tools
+  submitUrl: https://ramentools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Founderbeats
+  submitUrl: https://founderbeats.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: IndieMaker
+  submitUrl: https://indiemaker.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Phygital+ AI Library
+  submitUrl: https://library.phygital.plus/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GodOfPrompt AI Tools
+  submitUrl: https://godofprompt.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DirJournal
+  submitUrl: https://dirjournal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DealMirror
+  submitUrl: https://dealmirror.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Jasmine Directory
+  submitUrl: https://jasminedirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Internet Is Beautiful
+  submitUrl: https://internetisbeautiful.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Plerdy Tools
+  submitUrl: https://plerdy.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: EZ WEB Directory
+  submitUrl: https://ezwebdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Worldwide
+  submitUrl: https://indieworldwide.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: NaNAI.tools
+  submitUrl: https://nanai.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaSFame
+  submitUrl: https://saasfame.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: My Launch Stash
+  submitUrl: https://mylaunchstash.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Surf
+  submitUrl: https://saassurf.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Webwiki UK
+  submitUrl: https://webwikioverseas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: All HR Software
+  submitUrl: https://allhrsoftware.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Growth Junkie
+  submitUrl: https://growthjunkie.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: DevHub
+  submitUrl: https://devhub.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ANYFP
+  submitUrl: https://anyfp.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: What Launched Today
+  submitUrl: https://whatlaunched.today/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Sitelike.org
+  submitUrl: https://sitelike.org/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TrustViews
+  submitUrl: https://trustviews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch Directories
+  submitUrl: https://launchdirectories.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ki-suche.io
+  submitUrl: https://ki-suche.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Trustiner
+  submitUrl: https://trustiner.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LaunchClash
+  submitUrl: https://launchclash.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LaunchitX
+  submitUrl: https://launchitx.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Designer News
+  submitUrl: https://designernews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Solo Launches
+  submitUrl: https://sololaunches.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Trendy Startups
+  submitUrl: https://trendystartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: YourFirstApp
+  submitUrl: https://yourfirstapp.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Ash List
+  submitUrl: https://ashlist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The TechMap
+  submitUrl: https://thetechmap.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AIGC 160
+  submitUrl: https://aicg160.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Vessel
+  submitUrl: https://startupvessel.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Web World Index
+  submitUrl: https://webworldindex.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LaunchDay
+  submitUrl: https://launchday.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MedSci AI
+  submitUrl: https://medsciai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Power Up Tools
+  submitUrl: https://poweruptools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PromptZone
+  submitUrl: https://promptzone.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Scout Forge
+  submitUrl: https://scoutforge.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: VerifiedDR
+  submitUrl: https://verifieddr.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Cybo
+  submitUrl: https://cybo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Hack Stack
+  submitUrl: https://thehackstack.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Million Dot Homepage
+  submitUrl: https://milliondothomepage.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: 91wink
+  submitUrl: https://91wink.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: FF2050.AI
+  submitUrl: https://ff2050.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Adsly
+  submitUrl: https://adsly.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Source Dir
+  submitUrl: https://sourcedir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SubmitSaaS
+  submitUrl: https://submitsaas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product Launch
+  submitUrl: https://productlaunch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product Wing
+  submitUrl: https://productwing.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Appsy Tools
+  submitUrl: https://appsytools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Beam Tools
+  submitUrl: https://beamtools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Wheel
+  submitUrl: https://saaswheel.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ShinyLaunch
+  submitUrl: https://shinylaunch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Stack Directory
+  submitUrl: https://stackdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SubmitMatic
+  submitUrl: https://submitmatic.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tools List HQ
+  submitUrl: https://toolslistsq.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Tools Buzz
+  submitUrl: https://aitoolsbuzz.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BRO Directory
+  submitUrl: https://brodirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Dujoor
+  submitUrl: https://dujoor.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Oksaas
+  submitUrl: https://oksaas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Battles
+  submitUrl: https://toolbattles.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BusinessHunt
+  submitUrl: https://businesshunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Solver Tools
+  submitUrl: https://solvertools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Benchmarks
+  submitUrl: https://startupbenchmarks.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tiny Tool Hub
+  submitUrl: https://tinytoolhub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BuiltByMe
+  submitUrl: https://builtbyme.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LaunchYourApp
+  submitUrl: https://launchyourapp.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ProductHubX
+  submitUrl: https://producthubx.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Mega Tools
+  submitUrl: https://themegatools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Journey
+  submitUrl: https://tooljourney.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Top Trend Tools
+  submitUrl: https://toptrendtools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launchpad
+  submitUrl: https://launchpad.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launchtory
+  submitUrl: https://launchtory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Share Fast
+  submitUrl: https://sharefast.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Upvote Spot
+  submitUrl: https://upvotespot.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Betalists
+  submitUrl: https://betalists.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GramBots
+  submitUrl: https://grambots.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product List Dir
+  submitUrl: https://productlistdir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Directory-Free
+  submitUrl: https://directory-free.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: IndieMap
+  submitUrl: https://indiemap.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Field
+  submitUrl: https://saasfield.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TinyHunt
+  submitUrl: https://tinyhunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Urabin
+  submitUrl: https://urabin.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Launch Space
+  submitUrl: https://ailaunchspace.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI X Collection
+  submitUrl: https://aixcollection.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AITACH
+  submitUrl: https://aitach.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Best Tool Vault
+  submitUrl: https://besttoolvault.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hunt for Tools
+  submitUrl: https://huntfortools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Latest AI Updates
+  submitUrl: https://latestaiupdates.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: RaceToShip
+  submitUrl: https://racetoship.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The App Tools
+  submitUrl: https://theapptools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Toshi List
+  submitUrl: https://toshilist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GoodToolOnline
+  submitUrl: https://goodtoolonline.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Launchers
+  submitUrl: https://indielaunchers.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch Scroll
+  submitUrl: https://launchscroll.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: My Start Tools
+  submitUrl: https://mystarttools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ProductFame
+  submitUrl: https://productfame.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Hub Directory
+  submitUrl: https://saashubdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Roots
+  submitUrl: https://saasroots.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Scout
+  submitUrl: https://saasscout.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Tools Dir
+  submitUrl: https://saastoolsdir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Smart Kit Hub
+  submitUrl: https://smartkithub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Software Bolt
+  submitUrl: https://softwarebolt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Super AI Boom
+  submitUrl: https://superboom.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Core Tools
+  submitUrl: https://thecoretools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The Key Tools
+  submitUrl: https://thekeytools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Cosmos
+  submitUrl: https://toolcosmos.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Find Dir
+  submitUrl: https://toolfinddir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Prism
+  submitUrl: https://toolprism.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tool Signal
+  submitUrl: https://toolsignal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tools Under Radar
+  submitUrl: https://toolsunderradar.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Vibe Apps
+  submitUrl: https://vibeapps.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Awesome Landing Page Tools
+  submitUrl: https://awesomelandingpagetools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BizMaker
+  submitUrl: https://bizmaker.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Built Vibing
+  submitUrl: https://builtvibing.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: InventList
+  submitUrl: https://inventlist.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Listd
+  submitUrl: https://listd.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TemplateFame
+  submitUrl: https://templatefame.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Bowora
+  submitUrl: https://bowora.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Builders.to
+  submitUrl: https://builders.to/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: How To Buy SaaS
+  submitUrl: https://howtobuysaas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Index by Dodo Payments
+  submitUrl: https://indexbydodopayments.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Online AI Tools Directory
+  submitUrl: https://onlineaitoolsdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Selected Site
+  submitUrl: https://selectedsite.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TopTools.ai
+  submitUrl: https://toptools.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AiToolHub
+  submitUrl: https://aitoolhub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Site Promotion Directory
+  submitUrl: https://sitedirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: StartupGuys.net
+  submitUrl: https://startupguys.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: YAATD
+  submitUrl: https://yaatd.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Finder Guru
+  submitUrl: https://aifinderguru.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: indiehunt
+  submitUrl: https://indiehunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Tools Ai
+  submitUrl: https://tools-ai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Toplistly
+  submitUrl: https://toplistly.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Demos
+  submitUrl: https://aidemos.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch Vault
+  submitUrl: https://launchvault.dev/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaSCity Map
+  submitUrl: https://saascity.io/map
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: aifeed.dev
+  submitUrl: https://aifeed.dev/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Global Business Directory
+  submitUrl: https://globalbusinessdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Web Design Inspiration
+  submitUrl: https://webdesigninspiration.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GrowDR
+  submitUrl: https://growdr.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch List
+  submitUrl: https://launchlist.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Next Big Product
+  submitUrl: https://nextbigproduct.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: InstantLaun.ch
+  submitUrl: https://instantlaunch.ch/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ShowMySites
+  submitUrl: https://showmysites.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Toolsummary
+  submitUrl: https://toolsummary.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI Directory
+  submitUrl: https://ai-directory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AllYourTech
+  submitUrl: https://allyourtech.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: 108AI
+  submitUrl: https://108ai.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MicroSaaS Directory
+  submitUrl: https://microsaasdirectory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AI SaaS
+  submitUrl: https://ai-saas.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LaunchLog
+  submitUrl: https://launchlog.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: TheFastestWeb
+  submitUrl: https://thefastestweb.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Go Publicly
+  submitUrl: https://gopublicly.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Viberank
+  submitUrl: https://viberank.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AIArt.Tools
+  submitUrl: https://aiart.tools/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: App Launcher
+  submitUrl: https://applauncher.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: IndieTools
+  submitUrl: https://indietools.app/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hunt Startup
+  submitUrl: https://huntstartup.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Hacker Projects
+  submitUrl: https://indiehackerprojects.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: OpenUpvote
+  submitUrl: https://openupvote.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: aier.im
+  submitUrl: https://aier.im/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Daily Tools
+  submitUrl: https://dailytools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Launch.community
+  submitUrl: https://launch.community/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: CurlShip
+  submitUrl: https://curlship.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: NavGood
+  submitUrl: https://navgood.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Rank Anything
+  submitUrl: https://rankanything.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Radius
+  submitUrl: https://saasradius.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PaveLaunch
+  submitUrl: https://pavelaunch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: ShipBoost
+  submitUrl: https://shipboost.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Entrepreneur's Network
+  submitUrl: https://entrepreneursnetwork.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Affiliate Watch
+  submitUrl: https://affiliatewatch.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: AIDir Wiki
+  submitUrl: https://aidir.wiki/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: BotsFloor
+  submitUrl: https://botsfloor.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Dan Recommends
+  submitUrl: https://danrecommends.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: GPTStore
+  submitUrl: https://gptstore.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Hack the Prompt
+  submitUrl: https://hacktheprompt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Indie Products
+  submitUrl: https://indieproducts.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: KEN Moo
+  submitUrl: https://kenmoo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: LTD Hunt
+  submitUrl: https://ltdhunt.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Look AI Tools
+  submitUrl: https://lookaitools.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: MakerPad
+  submitUrl: https://makerpad.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: PayOnceUseForever
+  submitUrl: https://payonceuseforever.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Prime Club
+  submitUrl: https://primeclub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Product Canyon
+  submitUrl: https://productcanyon.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Reviano
+  submitUrl: https://reviano.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: RocketHub
+  submitUrl: https://rockethub.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Gallery
+  submitUrl: https://saasgallery.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaS Warrior
+  submitUrl: https://saaswarrior.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SaaSZilla
+  submitUrl: https://saaszilla.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: SEO Wins
+  submitUrl: https://seowins.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Slocco
+  submitUrl: https://slocco.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Stacker News
+  submitUrl: https://stackernews.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Heroes
+  submitUrl: https://startupheroes.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Sustainability Softwares
+  submitUrl: https://sustainabilitysoftwares.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: That AI Collection
+  submitUrl: https://thataicollection.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: The AI Generation
+  submitUrl: https://theaigeneration.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Waild World
+  submitUrl: https://waildworld.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Wavel
+  submitUrl: https://wavel.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Chat
+  submitUrl: https://startupchat.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Band of Entrepreneurs
+  submitUrl: https://bandofentrepreneurs.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Startup Specialists Group
+  submitUrl: https://startupspecialistsgroup.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Executive Suite
+  submitUrl: https://executivesuite.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: On Startups
+  submitUrl: https://onstartups.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchigniter]'
+- name: Buildlist
+  submitUrl: https://buildlist.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Wellfound
+  submitUrl: https://wellfound.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Crozdesk
+  submitUrl: https://crozdesk.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Software Select
+  submitUrl: https://software-select.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: ConfettiSaaS
+  submitUrl: https://confettisaas.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: PAT Research
+  submitUrl: https://patresearch.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Siftery
+  submitUrl: https://siftery.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Appvizer
+  submitUrl: https://appvizer.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: MarTech Alliance
+  submitUrl: https://martechalliance.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: ChiefMartec
+  submitUrl: https://chiefmartec.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Slackapps.io
+  submitUrl: https://slackapps.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Notion Integrations
+  submitUrl: https://notionintegrations.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: DevHunt
+  submitUrl: https://devhunt.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Tooling.io
+  submitUrl: https://tooling.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: StartupBuffer
+  submitUrl: https://startupbuffer.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: StartupBase
+  submitUrl: https://startupbase.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Launched
+  submitUrl: https://launched.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dev.to/getintel]'
+- name: Launchlist
+  submitUrl: https://launchlist.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: GetListed.ai
+  submitUrl: https://getlisted.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: Priceof.ai
+  submitUrl: https://priceof.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: MicroSaaS.io
+  submitUrl: https://microsaas.io
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: Linkbazaar
+  submitUrl: https://linkbazaar.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: Serchen
+  submitUrl: https://serchen.co
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: Slashdot
+  submitUrl: https://slashdot.org
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: List Bulb
+  submitUrl: https://listbulb.com
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from listbulb]'
+- name: AI AppReview
+  submitUrl: https://ai-appreview.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AI Nav
+  submitUrl: https://ai-nav.net/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AI ToolFlow
+  submitUrl: https://ai-toolflow.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AIDreamHub
+  submitUrl: https://aidreamhub.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AIDust
+  submitUrl: https://aidust.io/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AIKaptan
+  submitUrl: https://aikaptan.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AIToolsA2Z
+  submitUrl: https://aitoolsa2z.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AIToolsDirectoryList
+  submitUrl: https://aitoolsdirectorylist.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AIToolsPrime
+  submitUrl: https://aitoolsprime.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AllAIWebsite
+  submitUrl: https://allaiwebsite.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: Directories (BestAITools)
+  submitUrl: https://directories.bestaitools.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: How2AITools
+  submitUrl: https://how2aitools.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: TheToolify
+  submitUrl: https://thetoolify.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: ToolPlateAI
+  submitUrl: https://toolplateai.io/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: TopAIDirectories
+  submitUrl: https://topaidirectories.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: TopFreeAITools
+  submitUrl: https://topfreeaitools.com/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from appscribed.com]'
+- name: AiToolsObserver
+  submitUrl: https://aitoolsobserver.com/submit/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
 general:
+- name: PAT Research
+  submitUrl: https://www.patresearch.com/submit-software/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: Finances Online
+  submitUrl: https://www.financesonline.com/add-product/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: Software Suggest
+  submitUrl: https://www.softwaresuggest.com/add-product
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: MarTech Alliance
+  submitUrl: https://www.martechalliance.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: Sales Hacker
+  submitUrl: https://saleshacker.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: Notion Integrations
+  submitUrl: https://www.notion.so/integrations
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: Startup Collections
+  submitUrl: https://startupcollections.com/submit-product/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from getintel]'
+- name: Toolradar
+  submitUrl: https://toolradar.com/add-tool
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from toolradar]'
+- name: Software Advice
+  submitUrl: https://www.softwareadvice.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from toolradar]'
+- name: Lobsters
+  submitUrl: https://lobste.rs/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from toolradar]'
+- name: Tolodora
+  submitUrl: https://tolodora.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from tolodora]'
+- name: Startup Fame
+  submitUrl: https://www.startupfame.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from scrolllaunch]'
+- name: BaseList
+  submitUrl: https://baselist.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from tolodora]'
+- name: SaaS Genius
+  submitUrl: https://saasgenius.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: SaaS Mag
+  submitUrl: https://saasmag.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saasconsult]'
+- name: FoundrList
+  submitUrl: https://foundrlist.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: SaaSBison
+  submitUrl: https://saasbison.com/
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: GetSaaS
+  submitUrl: https://getsaas.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: SaaSBay
+  submitUrl: https://saasbay.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: SaaSFinder
+  submitUrl: https://saasfinder.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: SaaSMantra
+  submitUrl: https://saasmantra.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: Hackernoon
+  submitUrl: https://hackernoon.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: Product Hunt Ship
+  submitUrl: https://www.producthunt.com/ship
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: AI Depot
+  submitUrl: https://aidepot.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: SaaSLineup
+  submitUrl: https://saaslineup.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: IndieLineup
+  submitUrl: https://indielineup.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: TheMicroSaaSDir
+  submitUrl: https://themicrosaasdir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: TheAIToolsDir
+  submitUrl: https://theaitoolsdir.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: SaaSCity
+  submitUrl: https://saascity.io/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: TinyLaunch
+  submitUrl: https://www.tinylaunch.com/dashboard/startups/new
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thesaasdir]'
+- name: Smol Launch
+  submitUrl: https://smollaunch.com/dashboard/products/new
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from smollaunch]'
 - name: AlternativeTo
   submitUrl: https://alternativeto.net/faq/
   type: form
@@ -2257,11 +7186,6 @@ general:
   lang: en
   notes: 403 as of 2026-03
   status: dead
-- name: Startup Collections
-  submitUrl: https://startupcollections.com/submit-product/
-  type: form
-  auto: 'yes'
-  lang: en
 - name: StartupRanking
   submitUrl: https://www.startupranking.com/
   type: form
@@ -2315,15 +7239,15 @@ general:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: Unloc
   submitUrl: https://www.unloc.tools/submit-tool
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: Wewaat
   submitUrl: https://www.wewaat.com/submitnewtool
   type: form
@@ -2336,8 +7260,8 @@ general:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: No Code Family
   submitUrl: https://nocodefamily.com/submit-tool
   type: form
@@ -2369,8 +7293,8 @@ general:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: WebsiteHunt
   submitUrl: https://www.websitehunt.co/
   type: form
@@ -2450,8 +7374,8 @@ general:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: once.tools
   submitUrl: https://once.tools/
   type: form
@@ -2523,8 +7447,7 @@ general:
   type: form
   auto: manual
   lang: en
-  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
-  status: dead
+  notes: '[from best-of-ai]'
 - name: FastLaunch
   submitUrl: https://fastlaunch.io/
   type: form
@@ -2536,8 +7459,7 @@ general:
   type: form
   auto: manual
   lang: en
-  notes: '[from best-of-ai] [verified dead: DNS resolution failed]'
-  status: dead
+  notes: '[from best-of-ai]'
 - name: Makerlist.io
   submitUrl: https://makerlist.io
   type: form
@@ -2555,8 +7477,7 @@ general:
   type: form
   auto: manual
   lang: en
-  notes: '[from best-of-ai] [verified dead: connection refused]'
-  status: dead
+  notes: '[from best-of-ai]'
 - name: Stackviv
   submitUrl: https://stackviv.ai/
   type: form
@@ -2580,8 +7501,7 @@ general:
   type: form
   auto: manual
   lang: en
-  notes: '[from best-of-ai] [verified dead: timeout]'
-  status: dead
+  notes: '[from best-of-ai]'
 - name: slideshare.net
   submitUrl: https://www.slideshare.net/upload
   type: sign in
@@ -2615,6 +7535,95 @@ startup:
   lang: en
   notes: 404 as of 2026-03
   status: dead
+- name: The Wall Street Journal
+  submitUrl: https://www.wsj.com/
+  type: media
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 93
+- name: Inc. Magazine
+  submitUrl: https://www.inc.com/
+  type: media
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 91
+- name: G2
+  submitUrl: http://g2.com/products/new
+  type: directory
+  auto: true
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 80
+- name: Similar Sites
+  submitUrl: http://www.similarsites.com/
+  type: review
+  auto: true
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 68
+- name: We Work Remotely
+  submitUrl: https://weworkremotely.com/
+  type: jobs
+  auto: true
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 65
+- name: Tech directory
+  submitUrl: http://techdirectory.io/get-listed
+  type: directory
+  auto: true
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 55
+- name: SaaS Hub
+  submitUrl: https://saashub.com/
+  type: directory
+  auto: true
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 40
+- name: The Best Startup Newsletters for Founders AND Investors
+  submitUrl: https://smash.vc/startup-newsletter/
+  type: newsletter
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 40
+- name: Tech Pluto
+  submitUrl: https://techpluto.com/
+  type: media
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 40
+  status: dead
+- name: Tidy Repo
+  submitUrl: https://tidyrepo.com/
+  type: review
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 59
+- name: Submit A Startup (TechPanda)
+  submitUrl: http://thetechpanda.com/submit-a-startup/
+  type: media
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 37
 - name: Webwiki
   submitUrl: https://www.webwiki.com/info/add-website.html
   type: form
@@ -2749,7 +7758,7 @@ startup:
   type: form
   auto: 'no'
   lang: en
-  notes: '500 as of 2026-03 [server error: HTTP 500 — verify]'
+  notes: 500 as of 2026-03
   status: dead
 - name: TXTLinks
   submitUrl: https://www.txtlinks.com/sug_url.php?cat_id=0
@@ -2766,8 +7775,8 @@ startup:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 404]'
+  status: dead
 - name: Quality Internet Directory
   submitUrl: https://www.qualityinternetdirectory.com/submit.php
   type: form
@@ -2788,8 +7797,8 @@ startup:
   type: form
   auto: 'yes'
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 404]'
+  status: dead
 - name: Submit.biz
   submitUrl: https://www.submit.biz/
   type: form
@@ -3500,6 +8509,27 @@ startup:
   notes: '[from awesome-saas-directories]'
   status: active
   dr: 68
+- name: LaunchLeague
+  submitUrl: https://launchleague.xyz/?product=yaps
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from yaps.ai/compare footer]'
+  status: active
+- name: BoostDomainRating
+  submitUrl: https://boostdomainrating.com/item/www.yaps.ai
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from yaps.ai/compare footer]'
+  status: active
+- name: NickLaunches
+  submitUrl: https://nicklaunches.com/products/yaps/?utm_source=yaps.ai&utm_medium=badge&utm_campaign=featured
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from yaps.ai/compare footer]'
+  status: active
 - name: FutureStack
   submitUrl: https://www.usefuturestack.com/submit?utm_source=launchdb.vercel.app&via=launchdb
   type: form
@@ -4661,7 +9691,7 @@ startup:
   type: form
   auto: manual
   lang: en
-  notes: '[from startup-launch-list] [verified dead: HTTP 404]'
+  notes: '[from launchigniter] [verified dead: HTTP 404]'
   status: dead
 - name: EuroAlternative
   submitUrl: https://euroalternative.co
@@ -5021,7 +10051,7 @@ startup:
   type: form
   auto: manual
   lang: en
-  notes: '[from startup-launch-list] [server error: HTTP 526 — verify]'
+  notes: '[from startup-launch-list]'
 - name: Indie Hustles
   submitUrl: https://indiehustles.com
   type: form
@@ -5506,7 +10536,7 @@ startup:
   type: form
   auto: manual
   lang: en
-  notes: '[from startup-launch-list] [server error: HTTP 500 — verify]'
+  notes: '[from startup-launch-list]'
 - name: Sumodir
   submitUrl: https://sumodir.com
   type: form
@@ -6501,7 +11531,7 @@ startup:
   type: free
   auto: manual
   lang: en
-  notes: '[from submitdir-startup] [server error: HTTP 402 — verify]'
+  notes: '[from submitdir-startup]'
   status: active
 - name: localbusinesslisting.org
   submitUrl: https://www.localbusinesslisting.org/add-listing
@@ -6536,8 +11566,8 @@ ai-zh:
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: connection refused]'
+  status: dead
 - name: AIHub
   submitUrl: https://www.aihub.cn/write
   type: form
@@ -6561,22 +11591,22 @@ ai-zh:
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: AI智式
   submitUrl: https://aiwaytools.com/%e7%bd%91%e5%9d%80%e6%8f%90%e4%ba%a4/
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: AI工具箱 (aitool123)
   submitUrl: https://www.aitool123.cc/%E6%8F%90%E4%BA%A4%E6%94%B6%E5%BD%95/
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: connection refused]'
+  status: dead
 - name: 工具达人AI导航
   submitUrl: http://toolsdar.mikecrm.com/nix44in
   type: form
@@ -6604,15 +11634,15 @@ ai-zh:
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: connection refused]'
+  status: dead
 - name: 南城FE AI导航
   submitUrl: https://nancheng.fun/contribute
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: connection refused]'
+  status: dead
 - name: zhexieai
   submitUrl: https://zhexieai.com/%e6%8f%90%e4%ba%a4%e7%bd%91%e5%9d%80
   type: form
@@ -6633,15 +11663,15 @@ ai-zh:
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: DNS resolution failed]'
+  status: dead
 - name: 123AI导航
   submitUrl: https://www.fsl123.com/contribute
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: AI导航猫
   submitUrl: https://www.h1z1tmc.com/submit
   type: form
@@ -6685,8 +11715,8 @@ ai-zh:
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: 牛牛导航
   submitUrl: https://aoh.cc/contribute
   type: form
@@ -6769,8 +11799,8 @@ general-zh:
   type: form
   auto: 'yes'
   lang: zh
-  status: dead
   notes: '[verified dead: timeout]'
+  status: dead
 - name: Solo 社区
   submitUrl: https://solo.xin/product
   type: form
@@ -6816,7 +11846,6 @@ general-zh:
   auto: 'yes'
   lang: zh
   notes: Fun/quirky web apps only
-community:
 - name: Show HN (Hacker News)
   submitUrl: https://news.ycombinator.com/submit
   type: article
@@ -6855,8 +11884,102 @@ community:
   type: article
   auto: manual
   lang: en
-  status: dead
   notes: '[verified dead: HTTP 410]'
+  status: dead
+- name: HackerNoon
+  submitUrl: https://hackernoon.com/
+  type: article
+  auto: manual
+  lang: en
+- name: 即刻
+  submitUrl: https://web.okjike.com/
+  type: article
+  auto: manual
+  lang: zh
+  notes: Best Chinese indie community
+- name: V2EX
+  submitUrl: https://www.v2ex.com/go/create
+  type: article
+  auto: manual
+  lang: zh
+- name: W2solo
+  submitUrl: https://w2solo.com/topics/newproduct
+  type: article
+  auto: manual
+  lang: zh
+- name: 掘金
+  submitUrl: https://juejin.cn/
+  type: article
+  auto: manual
+  lang: zh
+- name: HelloGitHub
+  submitUrl: https://hellogithub.com/
+  type: listing
+  auto: manual
+  lang: zh
+community:
+- name: Startup Digest (Techstars)
+  submitUrl: https://www.techstars.com/communities/startup-digest
+  type: community
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 76
+- name: People Ops & HR Community
+  submitUrl: https://lattice.com/community/rfh
+  type: community
+  auto: manual
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: false
+  dr: 58
+- name: Buffer apps
+  submitUrl: https://www.bufferapps.com/
+  type: directory
+  auto: true
+  lang: en
+  notes: '[from codersera.com]'
+  dofollow: true
+  dr: 43
+- name: Show HN (Hacker News)
+  submitUrl: https://news.ycombinator.com/submit
+  type: article
+  auto: manual
+  lang: en
+  notes: High value, needs genuine engagement
+- name: Product Hunt
+  submitUrl: https://www.producthunt.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Anti-bot, manual only
+- name: Dev Hunt
+  submitUrl: https://devhunt.org/
+  type: listing
+  auto: manual
+  lang: en
+- name: Uneed
+  submitUrl: https://www.uneed.best/promote-your-tool
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Free but queued
+- name: Indie Hackers
+  submitUrl: https://www.indiehackers.com/products
+  type: listing
+  auto: manual
+  lang: en
+- name: dev.to
+  submitUrl: https://dev.to/
+  type: article
+  auto: manual
+  lang: en
+- name: Hashnode
+  submitUrl: https://hashnode.com/discussions
+  type: article
+  auto: manual
+  lang: en
 - name: HackerNoon
   submitUrl: https://hackernoon.com/
   type: article
@@ -7173,3 +12296,1396 @@ travel:
   dofollow: true
   dr: 81
   status: dead
+- name: LaunchBoosts
+  submitUrl: https://launchboosts.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from launchboosts.com]'
+- name: RevAvenues
+  submitUrl: https://revavenues.ai/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from revavenues.ai]'
+- name: PRLog
+  submitUrl: https://www.prlog.org/submit-free-press-release.html
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Free press release submission'
+  dofollow: true
+  dr: 76
+- name: Storeboard
+  submitUrl: https://www.storeboard.com/sign-up
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Business directory & social platform'
+  dofollow: true
+  dr: 64
+- name: Ebusinesspages
+  submitUrl: https://ebusinesspages.com/AddCompany.aspx
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] USA business directory'
+  dofollow: true
+  dr: 56
+- name: Entireweb
+  submitUrl: https://www.entireweb.com/free_submission/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Free search engine submission'
+  dofollow: true
+  dr: 51
+- name: Salespider
+  submitUrl: https://www.salespider.com/free-classified-ads.html
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Free classified ads & business directory'
+  dofollow: true
+  dr: 51
+- name: ExportersIndia
+  submitUrl: https://www.exportersindia.com/register-business-online
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] B2B marketplace & exporters directory'
+  dofollow: true
+  dr: 56
+- name: PRSync
+  submitUrl: http://prsync.com/submit-press-release/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Press release distribution'
+  dofollow: true
+  dr: 56
+- name: SubmitExpress
+  submitUrl: https://www.submitexpress.com/free-tools/free-website-submission/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Free website submission tool'
+  dofollow: true
+  dr: 53
+- name: SupportBlackOwned
+  submitUrl: https://www.supportblackowned.com/pricing
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Black-owned business directory'
+  dofollow: true
+  dr: 48
+- name: Place123
+  submitUrl: http://de.place123.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] International business directory'
+  dofollow: true
+  dr: 47
+- name: Travelful
+  submitUrl: https://travelful.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Travel directory & booking'
+  dofollow: true
+  dr: 47
+- name: ClickIndia
+  submitUrl: https://www.clickindia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Indian classifieds & business directory'
+  dofollow: true
+  dr: 47
+- name: A Greater Town
+  submitUrl: https://agreatertown.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Local business directory'
+  dofollow: true
+  dr: 46
+- name: WhoDoYou
+  submitUrl: https://www.whodoyou.com/faq.html
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Business review & recommendation platform'
+  dofollow: true
+  dr: 45
+- name: Bloggernity
+  submitUrl: http://www.bloggernity.com/ck.php?a=r23a
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Blog directory'
+  dofollow: true
+  dr: 43
+- name: IndiaCom
+  submitUrl: https://www.indiacom.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Indian business directory & GMB services'
+  dofollow: true
+  dr: 55
+- name: iGlobal
+  submitUrl: https://www.iglobal.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Global business directory (61 countries)'
+  dofollow: true
+  dr: 43
+- name: AskLaila
+  submitUrl: https://www.asklaila.com/addlisting/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Indian local business directory'
+  dofollow: true
+  dr: 43
+- name: GoLocal247
+  submitUrl: https://www.golocal247.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] US local business directory & yellow pages'
+  dofollow: true
+  dr: 43
+- name: BusinessListingPlus
+  submitUrl: https://businesslistingplus.com/business-listings/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Business listing directory'
+  dofollow: true
+  dr: 42
+- name: Opendi
+  submitUrl: https://www.opendi.us/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] International business directory (36 countries)'
+  dofollow: true
+  dr: 40
+- name: JustLanded
+  submitUrl: https://www.justlanded.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Expatriate & international business directory'
+  dofollow: true
+  dr: 75
+- name: Lacartes
+  submitUrl: https://lacartes.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Social business directory & marketplace'
+  dofollow: true
+  dr: 58
+- name: TheTopTens
+  submitUrl: https://thetoptens.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Top lists directory'
+  dofollow: true
+  dr: 67
+- name: ReviewCentre
+  submitUrl: https://www.reviewcentre.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Consumer reviews directory'
+  dofollow: true
+  dr: 63
+- name: DirectoryEmpire
+  submitUrl: https://directoryempire.info/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Web directory'
+  dofollow: true
+  dr: 62
+- name: TKSEO
+  submitUrl: https://tkseo.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] SEO directory'
+  dofollow: true
+  dr: 59
+- name: Tupalo
+  submitUrl: https://tupalo.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Local business directory'
+  dofollow: true
+  dr: 58
+- name: GlobalCatalog
+  submitUrl: https://www.globalcatalog.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] B2B market intelligence & directory'
+  dofollow: true
+  dr: 50
+- name: Alive Directory
+  submitUrl: https://alive-directory.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Web directory'
+  dofollow: true
+  dr: 42
+- name: USCity
+  submitUrl: https://uscity.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] US city directory'
+  dofollow: true
+  dr: 42
+- name: ForLocations
+  submitUrl: https://www.forlocations.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Location-based business directory'
+  dofollow: true
+  dr: 41
+- name: CGMIMM
+  submitUrl: https://cgmimm.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Business directory'
+  dofollow: true
+  dr: 41
+- name: Go4WorldBusiness
+  submitUrl: https://go4worldbusiness.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] B2B marketplace'
+  dofollow: true
+  dr: 41
+- name: LocalPages
+  submitUrl: https://www.localpages.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Local business directory'
+  dofollow: true
+  dr: 40
+- name: Fyple
+  submitUrl: https://www.fyple.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Business directory'
+  dofollow: true
+  dr: 40
+- name: Bubble
+  submitUrl: https://bubble.ro/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Romanian web directory'
+  dofollow: true
+  dr: 40
+- name: Directory Critic
+  submitUrl: https://www.directorycritic.com/add-enterdetails.html
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Directory of directories (webmaster sites)'
+  dofollow: true
+  dr: 59
+- name: OurDirectory
+  submitUrl: https://ourdirectory.info/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from futuregenapps.com] Web directory'
+  dofollow: true
+  dr: 63
+- name: JoeAnt
+  submitUrl: https://www.joeant.com/suggest.html
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Human-edited web directory (free with editor account)'
+  dofollow: true
+  dr: 70
+- name: Manta
+  submitUrl: https://www.manta.com/business-listings/add-your-company
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] US small business directory'
+  dofollow: true
+  dr: 80
+- name: Cylex US
+  submitUrl: https://www.cylex.us.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Local business directory (register to add listing)'
+  dofollow: true
+  dr: 71
+- name: Ezilon
+  submitUrl: https://www.ezilon.com/general_url_submission.htm
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Regional web directory with worldwide categories'
+  dofollow: true
+  dr: 65
+- name: Gimpsy
+  submitUrl: https://gimpsy.com/plan
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Interactive sites directory (free + paid options)'
+  dofollow: true
+  dr: 60
+- name: Skaffe
+  submitUrl: https://www.skaffe.com/info/addurl.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Local and regional website directory'
+  dofollow: true
+  dr: 54
+- name: JustDial
+  submitUrl: https://www.justdial.com/FreeListing
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] India largest local business directory'
+  dofollow: true
+  dr: 70
+- name: Sulekha
+  submitUrl: https://www.sulekha.com/list-your-business
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] India local services marketplace'
+  dofollow: true
+  dr: 60
+- name: TradeIndia
+  submitUrl: https://www.tradeindia.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] India B2B marketplace and directory'
+  dofollow: true
+  dr: 65
+- name: Grotal
+  submitUrl: https://www.grotal.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] India local business directory'
+  dofollow: true
+  dr: 45
+- name: Bizcommunity
+  submitUrl: https://www.bizcommunity.com/ListCompany.aspx
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Africa B2B directory and business news'
+  dofollow: true
+  dr: 62
+- name: Dial4Trade
+  submitUrl: https://www.dial4trade.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] India B2B trade directory'
+  dofollow: true
+  dr: 45
+- name: BizHWY
+  submitUrl: https://www.bizhwy.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Business directory'
+  dofollow: true
+  dr: 42
+- name: AppFutura
+  submitUrl: https://www.appfutura.com/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Software and app directory'
+  dofollow: true
+  dr: 58
+- name: TopDevelopers
+  submitUrl: https://www.topdevelopers.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saalinko.com] Software development company directory'
+  dofollow: true
+  dr: 55
+- name: USA Listing Directory
+  submitUrl: https://www.usalistingdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from thewebhospitality.com] USA regional web directory'
+  dofollow: true
+  dr: 31
+- name: iBegin
+  submitUrl: https://www.ibegin.com/business-center/submit/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from traffictail.com] Local search and business directory'
+  dofollow: true
+  dr: 52
+- name: Find Us Here
+  submitUrl: https://www.find-us-here.com/listing.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from traffictail.com] Free business directory'
+  dofollow: true
+  dr: 47
+- name: Blog Flux
+  submitUrl: https://www.blogflux.com/user.php?action=addblog
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from traffictail.com] Blog directory'
+  dofollow: true
+  dr: 50
+- name: Chamber of Commerce
+  submitUrl: https://www.chamberofcommerce.com/members/add-business
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from traffictail.com] Online business community directory'
+  dofollow: true
+  dr: 60
+- name: Shno
+  submitUrl: https://tally.so/r/3xMxZ9
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from traffictail.com] AI and no-code startup tools directory'
+  dofollow: true
+  dr: 34
+- name: Information Crawler
+  submitUrl: https://www.informationcrawler.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] High DA web directory'
+  dofollow: true
+  dr: 92
+- name: Directory World
+  submitUrl: https://www.directoryworld.net/index.php?a=0
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] Human edited web directory'
+  dofollow: true
+  dr: 61
+- name: ScrubTheWeb
+  submitUrl: https://www.scrubtheweb.com/addurl.html
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] Business web directory'
+  dofollow: true
+  dr: 72
+- name: Add Free Web Directory
+  submitUrl: https://www.addfreewebdirectory.com/profile.php?mode=register
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] Free web directory with registration'
+  dofollow: true
+  dr: 66
+- name: ClickSor Directory
+  submitUrl: https://www.clicksordirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] General web directory'
+  dofollow: true
+  dr: 51
+- name: Ups Directory
+  submitUrl: https://upsdirectory.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] General web directory'
+  dofollow: true
+  dr: 51
+- name: Sutra Directory
+  submitUrl: https://www.sutradirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] Web directory for online services'
+  dofollow: true
+  dr: 47
+- name: DirectoryFire
+  submitUrl: https://directoryfire.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from webmetools.com] Emerging sites directory'
+  dofollow: true
+  dr: 46
+- name: aWeb List
+  submitUrl: https://aweblist.org/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] High DA web directory'
+  dofollow: true
+  dr: 50
+- name: Activ Directory
+  submitUrl: https://activdirectory.net/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] General web directory'
+  dofollow: true
+  dr: 38
+- name: QuickLinks.Net
+  submitUrl: https://quicklinks.net/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] Quick links directory'
+  dofollow: true
+  dr: 41
+- name: MedicalHealthSites
+  submitUrl: https://www.medicalhealthsites.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] Medical and health niche directory'
+  dofollow: true
+  dr: 46
+- name: Web Directory Phil
+  submitUrl: https://webdirectoryphil.com/submit-rss-feed-ev-web-publishing/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] EV web directory'
+  dofollow: true
+  dr: 41
+- name: AbiCloud
+  submitUrl: https://abicloud.org/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] General web directory'
+  dofollow: true
+  dr: 41
+- name: Sergiu Business Directory
+  submitUrl: http://www.sergiuungureanu.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from dsom.in] Niche business directory'
+  dofollow: true
+  dr: 40
+- name: Launching Next
+  submitUrl: https://www.launchingnext.com/submit/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Startup launch platform'
+  dofollow: true
+  dr: 30
+- name: Fazier
+  submitUrl: https://fazier.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Daily ranking launch platform'
+  dofollow: true
+  dr: 30
+- name: Uneed
+  submitUrl: https://www.uneed.best/promote-your-tool
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Curated tool directory'
+  dofollow: true
+  dr: 40
+- name: OpenHunts
+  submitUrl: https://openhunts.com/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Indie-maker friendly launch platform'
+  dofollow: true
+  dr: 25
+- name: PeerPush
+  submitUrl: https://peerpush.net/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Launch platform'
+  dofollow: true
+  dr: 25
+- name: GetByte
+  submitUrl: https://www.getbyte.tech/listing/email-check
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Lightweight listing + promotional support'
+  dofollow: true
+  dr: 20
+- name: Tiny Launch
+  submitUrl: https://www.tinylaunch.com/dashboard/startups/new
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Lightweight, fast approval launch platform'
+  dofollow: true
+  dr: 20
+- name: PitchWall
+  submitUrl: https://pitchwall.co/
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Indie-hacker friendly launch platform'
+  dofollow: true
+  dr: 25
+- name: Firsto
+  submitUrl: https://firsto.co/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiuxplayground.com] Sustained discovery platform'
+  dofollow: true
+  dr: 25
+- name: Best AI Brands
+  submitUrl: https://bestaibrands.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiso.blog] Curated AI tools directory, $5 coffee for no-follow + $35
+    for do-follow'
+  dofollow: true
+  dr: 30
+- name: ProductCool
+  submitUrl: https://www.productcool.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from aiso.blog] Directory for innovative tools, 24-48h approval'
+  dofollow: true
+  dr: 25
+- name: FreeAdsTime
+  submitUrl: https://www.freeadstime.org/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 37, general web directory'
+  dofollow: true
+  dr: 37
+- name: HDV Connect
+  submitUrl: https://www.hdvconnect.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 34, general web directory'
+  dofollow: true
+  dr: 34
+- name: MasterMoz
+  submitUrl: https://www.mastermoz.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 31, general web directory'
+  dofollow: true
+  dr: 31
+- name: Elly's Directory
+  submitUrl: https://www.ellysdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 32, general web directory'
+  dofollow: true
+  dr: 32
+- name: A1 Web Directory
+  submitUrl: http://www.a1webdirectory.org/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 28, general web directory'
+  dofollow: true
+  dr: 28
+- name: ALIST Directory
+  submitUrl: http://www.alistdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 31, general web directory'
+  dofollow: true
+  dr: 31
+- name: WL Directory
+  submitUrl: http://wldirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 27, general web directory'
+  dofollow: true
+  dr: 27
+- name: AlistSites
+  submitUrl: http://www.alistsites.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 23, general web directory'
+  dofollow: true
+  dr: 23
+- name: GiganticList
+  submitUrl: https://www.giganticlist.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 29, general web directory'
+  dofollow: true
+  dr: 29
+- name: BusyBits
+  submitUrl: https://www.busybits.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 27, general web directory'
+  dofollow: true
+  dr: 27
+- name: EliteSitesDirectory
+  submitUrl: https://www.elitesitesdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 27, general web directory'
+  dofollow: true
+  dr: 27
+- name: IntelSeek
+  submitUrl: https://www.intelseek.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 25, general web directory'
+  dofollow: true
+  dr: 25
+- name: FreeTopRankDirectory
+  submitUrl: https://www.freetoprankdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 25, general web directory'
+  dofollow: true
+  dr: 25
+- name: Jewana
+  submitUrl: https://www.jewana.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 25, general web directory'
+  dofollow: true
+  dr: 25
+- name: MomsDirectory
+  submitUrl: https://www.momsdirectory.net/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 25, general web directory'
+  dofollow: true
+  dr: 25
+- name: FreeDirectorySubmit
+  submitUrl: https://www.freedirectorysubmit.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 27, general web directory'
+  dofollow: true
+  dr: 27
+- name: PakRanks
+  submitUrl: https://www.pakranks.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 27, general web directory'
+  dofollow: true
+  dr: 27
+- name: 1WebsDirectory
+  submitUrl: https://www.1websdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 29, general web directory'
+  dofollow: true
+  dr: 29
+- name: LinkAddURL
+  submitUrl: https://www.linkaddurl.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 26, general web directory'
+  dofollow: true
+  dr: 26
+- name: Fat64
+  submitUrl: https://www.fat64.net/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 26, general web directory'
+  dofollow: true
+  dr: 26
+- name: FiveStarsCenter
+  submitUrl: https://www.fivestarscenter.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 26, general web directory'
+  dofollow: true
+  dr: 26
+- name: WallClassifieds
+  submitUrl: https://www.wallclassifieds.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 27, general web directory'
+  dofollow: true
+  dr: 27
+- name: H1AD
+  submitUrl: https://www.h1ad.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 23, general web directory'
+  dofollow: true
+  dr: 23
+- name: ClassifiedsFactor
+  submitUrl: https://www.classifiedsfactor.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 21, general web directory'
+  dofollow: true
+  dr: 21
+- name: EInternetIndex
+  submitUrl: https://www.einternetindex.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 23, general web directory'
+  dofollow: true
+  dr: 23
+- name: GMAWebDirectory
+  submitUrl: https://www.gmawebdirectory.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 29, general web directory'
+  dofollow: true
+  dr: 29
+- name: TheHillel
+  submitUrl: https://www.thehillel.org/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 20, general web directory'
+  dofollow: true
+  dr: 20
+- name: EvolvingCritic
+  submitUrl: https://www.evolvingcritic.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 23, general web directory'
+  dofollow: true
+  dr: 23
+- name: TargetsViews
+  submitUrl: https://www.targetsviews.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 21, general web directory'
+  dofollow: true
+  dr: 21
+- name: RoyalLinkUp
+  submitUrl: https://www.royallinkup.com/submit.php
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from wpseohosts.com] DA 23, general web directory'
+  dofollow: true
+  dr: 23
+dr-tracker:
+- name: FrogDR
+  submitUrl: https://frogdr.com/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR tracking dashboard. Submit URL to monitor Ahrefs DR daily, get backlink
+    tasks, gamified leaderboard.
+  dofollow: true
+  dr: 0
+- name: Ranccoon
+  submitUrl: https://www.ranccoon.com/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR monitoring. Track Domain Rating automatically every day, monitor
+    multiple domains, set goals, get notified on changes.
+  dofollow: true
+  dr: 0
+- name: rating.so
+  submitUrl: https://rating.so/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Domain Rating monitor. Daily DR & backlink tracking, Email/Slack/Telegram
+    alerts, free public DR report for any domain.
+  dofollow: true
+  dr: 0
+- name: RacoonDR
+  submitUrl: https://racoondr.com/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker & tracker. Check any domain DR free, track daily, embed live
+    badge, earn a dofollow backlink.
+  dofollow: true
+  dr: 0
+- name: OnlyTraction
+  submitUrl: https://onlytraction.com/free-dr-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Track Domain Rating weekly, watch DR climb, see leaderboard
+    of all tracked sites. No card required.
+  dofollow: true
+  dr: 0
+- name: KeyClimb
+  submitUrl: https://keyclimb.com/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Direct FrogDR competitor. Domain Rating tracking and monitoring tool.
+  dofollow: true
+  dr: 0
+- name: Otterly.ai
+  submitUrl: https://otterly.ai/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: DR tracking tool compared head-to-head with FrogDR. SEO monitoring and analytics.
+  dofollow: true
+  dr: 0
+- name: RankRaven
+  submitUrl: https://rankraven.com/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: FrogDR alternative. Rank tracking and SEO monitoring tool.
+  dofollow: true
+  dr: 0
+- name: SubmitSaaS
+  submitUrl: https://submitsaas.com/free-tools/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: 'Free SaaS tools: check Domain Rating, generate directory listing copy, estimate
+    backlink growth. Submit URL for DR tracking.'
+  dofollow: true
+  dr: 0
+- name: DR Checker
+  submitUrl: https://drchecker.org/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Quickly check, track, and compare any website DR with daily
+    Ahrefs-powered updates. Submit URL to track.
+  dofollow: true
+  dr: 0
+- name: BacklinkBot DR Checker
+  submitUrl: https://backlinkbot.ai/domain-rating
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Check & track any website DR. Enter domain to see current DR, month-by-month
+    history, embeddable DR badge.
+  dofollow: true
+  dr: 0
+- name: Avinash Vagh DR Tracker
+  submitUrl: https://avinashvagh.com/tools/dr-tracker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR tracker for up to 20 sites daily. Minimal dashboard, daily refresh,
+    change history, CSV export. No signup.
+  dofollow: true
+  dr: 0
+- name: Serpstat DR Checker
+  submitUrl: https://serpstat.com/page/free-seo-tools/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. 10 free DR checks per day. Get Domain Rank, backlinks number
+    and referring domains.
+  dofollow: true
+  dr: 0
+- name: Backlinko Website Authority Checker
+  submitUrl: https://backlinko.com/tools/website-authority
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free website authority checker powered by Semrush. Check Authority Score,
+    backlinks, rankings, and competitors.
+  dofollow: true
+  dr: 0
+- name: RankPill Backlink Checker
+  submitUrl: https://rankpill.com/free-seo-tools/backlink-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free backlink checker. Analyze any website backlink profile, referring domains,
+    dofollow ratio, spam score.
+  dofollow: true
+  dr: 0
+- name: SEO Review Tools Backlink Checker
+  submitUrl: https://www.seoreviewtools.com/valuable-backlinks-checker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free backlink checker. Check backlinks, DA, PA, social shares. Submit URL
+    for analysis.
+  dofollow: true
+  dr: 0
+- name: SmallSEOTools DA Checker
+  submitUrl: https://smallseotools.com/domain-authority-checker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free domain authority checker. Check Moz DA and PA for multiple URLs at once.
+  dofollow: true
+  dr: 0
+- name: Majestic Free Backlink Checker
+  submitUrl: https://majestic.com/backlink-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free backlink checker. Check Trust Flow, Citation Flow, backlinks and referring
+    domains.
+  dofollow: true
+  dr: 0
+- name: Ahrefs Backlink Checker
+  submitUrl: https://ahrefs.com/backlink-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free backlink checker by Ahrefs. Check backlinks, referring domains, DR,
+    and URL rating.
+  dofollow: true
+  dr: 0
+- name: Neil Patel Backlink Checker
+  submitUrl: https://neilpatel.com/backlinks/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free backlink checker. Check backlinks, referring domains, anchor text, link
+    quality.
+  dofollow: true
+  dr: 0
+- name: Seobility Backlink Checker
+  submitUrl: https://www.seobility.net/en/backlinkchecker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free backlink checker. Discover backlinks, referring domains, and build new
+    links.
+  dofollow: true
+  dr: 0
+- name: SEO.ai DR Checker
+  submitUrl: https://seo.ai/tools/domain-rating
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Get domain rating and backlink profile of any domain.
+  dofollow: true
+  dr: 0
+- name: DRChecker.io
+  submitUrl: https://www.drchecker.io/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk DR checker. Check Ahrefs DR for up to 1,000 domains in one click
+    with CSV export.
+  dofollow: true
+  dr: 0
+- name: SERP.tools Bulk DR Checker
+  submitUrl: https://serp.tools/tools/bulk-domain-rating-checker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk DR checker. Paste up to 20 domains, get Ahrefs DR scores instantly.
+    CSV export.
+  dofollow: true
+  dr: 0
+- name: Vefogix Bulk DR Checker
+  submitUrl: https://www.vefogix.com/seo-tools/bulk-domain-rating-checker-tool/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk domain rating checker. Check multiple domains at once for link
+    building and competitor analysis.
+  dofollow: true
+  dr: 0
+- name: DomainRatingChecker.app
+  submitUrl: https://domainratingchecker.app/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk DR checker. Check up to 1,000 domains instantly, export to CSV.
+  dofollow: true
+  dr: 0
+- name: SEO Review Tools Bulk DR Checker
+  submitUrl: https://www.seoreviewtools.com/bulk-domain-rating-checker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk domain rating checker. Check DR of multiple sites online, sort
+    and export CSV.
+  dofollow: true
+  dr: 0
+- name: SEO Ladders DR Checker
+  submitUrl: https://www.seoladders.com/tools/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Check any website Domain Rating (DR) — Ahrefs 0-100 measure
+    of backlink authority.
+  dofollow: true
+  dr: 0
+- name: Linkscope Bulk DR Checker
+  submitUrl: https://linkscope.io/tools/bulk-domain-rating-checker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk DR checker. Check Ahrefs DR for up to 20 domains at once, compare
+    DR, backlinks, referring domains.
+  dofollow: true
+  dr: 0
+- name: CodeItBro Bulk DR Checker
+  submitUrl: https://www.codeitbro.com/tool/bulk-domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk DR checker. Check Ahrefs DR for multiple domains in one batch,
+    export to CSV.
+  dofollow: true
+  dr: 0
+- name: SubmitMatic DR Checker
+  submitUrl: https://submitmatic.com/free-tools/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Enter a domain or paste a full URL to get current Ahrefs
+    DR score.
+  dofollow: true
+  dr: 0
+- name: SEOitis DR Checker
+  submitUrl: https://www.seoitis.com/tools/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker powered by Ahrefs. Look up DR for any domain or URL instantly.
+  dofollow: true
+  dr: 0
+- name: Codersera Free DR Checker
+  submitUrl: https://codersera.com/tools/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Check any website Ahrefs DR in bulk, no signup, no daily
+    limit.
+  dofollow: true
+  dr: 0
+- name: David Breder DR Checker
+  submitUrl: https://seotools.davidbreder.com/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Single domain or compare up to 10 domains. Powered by Ahrefs
+    official API.
+  dofollow: true
+  dr: 0
+- name: Moz Domain Analysis
+  submitUrl: https://moz.com/domain-analysis
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free domain authority checker by Moz. Check DA, PA, top pages, ranking keywords.
+  dofollow: true
+  dr: 0
+- name: Semrush Website Authority Checker
+  submitUrl: https://www.semrush.com/free-tools/website-authority-checker/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free website authority checker by Semrush. Check Authority Score, backlinks,
+    referring domains, traffic.
+  dofollow: true
+  dr: 0
+- name: RankInPublic DR Checker
+  submitUrl: https://rankinpublic.xyz/blog/free-domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Paste any URL, get DR score, AI-matched competitors, visual
+    bar chart comparison.
+  dofollow: true
+  dr: 0
+- name: Ryrob DR Checker
+  submitUrl: https://ryrob.com/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Check any site DR score in seconds, no login, no subscription.
+  dofollow: true
+  dr: 0
+- name: VerifiedDR Checker
+  submitUrl: https://verifieddr.com/domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Check DR and TrueDR (trust-checked authority score), monthly
+    traffic, backlink map.
+  dofollow: true
+  dr: 0
+- name: JoinIndexed DR Checker
+  submitUrl: https://joinindexed.com/blog/best-domain-authority-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Unlimited single lookups, no signup, Ahrefs-based DR.
+  dofollow: true
+  dr: 0
+- name: Indie Chains DR Checker
+  submitUrl: https://indiechains.com/free-domain-rating-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Check any website DR instantly, no signup required.
+  dofollow: true
+  dr: 0
+- name: BlogSEO DR Checker
+  submitUrl: https://www.blogseo.io/tools/dr-checker
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free DR checker. Check any website DR instantly, benchmark against competitors.
+  dofollow: true
+  dr: 0
+- name: DAChecker.io
+  submitUrl: https://dachecker.io/
+  type: tracker
+  auto: manual
+  lang: en
+  notes: Free bulk DA, DR & TF checker. Check domain authority, domain rating, trust
+    flow in bulk.
+  dofollow: true
+  dr: 0
+linkinbio:
+- name: Linktree
+  submitUrl: https://linktr.ee/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Most popular link-in-bio; free plan, create page at linktr.ee/username; page
+    links historically nofollow
+- name: Beacons
+  submitUrl: https://beacons.ai/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Creator link-in-bio + storefront; free page with website link; profile pages
+    crawlable
+- name: Linklay
+  submitUrl: https://linklay.io/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio for creators; linklay.io/username page, unlimited links,
+    no card; edge-rendered HTML pages can rank
+- name: Lnk.Bio
+  submitUrl: https://lnk.bio/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio used widely on Instagram; create page at lnk.bio/username
+- name: Bio.link
+  submitUrl: https://bio.link/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free one-page link hub by Craftwork; bio.link/username
+- name: Campsite
+  submitUrl: https://campsite.bio/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Link-in-bio for creators with free plan; profile pages indexable
+- name: ContactInBio
+  submitUrl: https://contactinbio.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio with contact cards; used by real-estate and creators
+- name: AllMyLinks
+  submitUrl: https://allmylinks.com/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio aggregator; allmylinks.com/username
+- name: Hoo.be
+  submitUrl: https://hoo.be/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio for musicians/creators; hoo.be/username
+- name: Bento
+  submitUrl: https://bento.me/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio with grid blocks; bento.me/username
+- name: About.me
+  submitUrl: https://about.me/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Classic profile-page platform; about.me/username with website link
+- name: Many.bio
+  submitUrl: https://many.bio/
+  type: listing
+  auto: manual
+  lang: en
+  notes: Free link-in-bio with analytics; many.bio/username

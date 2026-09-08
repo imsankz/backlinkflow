@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
 LinkFlow — regenerate data/directories.yaml from all sources.
-Idempotent: rebuilds from backlink-pilot + travel baseline, merges external lists.
-
-Dedupe rules:
-  - Within a category: by (name, submitUrl) normalized
-  - Cross-category: same submitUrl domain AND same submitUrl path → keep highest-priority cat
-  - Reddit/awesome/community sub-entries share root domains but distinct paths → kept
+NON-DESTRUCTIVE: seeds from the current directories.yaml (the curated artifact:
+dead/paid flags, verified-dead reasons, DR, hand notes, source-less categories
+like travel/dr-tracker/linkinbio) and merges the backlink-pilot baseline +
+external lists. Curated entries win collisions; sources only ADD net-new
+entries. Idempotent — running twice yields the same file.
 """
 import re, os, yaml
 from urllib.parse import urlparse
@@ -32,6 +31,31 @@ def norm_domain(url):
     if len(parts)>=3 and parts[-1] in ('uk','au','ca','nz') and parts[-2] in ('co','com','org','net','gov'):
         return '.'.join(parts[-3:])
     return '.'.join(parts[-2:]) if len(parts)>=2 else net
+
+def extract_brand(url):
+    """Extract primary brand identifier from URL for smarter dedupe.
+    aidirectory.org + aidirectory.wiki -> 'aidirectory'
+    sitepromotiondirectory.com + sitepromotion.directory -> 'sitepromotion'
+    """
+    if not url: return None
+    u = url.strip().strip('"').strip("'")
+    if not u.startswith(('http://','https://')): u = 'https://'+u
+    try:
+        parsed = urlparse(u)
+        domain = parsed.netloc.lower().removeprefix('www.')
+        parts = domain.split('.')
+        if len(parts) < 2:
+            return domain
+        # Handle common 2nd-level TLDs (co.uk, com.au, etc.)
+        cc_tlds = {'co.uk','co.au','co.nz','co.jp','co.kr','co.in',
+                   'com.au','com.br','com.cn','com.tw','com.hk','com.sg',
+                   'com.mx','com.tr','com.ar','com.ua'}
+        tld_2 = f"{parts[-2]}.{parts[-1]}" if len(parts) >= 2 else ""
+        if tld_2 in cc_tlds and len(parts) >= 3:
+            return parts[-3]
+        return parts[-2]
+    except:
+        return None
 
 def parse_table_row(line):
     return [c.strip() for c in line.strip().strip('|').split('|')]
@@ -138,21 +162,33 @@ CAT={'overseas_ai_directories':'ai','overseas_general':'general','overseas_direc
      'chinese_ai_directories':'ai-zh','chinese_general':'general-zh','communities_manual':'community',
      'awesome_lists':'awesome','reddit':'reddit'}
 
-db={}
-for sec,ents in sections.items():
-    cat=CAT.get(sec,sec); db.setdefault(cat,[])
-    for e in ents:
-        auto=e.get('auto','manual')
-        if auto not in ('yes','manual','no'): auto='manual'
-        item={'name':e.get('name',''),'submitUrl':e.get('submit_url',''),'type':e.get('type','form'),'auto':auto,'lang':e.get('lang','en')}
-        if e.get('notes'): item['notes']=e['notes']
-        st=e.get('status','active')
-        if st!='active': item['status']=st if st in ('dead','paid') else 'unknown'
-        if item['name']: db[cat].append(item)
+# ─── 1b. Curated baseline — seed from the current DB ─────────────────────────
+# directories.yaml is the curated artifact: it carries dead/paid flags,
+# verified-dead reasons, DR values, hand notes and categories with no source
+# list (travel, dr-tracker, linkinbio, …). Rebuilds must NEVER drop curated
+# entries, so the current file seeds the DB and source lists only ADD
+# net-new entries. Curated entries win collisions with source copies.
+try:
+    cur = yaml.safe_load(open(DB)) or {}
+except FileNotFoundError:
+    cur = {}   # fresh bootstrap: build from sources alone
+db = {k: list(v) for k, v in cur.items()}
 
-# travel baseline — preserve from current DB (curated) even on domain collisions
-cur=yaml.safe_load(open(DB))
-if cur.get('travel'): db['travel']=cur['travel']
+# ─── 2. Merge backlink-pilot baseline (net-new only; curated twins win) ──────
+for sec, ents in sections.items():
+    cat = CAT.get(sec, sec)
+    db.setdefault(cat, [])
+    for e in ents:
+        auto = e.get('auto', 'manual')
+        if auto not in ('yes', 'manual', 'no'): auto = 'manual'
+        item = {'name': e.get('name', ''), 'submitUrl': e.get('submit_url', ''),
+                'type': e.get('type', 'form'), 'auto': auto, 'lang': e.get('lang', 'en')}
+        if e.get('notes'): item['notes'] = e['notes']
+        st = e.get('status', 'active')
+        if st != 'active': item['status'] = st if st in ('dead', 'paid') else 'unknown'
+        if item['name']:
+            item['_src'] = True   # source-derived → droppable by the dedupe below
+            db[cat].append(item)
 
 domains=set()
 for cat,ents in db.items():
@@ -202,17 +238,48 @@ for src,ents in sources.items():
         elif 'free' in price: item['status']='active'
         if e.get('dr'): item['dr']=e['dr']
         cat=guess_category(item['name'],item['submitUrl'],src)
+        item['_src'] = True
         db.setdefault(cat,[]).append(item)
         domains.add(d); added+=1
 
-# ─── 4. Within-category dedupe (name+submitUrl) ──────────────────────────────
+# ─── 4. Within-category dedupe (brand-level + name+submitUrl) ────────────────
+# Brand-level: same name + same primary brand (e.g. aidirectory.org and
+# aidirectory.wiki are the same directory under different TLDs). Keep the one
+# with the more specific submit path (longest path, most submit-hint words).
+SUBMIT_HINTS = ['submit','add','new','create','create','list','launch','post','apply']
 for cat in db:
-    seen=set(); kept=[]
+    seen_brand = set()
+    seen_key = set()
+    kept = []
     for e in db[cat]:
-        key=(e['name'].lower(), norm_domain(e.get('submitUrl','')))
-        if key in seen: continue
-        seen.add(key); kept.append(e)
-    db[cat]=kept
+        key = (e['name'].lower(), norm_domain(e.get('submitUrl','')))
+        if key in seen_key:
+            continue
+        seen_key.add(key)
+        brand = extract_brand(e.get('submitUrl',''))
+        if brand:
+            brand_key = (e['name'].lower(), brand)
+            if brand_key in seen_brand:
+                # Curated entries (seeded from directories.yaml, no _src) always
+                # win — never replace them with source copies. Among source
+                # copies, keep the one with the more specific submit path.
+                existing_idx = next((i for i, k in enumerate(kept) if k['name'].lower() == e['name'].lower() and extract_brand(k.get('submitUrl','')) == brand), None)
+                if existing_idx is not None and kept[existing_idx].get('_src'):
+                    existing = kept[existing_idx]
+                    path_old = urlparse(existing.get('submitUrl','')).path.lower()
+                    path_new = urlparse(e.get('submitUrl','')).path.lower()
+                    hints_old = sum(1 for h in SUBMIT_HINTS if h in path_old)
+                    hints_new = sum(1 for h in SUBMIT_HINTS if h in path_new)
+                    if hints_new > hints_old or (hints_new == hints_old and len(path_new) > len(path_old)):
+                        kept[existing_idx] = e
+                continue
+            seen_brand.add(brand_key)
+        kept.append(e)
+    db[cat] = kept
+
+# ─── 5. Strip internal markers and write ─────────────────────────────────────
+for cat in db:
+    db[cat] = [{k: v for k, v in e.items() if k != '_src'} for e in db[cat]]
 
 with open(DB,'w') as f:
     yaml.safe_dump(db,f,sort_keys=False,allow_unicode=True,default_flow_style=False)

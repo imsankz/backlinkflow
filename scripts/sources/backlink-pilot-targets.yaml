@@ -1740,3 +1740,94 @@ reddit:
     type: article
     auto: manual
     lang: en
+
+
+# ============================================================
+# Link-in-bio platforms (profile-page backlinks)
+# Added 2026-09-08 per user request — sign up, create page, add site link
+# ============================================================
+linkinbio:
+
+  - name: Linktree
+    submit_url: https://linktr.ee/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Most popular link-in-bio; free plan, create page at linktr.ee/username; page links historically nofollow
+
+  - name: Beacons
+    submit_url: https://beacons.ai/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Creator link-in-bio + storefront; free page with website link; profile pages crawlable
+
+  - name: Linklay
+    submit_url: https://linklay.io/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio for creators; linklay.io/username page, unlimited links, no card; edge-rendered HTML pages can rank
+
+  - name: Lnk.Bio
+    submit_url: https://lnk.bio/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio used widely on Instagram; create page at lnk.bio/username
+
+  - name: Bio.link
+    submit_url: https://bio.link/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free one-page link hub by Craftwork; bio.link/username
+
+  - name: Campsite
+    submit_url: https://campsite.bio/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Link-in-bio for creators with free plan; profile pages indexable
+
+  - name: ContactInBio
+    submit_url: https://contactinbio.com/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio with contact cards; used by real-estate and creators
+
+  - name: AllMyLinks
+    submit_url: https://allmylinks.com/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio aggregator; allmylinks.com/username
+
+  - name: Hoo.be
+    submit_url: https://hoo.be/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio for musicians/creators; hoo.be/username
+
+  - name: Bento
+    submit_url: https://bento.me/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio with grid blocks; bento.me/username
+
+  - name: About.me
+    submit_url: https://about.me/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Classic profile-page platform; about.me/username with website link
+
+  - name: Many.bio
+    submit_url: https://many.bio/
+    type: listing
+    auto: manual
+    lang: en
+    notes: Free link-in-bio with analytics; many.bio/username
