@@ -599,6 +599,13 @@ overseas_general:
     lang: en
     notes: Major alternative software directory
 
+  - name: FindAlternative
+    submit_url: https://findalternative.to/prints-by-eri/about
+    type: listing
+    auto: manual
+    lang: en
+    notes: Existing public listing for Prints by Eri; live page links to printsbyeri.com.
+
   - name: Alternative.me
     submit_url: https://alternative.me/how-to/submit-software/
     type: form

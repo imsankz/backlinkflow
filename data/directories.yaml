@@ -10549,6 +10549,14 @@ startup:
   auto: manual
   lang: en
   notes: '[from startup-launch-list]'
+- name: FindAlternative
+  submitUrl: https://findalternative.to/prints-by-eri/about
+  type: listing
+  auto: manual
+  lang: en
+  notes: 'Existing public listing for Prints by Eri. Live page links to printsbyeri.com.'
+  dofollow: true
+  dr: 0
 - name: Trust Pilot
   submitUrl: http://trustpilot.com
   type: form
