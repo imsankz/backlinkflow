@@ -13776,3 +13776,45 @@ coupon:
   auto: manual
   lang: de
   notes: Germany's largest deal community; free account required, deals community-moderated; no overt self-promotion or the deal gets flagged
+- name: CouponUpto
+  submitUrl: https://couponupto.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form (email verified via confirmation mail, store website, code, description); POST /submit-coupon/save → 302; human moderation
+- name: Bargain.Codes
+  submitUrl: https://bargain.codes/submit-your-offer/
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form (store, code, description ≤250 chars, expiry_date day/month/year selects REQUIRED); admin-ajax; /submit redirects here
+- name: CouponMoto
+  submitUrl: https://www.couponmoto.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Store must be picked from their DB autocomplete — new stores can't be typed in; submit clicks but never POSTs without it
+- name: GrabOn
+  submitUrl: https://www.grabon.in/submit/
+  type: form
+  auto: manual
+  lang: en
+  notes: India-focused; merchant search needs existing store or "suggest new store" (NewMerchantName) flow; fiddly automation
+- name: CheckoutSaver
+  submitUrl: https://checkoutsaver.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Rich form but retailer autocomplete only accepts stores already in their DB; contact them to add new stores
+- name: AVSCoupons
+  submitUrl: https://avscoupons.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: stores[] select is a closed pre-populated list (no add-store path) + required echeck anti-bot field; account needed for new stores
+- name: CouponCage
+  submitUrl: https://www.couponcage.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Same WP theme as AVSCoupons — closed stores[] list + echeck requirement

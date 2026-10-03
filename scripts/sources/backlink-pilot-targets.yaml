@@ -1904,3 +1904,52 @@ coupon_sites:
     auto: manual
     lang: de
     notes: Free account required; community-moderated deals; no overt self-promotion
+
+  - name: CouponUpto
+    submit_url: https://couponupto.com/submit-coupon
+    type: form
+    auto: yes
+    lang: en
+    notes: Open form; email verification; human moderation
+
+  - name: Bargain.Codes
+    submit_url: https://bargain.codes/submit-your-offer/
+    type: form
+    auto: yes
+    lang: en
+    notes: Expiry day/month/year selects required; description ≤250 chars
+
+  - name: CouponMoto
+    submit_url: https://www.couponmoto.com/submit-coupon
+    type: form
+    auto: manual
+    lang: en
+    notes: Store must exist in their DB autocomplete
+
+  - name: GrabOn
+    submit_url: https://www.grabon.in/submit/
+    type: form
+    auto: manual
+    lang: en
+    notes: India-focused; suggest-new-store flow for new merchants
+
+  - name: CheckoutSaver
+    submit_url: https://checkoutsaver.com/submit-coupon
+    type: form
+    auto: manual
+    lang: en
+    notes: Retailer must exist in their store DB
+
+  - name: AVSCoupons
+    submit_url: https://avscoupons.com/submit-coupon
+    type: form
+    auto: manual
+    lang: en
+    notes: Closed stores[] list + echeck anti-bot field
+
+  - name: CouponCage
+    submit_url: https://www.couponcage.com/submit-coupon
+    type: form
+    auto: manual
+    lang: en
+    notes: Closed stores[] list + echeck anti-bot field
