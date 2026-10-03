@@ -57,9 +57,9 @@ t('template payload has required fields', () => {
 });
 
 t('tracker records + dedupes', () => {
-  // self-clean: remove any pre-existing records for this test site
-  const pre = loadTracker().filter((r) => r.site !== 'https://test.com');
-  saveTracker(pre);
+  // snapshot-clean: the repo may hold real runtime records — restore them after
+  const snapshot = loadTracker();
+  saveTracker([]);
 
   recordSubmission({ site: 'https://test.com', directory: 'TestDir', status: 'pending', submittedAt: new Date().toISOString() });
   recordSubmission({ site: 'https://test.com', directory: 'TestDir', status: 'submitted', submittedAt: new Date().toISOString() });
@@ -69,7 +69,7 @@ t('tracker records + dedupes', () => {
   if (!alreadySubmitted('https://test.com', 'TestDir')) throw new Error('alreadySubmitted false');
 
   // cleanup
-  saveTracker(pre);
+  saveTracker(snapshot);
 });
 
 t('badge registry loads 10+ entries', () => {
