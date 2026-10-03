@@ -133,7 +133,7 @@ export async function submitOne(dir: DirectoryEntry, payload: Payload, opts: Sub
       page,
       payload,
       siteUrl,
-      email: cfg.siteName ? undefined : undefined,
+      email: cfg.siteEmail,
       credentials: (cfg as any).credentials,
       log: (m) => console.log(m),
     };
@@ -143,13 +143,17 @@ export async function submitOne(dir: DirectoryEntry, payload: Payload, opts: Sub
     await delay(1500);
 
     // 4. Validate page
-    const body = await page.textContent('body').catch(() => '');
+    const body = (await page.textContent('body').catch(() => '')) ?? '';
     const url = page.url();
     if (/404|not found|page not found/i.test(body) && /404/.test(url)) {
-      return { directory: dir.name, status: 'failed', note: 'page 404' };
+      const note = 'page 404';
+      recordSubmission({ site: siteUrl, directory: dir.name, status: 'failed', submittedAt: new Date().toISOString(), url: dir.submitUrl, notes: note });
+      return { directory: dir.name, status: 'failed', note };
     }
     if (looksLikeLogin(body, url)) {
-      return { directory: dir.name, status: 'failed', note: 'login wall — needs credentials/manual' };
+      const note = 'login wall — needs credentials/manual';
+      recordSubmission({ site: siteUrl, directory: dir.name, status: 'failed', submittedAt: new Date().toISOString(), url: dir.submitUrl, notes: note });
+      return { directory: dir.name, status: 'failed', note };
     }
 
     // 5. Run adapter

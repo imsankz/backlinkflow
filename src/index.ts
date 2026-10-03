@@ -97,11 +97,20 @@ async function cmdSubmit(): Promise<void> {
   resetAiCallCount();
 
   const records = loadTracker();
-  let submitted = 0, skipped = 0, failed = 0;
+  let submitted = 0, skipped = 0, failed = 0, worked = 0;
+  const failCounts = new Map<string, number>();
+  for (const r of loadTracker()) {
+    if (r.status === 'failed') failCounts.set(r.directory, (failCounts.get(r.directory) ?? 0) + 1);
+  }
 
   for (const [i, dir] of selected.entries()) {
     if (alreadySubmitted(siteUrl, dir.name)) {
       console.log(`  [${i + 1}/${selected.length}] ⏭️  ${dir.name} — already submitted (tracked)`);
+      skipped++;
+      continue;
+    }
+    if ((failCounts.get(dir.name) ?? 0) >= 2) {
+      console.log(`  [${i + 1}/${selected.length}] ⏭️  ${dir.name} — failed twice already (needs manual)`);
       skipped++;
       continue;
     }
@@ -112,6 +121,7 @@ async function cmdSubmit(): Promise<void> {
 
     if (has('--go')) {
       // REAL automation via Playwright
+      worked++;
       const result = await submitOne(dir, payload, {
         siteUrl,
         proofDir: '.linkflow/proofs',
@@ -122,7 +132,7 @@ async function cmdSubmit(): Promise<void> {
 
       // pacing between submissions (respect per-day limit)
       const perDay = cfg.pacing?.perDay ?? 10;
-      if (i + 1 >= perDay && i + 1 < selected.length) {
+      if (worked >= perDay && i + 1 < selected.length) {
         console.log(`  ⏸️  Daily pacing limit (${perDay}) reached — stopping.`);
         break;
       }
@@ -216,6 +226,7 @@ function cmdInit(): void {
     tags: ['saas', 'devtools'],
     contentDomain: 'SaaS product',
     writingSample: 'Paste 2-3 sentences in your site voice here.',
+    coupon: { code: 'LAUNCH10', discount: '10% off', note: '' },
     ai: {
       provider: 'openai',
       baseUrl: 'http://192.168.0.254:20128/v1',
