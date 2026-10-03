@@ -1,0 +1,9 @@
+{
+  "siteName": "Eri in Germany",
+  "siteUrl": "https://eriingermany.com",
+  "siteDescription": "A lifestyle and practical guide for Indians and international residents building a life in Germany, covering relocation, work, everyday life, travel, and family experiences.",
+  "tags": ["Germany", "expat", "relocation", "travel", "lifestyle", "family", "India"],
+  "contentDomain": "Germany relocation, expat lifestyle, travel, and family life",
+  "writingSample": "We share practical, firsthand guides for Indians and other internationals living in Germany — from paperwork and work to travel, family routines, and the small details that make everyday life easier.",
+  "pacing": { "minSeconds": 60, "perDay": 10 }
+}
