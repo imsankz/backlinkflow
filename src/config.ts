@@ -46,6 +46,7 @@ export function hasAiConfig(cfg: LinkFlowConfig): boolean {
 export function printConfigSummary(cfg: LinkFlowConfig): void {
   console.log('  site:', cfg.siteName || '(unset)');
   console.log('  url:', cfg.siteUrl || '(unset)');
+  if (cfg.coupon?.code) console.log('  coupon:', `${cfg.coupon.code} (${cfg.coupon.discount || 'discount'})`);
   console.log('  ai provider:', cfg.ai?.provider || '(auto)');
   if (cfg.ai?.baseUrl) console.log('  ai baseUrl:', cfg.ai.baseUrl);
   console.log('  pacing:', `${cfg.pacing?.perDay ?? 10}/day, ${cfg.pacing?.minSeconds ?? 60}s apart`);

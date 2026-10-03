@@ -173,6 +173,7 @@ Per-entry provenance is in the data itself: `notes: [from <source>]` in the YAML
   "tags": ["saas", "devtools"],
   "contentDomain": "SaaS product",
   "writingSample": "2-3 sentences in your site voice",
+  "coupon": { "code": "LAUNCH10", "discount": "10% off", "note": "" },
   "ai": {
     "provider": "openai",
     "baseUrl": "http://192.168.0.254:20128/v1",
@@ -183,6 +184,10 @@ Per-entry provenance is in the data itself: `notes: [from <source>]` in the YAML
   "pacing": { "minSeconds": 60, "perDay": 10 }
 }
 ```
+
+Optional `coupon` weaves a discount code into submissions: the code is mentioned in the
+generated description and auto-filled into coupon-code / discount fields on forms that have
+them (the `coupon` DB category targets coupon/deal sites that publish a store page linking back).
 
 `.env.local` (overrides config):
 

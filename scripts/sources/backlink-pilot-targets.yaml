@@ -1004,10 +1004,11 @@ overseas_directories:
     notes: "403 as of 2026-03"
 
   - name: Dizila
-    submit_url: https://www.dizila.com/submit
+    submit_url: https://dizila.com/submit
     type: form
-    auto: yes
+    auto: no
     lang: en
+    notes: "Canonical host verified 2026-09; multi-step category form needs manual selection"
 
   - name: DesignRush
     submit_url: https://www.designrush.com/submit/agency
@@ -1050,6 +1051,7 @@ overseas_directories:
     type: form
     auto: yes
     lang: en
+    notes: "Contact Form 7 form; force-click submit when overlay blocks normal click"
 
   - name: Unmatched Style
     submit_url: https://unmatchedstyle.com/submit
@@ -1065,10 +1067,11 @@ overseas_directories:
     lang: en
 
   - name: 247WebDirectory
-    submit_url: https://www.247webdirectory.com/
+    submit_url: https://www.247webdirectory.com/submit
     type: form
-    auto: yes
+    auto: no
     lang: en
+    notes: "Canonical submit page verified 2026-09; free form includes CAPTCHA and needs manual completion"
 
   - name: 9Sites.net
     submit_url: https://www.9sites.net/addurl.php
@@ -1085,8 +1088,9 @@ overseas_directories:
   - name: All Business Directory
     submit_url: https://www.allbusinessdirectory.biz/directory.php?page=submission-guidelines
     type: form
-    auto: yes
+    auto: no
     lang: en
+    notes: "Guidelines page has no public submission form; manual/login flow required"
 
   - name: All States USA Directory
     submit_url: https://www.allstatesusadirectory.com/submit.php
@@ -1838,3 +1842,65 @@ linkinbio:
     auto: manual
     lang: en
     notes: Free link-in-bio with analytics; many.bio/username
+
+# ============================================================
+# Coupon / deal sites — free coupon submission earns a store
+# page with a link back to the shop (curated 2026-10, live-verified)
+# ============================================================
+coupon_sites:
+
+  - name: CouponFollow
+    submit_url: https://couponfollow.com/submit-code
+    type: form
+    auto: yes
+    lang: en
+    notes: Open submit-code form; store pages /site/{domain}; nofollow outbound
+
+  - name: PennyCanny
+    submit_url: https://www.pennycanny.com/submit-coupon
+    type: form
+    auto: yes
+    lang: en
+    notes: Open form; public page /coupons/{domain}; nofollow links
+
+  - name: CouponXoo
+    submit_url: https://www.couponxoo.com/submit-coupon
+    type: form
+    auto: yes
+    lang: en
+    notes: Open form with discount_type select + proof image; manual moderation
+
+  - name: CouponsVilla
+    submit_url: https://couponsvilla.com/submit-coupon
+    type: form
+    auto: yes
+    lang: en
+    notes: WordPress open form; store pages /store/{slug}/
+
+  - name: Bargain.Codes
+    submit_url: https://bargain.codes/submit
+    type: form
+    auto: yes
+    lang: en
+    notes: Open form; publishing surface search-driven — backlink unproven
+
+  - name: ShipTheDeal
+    submit_url: https://forms.gle/xuk9KFyfCVzW4MCV9
+    type: form
+    auto: manual
+    lang: en
+    notes: Google Form linked from shipthedeal.com footer; human-reviewed
+
+  - name: Dealampel
+    submit_url: https://dealampel.de/einreichen
+    type: form
+    auto: yes
+    lang: de
+    notes: German open deal form; outbound via Telegram bot link
+
+  - name: mydealz
+    submit_url: https://www.mydealz.de/
+    type: community
+    auto: manual
+    lang: de
+    notes: Free account required; community-moderated deals; no overt self-promotion

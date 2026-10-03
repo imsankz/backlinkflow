@@ -20,9 +20,13 @@ const EMAIL_RE = /(email|e-?mail)/i;
 const DESC_RE = /(desc|description|about|summary|detail|intro|what)/i;
 const CATEGORY_RE = /(category|categor[ie]s|type|section|list|topic)/i;
 const PRICING_RE = /(pricing|price|tier|plan|free|freemium)/i;
+const COUPON_RE = /(coupon|promo|voucher|gutschein|rabatt|discount.?code|\bcode\b)/i;
+const DISCOUNT_RE = /(discount|rabatt|percent|save|value|amount|price|preis)/i;
+/** Date-ish fields stay empty — we never guess dates. */
+const DATE_RE = /(date|expire|expiry|expires|until|ablauf|gültig)/i;
 
 /** Exclude login/anti-bot fields that look like our targets but aren't. */
-const EXCLUDE_RE = /(password|passwd|pwd|csrf|token|captcha|honeypot|_?wpnonce|_token|remember)/i;
+const EXCLUDE_RE = /(password|passwd|pwd|csrf|token|captcha|honeypot|_?wpnonce|_token|remember|zip|postal|area.?code|post.?code)/i;
 
 /** Normalize a placeholder: "Choose a category…" → "category". */
 export function normalizePlaceholder(p: string | null | undefined): string {
@@ -110,6 +114,9 @@ export async function collectCandidates(page: any): Promise<FieldCandidate[]> {
     const normPh = normalizePlaceholder(el.placeholder);
     const text = `${el.label} ${normPh} ${el.name}`;
     const kind: 'input' | 'textarea' = el.tag === 'textarea' ? 'textarea' : 'input';
+    if (DATE_RE.test(text)) {
+      continue; // never guess dates
+    }
     if (kind === 'textarea') {
       out.push({ kindSelector: el.kindSelector, index: el.index, kind, hint: text, pickValue: '' });
     } else if (URL_RE.test(text) || el.type === 'url') {
@@ -119,6 +126,9 @@ export async function collectCandidates(page: any): Promise<FieldCandidate[]> {
     } else if (NAME_RE.test(text)) {
       out.push({ kindSelector: el.kindSelector, index: el.index, kind, hint: text, pickValue: '' });
     } else if (DESC_RE.test(text)) {
+      out.push({ kindSelector: el.kindSelector, index: el.index, kind, hint: text, pickValue: '' });
+    } else if (COUPON_RE.test(text) || DISCOUNT_RE.test(text)) {
+      // coupon-code / discount-value fields — keep as candidates; detectFields assigns them
       out.push({ kindSelector: el.kindSelector, index: el.index, kind, hint: text, pickValue: '' });
     } else if (kind === 'input') {
       // unlabeled text input — candidate for name (last resort)
@@ -138,6 +148,8 @@ export interface DetectedFields {
   url?: any;
   email?: any;
   description?: any;
+  couponCode?: any;
+  discount?: any;
   submit?: any;
   /** select dropdowns detected as category fields (value = option text to pick) */
   selects?: { locator: any; value: string }[];
@@ -154,9 +166,12 @@ export async function detectFields(page: any): Promise<DetectedFields> {
     cands.find((c) => c.kind === kind && (!re || re.test(c.hint)));
 
   const urlC = take('input', URL_RE);
-  const nameC = take('input', NAME_RE) || cands.find((c) => c.kind === 'input' && !URL_RE.test(c.hint) && !EMAIL_RE.test(c.hint) && !DESC_RE.test(c.hint));
+  const nameC = take('input', NAME_RE) || cands.find((c) => c.kind === 'input' && !URL_RE.test(c.hint) && !EMAIL_RE.test(c.hint) && !DESC_RE.test(c.hint) && !COUPON_RE.test(c.hint) && !DISCOUNT_RE.test(c.hint));
   const emailC = take('input', EMAIL_RE);
   const descC = take('textarea') || take('input', DESC_RE);
+  const couponC = take('input', COUPON_RE);
+  // discount-value field: numeric hint that is NOT the coupon-code field itself
+  const discountC = cands.find((c) => c.kind === 'input' && DISCOUNT_RE.test(c.hint) && !COUPON_RE.test(c.hint) && c !== couponC);
 
   const submit = page.locator('button[type="submit"], input[type="submit"], button:has-text("Submit"), button:has-text("Add"), button:has-text("Launch"), button:has-text("Save"), button:has-text("Create"), button:has-text("Submit Tool"), button:has-text("List it")').first();
 
@@ -164,6 +179,8 @@ export async function detectFields(page: any): Promise<DetectedFields> {
   if (nameC) out.name = locatorFor(page, nameC);
   if (emailC) out.email = locatorFor(page, emailC);
   if (descC) out.description = locatorFor(page, descC);
+  if (couponC) out.couponCode = locatorFor(page, couponC);
+  if (discountC) out.discount = locatorFor(page, discountC);
   out.submit = submit;
 
   const selectC = cands.filter((c) => c.kind === 'select');
@@ -187,12 +204,16 @@ export async function isUsable(loc: any | undefined): Promise<boolean> {
 /** Fill only visible fields, return which were filled. */
 export async function fillVisible(page: any, fields: DetectedFields, data: {
   name?: string; url?: string; email?: string; description?: string; category?: string; pricing?: string;
+  couponCode?: string; discount?: string;
 }): Promise<string[]> {
   const filled: string[] = [];
   if (data.name && await isUsable(fields.name)) { await fields.name.fill(data.name); filled.push('name'); }
   if (data.url && await isUsable(fields.url)) { await fields.url.fill(data.url); filled.push('url'); }
   if (data.email && await isUsable(fields.email)) { await fields.email.fill(data.email); filled.push('email'); }
   if (data.description && await isUsable(fields.description)) { await fields.description.fill(data.description); filled.push('description'); }
+  // coupon fields: only filled when the config carries a coupon
+  if (data.couponCode && await isUsable(fields.couponCode)) { await fields.couponCode.fill(data.couponCode); filled.push('couponCode'); }
+  if (data.discount && await isUsable(fields.discount)) { await fields.discount.fill(data.discount); filled.push('discount'); }
 
   // Select dropdowns: choose the option matching our category hint.
   if (data.category && fields.selects) {

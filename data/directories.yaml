@@ -5355,11 +5355,15 @@ ai:
   lang: en
   notes: '[from launchigniter]'
 - name: Ramen.Tools
-  submitUrl: https://ramentools.com/
+  submitUrl: https://ramen.tools/sign-in
   type: form
   auto: manual
   lang: en
-  notes: '[from launchigniter]'
+  notes: '[from launchigniter] Maker tools-in-bio: create profile via Google/X sign-in,
+    page at ramen.tools/@handle, add site in bio. Live domain is ramen.tools (ramentools.com
+    is dead, no A record). Verified: profile links are dofollow, no noindex, robots
+    allows. DR ~41-47 per outreach (traffic minimal); free + $27 one-time ''Golden
+    Ramen'' upsell for extra links'
 - name: Founderbeats
   submitUrl: https://founderbeats.com/
   type: form
@@ -7508,6 +7512,12 @@ general:
   auto: manual
   lang: en
   notes: '[from submitdir-tool]'
+- name: FindAlternative
+  submitUrl: https://findalternative.to/prints-by-eri/about
+  type: listing
+  auto: manual
+  lang: en
+  notes: Existing public listing for Prints by Eri; live page links to printsbyeri.com.
 startup:
 - name: Sitelike
   submitUrl: https://www.sitelike.org/add-site
@@ -7517,10 +7527,11 @@ startup:
   notes: 403 as of 2026-03
   status: dead
 - name: Dizila
-  submitUrl: https://www.dizila.com/submit
+  submitUrl: https://dizila.com/submit
   type: form
-  auto: 'yes'
+  auto: 'no'
   lang: en
+  notes: Canonical host verified 2026-09; multi-step category form needs manual selection
 - name: DesignRush
   submitUrl: https://www.designrush.com/submit/agency
   type: form
@@ -7646,6 +7657,7 @@ startup:
   type: form
   auto: 'yes'
   lang: en
+  notes: Contact Form 7 form; force-click submit when overlay blocks normal click
 - name: Unmatched Style
   submitUrl: https://unmatchedstyle.com/submit
   type: form
@@ -7658,10 +7670,12 @@ startup:
   auto: 'yes'
   lang: en
 - name: 247WebDirectory
-  submitUrl: https://www.247webdirectory.com/
+  submitUrl: https://www.247webdirectory.com/submit
   type: form
-  auto: 'yes'
+  auto: 'no'
   lang: en
+  notes: Canonical submit page verified 2026-09; free form includes CAPTCHA and needs
+    manual completion
 - name: 9Sites.net
   submitUrl: https://www.9sites.net/addurl.php
   type: form
@@ -7675,8 +7689,9 @@ startup:
 - name: All Business Directory
   submitUrl: https://www.allbusinessdirectory.biz/directory.php?page=submission-guidelines
   type: form
-  auto: 'yes'
+  auto: 'no'
   lang: en
+  notes: Guidelines page has no public submission form; manual/login flow required
 - name: All States USA Directory
   submitUrl: https://www.allstatesusadirectory.com/submit.php
   type: form
@@ -10554,7 +10569,7 @@ startup:
   type: listing
   auto: manual
   lang: en
-  notes: 'Existing public listing for Prints by Eri. Live page links to printsbyeri.com.'
+  notes: Existing public listing for Prints by Eri. Live page links to printsbyeri.com.
   dofollow: true
   dr: 0
 - name: Trust Pilot
@@ -12279,6 +12294,21 @@ travel:
   notes: Travel community — share posts
   dofollow: false
   dr: 93
+- name: BlogExpat
+  submitUrl: https://www.blogexpat.com/en/submit.htm
+  type: listing
+  auto: manual
+  lang: en
+  notes: Germany expat-blog directory; verified submission route returns HTTP 200
+    on 2026-09-26; link attributes and indexability still require public-listing verification
+- name: ExpatsBlog
+  submitUrl: https://www.expatsblog.com/blogs/submit
+  type: listing
+  auto: manual
+  lang: en
+  notes: Expat blog directory with explicit Add blog route; verified submission page
+    returns HTTP 200 on 2026-09-26; link attributes and indexability still require
+    public-listing verification
 - name: Dev.to (travel tag)
   submitUrl: https://dev.to/new
   type: article
@@ -13697,3 +13727,52 @@ linkinbio:
   auto: manual
   lang: en
   notes: Free link-in-bio with analytics; many.bio/username
+coupon:
+- name: CouponFollow
+  submitUrl: https://couponfollow.com/submit-code
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open submit-code form (website + code + description); store pages at /site/{domain}; outbound links nofollow via click.couponfollow.com
+- name: PennyCanny
+  submitUrl: https://www.pennycanny.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form (storeDomain, offerUrl, title, code, description, expiry, email); public page /coupons/{domain}; links nofollow
+- name: CouponXoo
+  submitUrl: https://www.couponxoo.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form (name, email, store_link, title, discount_type select, discount_value, expiry, proof image); manual moderation
+- name: CouponsVilla
+  submitUrl: https://couponsvilla.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: WordPress open form (coupon_title, coupon_code, coupon_aff_url, coupon_store, description); store pages /store/{slug}/
+- name: Bargain.Codes
+  submitUrl: https://bargain.codes/submit
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form (store, code, expiry, description); publishing surface is search-driven — backlink outcome unproven
+- name: ShipTheDeal
+  submitUrl: https://forms.gle/xuk9KFyfCVzW4MCV9
+  type: form
+  auto: manual
+  lang: en
+  notes: Google Form ("Submit a Coupon" in shipthedeal.com footer); human-reviewed; generic form detection unreliable on Google Forms
+- name: Dealampel
+  submitUrl: https://dealampel.de/einreichen
+  type: form
+  auto: 'yes'
+  lang: de
+  notes: German open deal form (titel, url, preis, haendler, text); outbound clicks route via Telegram bot link — visibility play more than a backlink
+- name: mydealz
+  submitUrl: https://www.mydealz.de/
+  type: community
+  auto: manual
+  lang: de
+  notes: Germany's largest deal community; free account required, deals community-moderated; no overt self-promotion or the deal gets flagged

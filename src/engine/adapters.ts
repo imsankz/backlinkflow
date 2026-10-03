@@ -29,8 +29,19 @@ export interface Adapter {
 async function clickSubmit(page: Page): Promise<boolean> {
   const btn = page.locator('button[type="submit"], input[type="submit"], button:has-text("Submit"), button:has-text("Add"), button:has-text("Launch"), button:has-text("Save")').first();
   if (await btn.isVisible().catch(() => false)) {
-    await btn.click();
-    return true;
+    try {
+      await btn.click({ timeout: 10000 });
+      return true;
+    } catch {
+      // Cookie banners, sticky overlays, and WordPress widgets can intercept
+      // a normal click even when the submit control is visible.
+      try {
+        await btn.click({ force: true, timeout: 5000 });
+        return true;
+      } catch {
+        // Fall through to keyboard submission below.
+      }
+    }
   }
   // fallback: press Enter in a focused field
   await page.keyboard.press('Enter');
@@ -54,6 +65,9 @@ export const genericAdapter: Adapter = {
     if (await fields.url?.isVisible().catch(() => false)) { await fields.url.fill(siteUrl); filled++; }
     if (await fields.email?.isVisible().catch(() => false) && payload.fields?.email) { await fields.email.fill(payload.fields.email); filled++; }
     if (await fields.description?.isVisible().catch(() => false)) { await fields.description.fill(payload.description); filled++; }
+    // coupon-code / discount-value fields (only when the config carries a coupon)
+    if (await fields.couponCode?.isVisible().catch(() => false) && payload.fields?.couponCode) { await fields.couponCode.fill(payload.fields.couponCode); filled++; }
+    if (await fields.discount?.isVisible().catch(() => false) && payload.fields?.couponDiscountValue) { await fields.discount.fill(payload.fields.couponDiscountValue); filled++; }
     // select dropdowns (category) + radios (pricing)
     if (payload.category && fields.selects) {
       for (const s of fields.selects) {

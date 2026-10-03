@@ -23,10 +23,17 @@ export interface DirectoryEntry {
 export interface LinkFlowConfig {
   siteName: string;
   siteUrl: string;
+  siteEmail?: string;
   siteDescription?: string;
   tags?: string[];
   contentDomain?: string;
   writingSample?: string;
+  /** Optional discount coupon woven into submissions (code goes into coupon-code form fields). */
+  coupon?: {
+    code: string;
+    discount: string;
+    note?: string;
+  };
   ai: {
     provider?: string;
     baseUrl?: string;

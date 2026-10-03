@@ -47,7 +47,9 @@ name back in when editing).
 ## Config
 
 - Per-site: `linkflow.config.json` in cwd — `siteName, siteUrl, siteDescription, tags, contentDomain,
-  writingSample, ai {provider, baseUrl, apiKey, model, maxCallsPerRun}, pacing {minSeconds, perDay}`.
+  writingSample, coupon {code, discount, note}, ai {provider, baseUrl, apiKey, model, maxCallsPerRun},
+  pacing {minSeconds, perDay}`. The optional `coupon` block injects the code into generated
+  descriptions and coupon-code/discount form fields (used by the `coupon` DB category).
 - Multi-site: `--config <file.json>`; working examples in `examples/linkflow.config.<site>.json`.
 - Env overrides (`.env.local`, optional): `AI_PROVIDER` (default `openai`), `AI_BASE_URL` or
   `OMNITROUTE_BASE_URL`, `AI_API_KEY` or `OMNITROUTE_API_KEY`, `AI_MODEL`.
