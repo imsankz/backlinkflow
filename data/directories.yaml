@@ -13731,9 +13731,9 @@ coupon:
 - name: CouponFollow
   submitUrl: https://couponfollow.com/submit-code
   type: form
-  auto: 'yes'
+  auto: manual
   lang: en
-  notes: Open submit-code form (website + code + description); store pages at /site/{domain}; outbound links nofollow via click.couponfollow.com
+  notes: Open submit-code form (website typeahead + code + description); store pages at /site/{domain}; outbound nofollow — PERSISTENT BOT WALL, renders empty for automated browsers across 6+ attempts (2026-10-03/04), stop automating; fill manually in a real browser
 - name: PennyCanny
   submitUrl: https://www.pennycanny.com/submit-coupon
   type: form

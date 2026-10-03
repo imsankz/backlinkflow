@@ -1852,9 +1852,9 @@ coupon_sites:
   - name: CouponFollow
     submit_url: https://couponfollow.com/submit-code
     type: form
-    auto: yes
+    auto: manual
     lang: en
-    notes: Open submit-code form; store pages /site/{domain}; nofollow outbound
+    notes: Persistent bot wall for automated browsers — fill manually in a real browser
 
   - name: PennyCanny
     submit_url: https://www.pennycanny.com/submit-coupon
