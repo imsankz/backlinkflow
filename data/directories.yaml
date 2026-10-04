@@ -13818,3 +13818,9 @@ coupon:
   auto: manual
   lang: en
   notes: Same WP theme as AVSCoupons — closed stores[] list + echeck requirement
+- name: hotukdeals
+  submitUrl: https://www.hotukdeals.com/vouchers
+  type: community
+  auto: manual
+  lang: en
+  notes: UK Pepper network — voucher section accepts user-submitted codes with a free account; submissions sit in moderation until approved (new posts return 410 to anonymous visitors); large UK audience

@@ -1953,3 +1953,10 @@ coupon_sites:
     auto: manual
     lang: en
     notes: Closed stores[] list + echeck anti-bot field
+
+  - name: hotukdeals
+    submit_url: https://www.hotukdeals.com/vouchers
+    type: community
+    auto: manual
+    lang: en
+    notes: UK Pepper vouchers section; free account + moderation queue
