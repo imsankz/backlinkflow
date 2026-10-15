@@ -1960,3 +1960,17 @@ coupon_sites:
     auto: manual
     lang: en
     notes: UK Pepper vouchers section; free account + moderation queue
+
+  - name: Looking For Tools
+    submit_url: https://lookingfortools.com/projects/submit
+    type: form
+    auto: manual
+    lang: en
+    notes: DirEasy tools directory; free account (Google/GitHub/email) required
+
+  - name: Smol Saas
+    submit_url: https://smolsaas.com/projects/submit
+    type: form
+    auto: manual
+    lang: en
+    notes: DirEasy small-SaaS launch directory, sister of Smol Launch; free account required

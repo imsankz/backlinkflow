@@ -3651,11 +3651,13 @@ ai:
   lang: en
   notes: '[from launchigniter]'
 - name: SaasHunt
-  submitUrl: https://saashunt.com/
+  submitUrl: https://saashunt.best/projects/submit
   type: form
   auto: manual
   lang: en
-  notes: '[from launchigniter]'
+  notes: '[from launchigniter] verified 2026-10: saashunt.com is dead, live site is
+    saashunt.best (DirEasy-built); free submit at /projects/submit, requires account
+    sign-in. Same site also listed in startup category.'
 - name: Lib Hunt
   submitUrl: https://libhunt.com/
   type: form
@@ -4881,11 +4883,13 @@ ai:
   lang: en
   notes: '[from launchigniter]'
 - name: 1000 Tools
-  submitUrl: https://1000tools.com/
+  submitUrl: https://1000tools.best/projects/submit
   type: form
   auto: manual
   lang: en
-  notes: '[from launchigniter]'
+  notes: '[from launchigniter] verified 2026-10: 1000tools.com is hijacked (parked
+    crypto-download page), live site is 1000tools.best (DirEasy-built); free submit
+    at /projects/submit, requires account sign-in.'
 - name: FeedMyStartup
   submitUrl: https://feedmystartup.com/
   type: form
@@ -5875,11 +5879,13 @@ ai:
   lang: en
   notes: '[from launchigniter]'
 - name: TinyHunt
-  submitUrl: https://tinyhunt.com/
+  submitUrl: https://tinyhunt.dev/projects/submit
   type: form
   auto: manual
   lang: en
-  notes: '[from launchigniter]'
+  notes: '[from launchigniter] verified 2026-10: tinyhunt.com is a parked ad-lander,
+    live site is tinyhunt.dev (DirEasy-built); free submit at /projects/submit, requires
+    account sign-in.'
 - name: Urabin
   submitUrl: https://urabin.com/
   type: form
@@ -7519,6 +7525,120 @@ general:
   lang: en
   notes: Existing public listing for Prints by Eri; live page links to printsbyeri.com.
 startup:
+- name: DevHub
+  submitUrl: https://devhub.best/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from direasy showcase] verified 2026-10: dev tools directory, DirEasy-built;
+    free submit at /projects/submit, requires account sign-in.'
+- name: 1000 Saas
+  submitUrl: https://1000saas.best/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from direasy showcase] verified 2026-10: SaaS directory, DirEasy-built;
+    free submit at /projects/submit, requires account sign-in.'
+- name: 1000 AI
+  submitUrl: https://1000ai.best/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from direasy showcase] verified 2026-10: AI tools directory, DirEasy-built;
+    1000ai.com is a parked lander, live site is 1000ai.best; free submit at /projects/submit,
+    requires account sign-in.'
+- name: Launch01
+  submitUrl: https://launch01.com/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from direasy showcase] verified 2026-10: weekly indie launch spotlight,
+    DirEasy-built; free submit at /projects/submit, requires account sign-in.'
+- name: LinkSalad
+  submitUrl: https://linksalad.me/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from direasy showcase] verified 2026-10: marketing site claims DR 30+ listing
+    authority (unverified); DirEasy-built; free submit at /projects/submit, requires
+    account sign-in.'
+- name: Yo.directory
+  submitUrl: https://yo.directory/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: /submit redirects to /pricing
+    — paid submissions only.'
+- name: AITop10
+  submitUrl: https://aitop10.tools/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: AI tools directory; open submit
+    form at /submit (no login wall observed).'
+- name: DaysLaunch
+  submitUrl: https://dayslaunch.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: submit at /submit, requires
+    account sign-in.'
+- name: StarterBest
+  submitUrl: https://starterbest.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: submit at /submit, requires
+    account sign-in.'
+- name: TheOneStartup
+  submitUrl: https://theonestartup.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: submit at /submit, requires
+    account sign-in.'
+- name: Launchpadly
+  submitUrl: https://launchpadly.co/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: weekly startup launch board;
+    submit at /submit, requires account sign-in.'
+- name: LaunchNest
+  submitUrl: https://launchnest.io/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: submit at /submit, requires
+    account sign-in.'
+- name: AIToolFame
+  submitUrl: https://aitoolfame.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: AI tools directory; submit
+    at /submit, requires account sign-in.'
+- name: Launchstag
+  submitUrl: https://launchstag.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: indie launch directory; open
+    submit form at /submit (no login wall observed).'
+- name: tools.cafe
+  submitUrl: https://tools.cafe/new
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: indie builder directory; submit
+    form at /new (no login wall observed).'
+- name: SimilarLabs
+  submitUrl: https://similarlabs.com/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: AI tool discovery + traffic-analytics
+    directory; open submit form at /submit.'
 - name: Sitelike
   submitUrl: https://www.sitelike.org/add-site
   type: form
@@ -11465,6 +11585,20 @@ startup:
   auto: manual
   lang: en
   notes: '[from placestopost]'
+- name: Looking For Tools
+  submitUrl: https://lookingfortools.com/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: DirEasy-built tools/apps/products directory; free account (Google/GitHub/email)
+    required before the submit form
+- name: Smol Saas
+  submitUrl: https://smolsaas.com/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: DirEasy-built small-SaaS launch directory (sister site of Smol Launch); free
+    account required to submit, email-invited; paid Outbid/boost upsells
 - name: Startups Gallery
   submitUrl: https://startups.gallery/
   type: form
@@ -13276,6 +13410,13 @@ travel:
   dofollow: true
   dr: 23
 dr-tracker:
+- name: DomainRank
+  submitUrl: https://domainrank.app/submit
+  type: tracker
+  auto: manual
+  lang: en
+  notes: '[from saashunt crosslinks] verified 2026-10: DR badge host (same family
+    as drchecker.net/racoondr); submit at /submit, requires account sign-in.'
 - name: FrogDR
   submitUrl: https://frogdr.com/
   type: tracker
@@ -13733,85 +13874,94 @@ coupon:
   type: form
   auto: manual
   lang: en
-  notes: Open submit-code form (website typeahead + code + description); store pages at /site/{domain}; outbound nofollow — PERSISTENT BOT WALL, renders empty for automated browsers across 6+ attempts (2026-10-03/04), stop automating; fill manually in a real browser
+  notes: Open submit-code form (website typeahead + code + description); store pages
+    at /site/{domain}; outbound nofollow — PERSISTENT BOT WALL, renders empty for
+    automated browsers across 6+ attempts (2026-10-03/04), stop automating; fill manually
+    in a real browser
 - name: PennyCanny
   submitUrl: https://www.pennycanny.com/submit-coupon
   type: form
   auto: 'yes'
   lang: en
-  notes: Open form (storeDomain, offerUrl, title, code, description, expiry, email); public page /coupons/{domain}; links nofollow
+  notes: Open form (storeDomain, offerUrl, title, code, description, expiry, email);
+    public page /coupons/{domain}; links nofollow
 - name: CouponXoo
   submitUrl: https://www.couponxoo.com/submit-coupon
   type: form
   auto: 'yes'
   lang: en
-  notes: Open form (name, email, store_link, title, discount_type select, discount_value, expiry, proof image); manual moderation
+  notes: Open form (name, email, store_link, title, discount_type select, discount_value,
+    expiry, proof image); manual moderation
 - name: CouponsVilla
   submitUrl: https://couponsvilla.com/submit-coupon
   type: form
   auto: 'yes'
   lang: en
-  notes: WordPress open form (coupon_title, coupon_code, coupon_aff_url, coupon_store, description); store pages /store/{slug}/
+  notes: WordPress open form (coupon_title, coupon_code, coupon_aff_url, coupon_store,
+    description); store pages /store/{slug}/
 - name: Bargain.Codes
   submitUrl: https://bargain.codes/submit
   type: form
   auto: 'yes'
   lang: en
-  notes: Open form (store, code, expiry, description); publishing surface is search-driven — backlink outcome unproven
+  notes: Open form (store, code, expiry, description); publishing surface is search-driven
+    — backlink outcome unproven
 - name: ShipTheDeal
   submitUrl: https://forms.gle/xuk9KFyfCVzW4MCV9
   type: form
   auto: manual
   lang: en
-  notes: Google Form ("Submit a Coupon" in shipthedeal.com footer); human-reviewed; generic form detection unreliable on Google Forms
+  notes: Google Form ("Submit a Coupon" in shipthedeal.com footer); human-reviewed;
+    generic form detection unreliable on Google Forms
 - name: Dealampel
   submitUrl: https://dealampel.de/einreichen
   type: form
   auto: 'yes'
   lang: de
-  notes: German open deal form (titel, url, preis, haendler, text); outbound clicks route via Telegram bot link — visibility play more than a backlink
+  notes: German open deal form (titel, url, preis, haendler, text); outbound clicks
+    route via Telegram bot link — visibility play more than a backlink
 - name: mydealz
   submitUrl: https://www.mydealz.de/
   type: community
   auto: manual
   lang: de
-  notes: Germany's largest deal community; free account required, deals community-moderated; no overt self-promotion or the deal gets flagged
+  notes: Germany's largest deal community; free account required, deals community-moderated;
+    no overt self-promotion or the deal gets flagged
 - name: CouponUpto
   submitUrl: https://couponupto.com/submit-coupon
   type: form
   auto: 'yes'
   lang: en
-  notes: Open form (email verified via confirmation mail, store website, code, description); POST /submit-coupon/save → 302; human moderation
-- name: Bargain.Codes
-  submitUrl: https://bargain.codes/submit-your-offer/
-  type: form
-  auto: 'yes'
-  lang: en
-  notes: Open form (store, code, description ≤250 chars, expiry_date day/month/year selects REQUIRED); admin-ajax; /submit redirects here
+  notes: Open form (email verified via confirmation mail, store website, code, description);
+    POST /submit-coupon/save → 302; human moderation
 - name: CouponMoto
   submitUrl: https://www.couponmoto.com/submit-coupon
   type: form
   auto: manual
   lang: en
-  notes: Store must be picked from their DB autocomplete — new stores can't be typed in; submit clicks but never POSTs without it
+  notes: Store must be picked from their DB autocomplete — new stores can't be typed
+    in; submit clicks but never POSTs without it
 - name: GrabOn
   submitUrl: https://www.grabon.in/submit/
   type: form
   auto: manual
   lang: en
-  notes: India-focused; merchant search needs existing store or "suggest new store" (NewMerchantName) flow; fiddly automation
+  notes: India-focused; merchant search needs existing store or "suggest new store"
+    (NewMerchantName) flow; fiddly automation
 - name: CheckoutSaver
   submitUrl: https://checkoutsaver.com/submit-coupon
   type: form
   auto: manual
   lang: en
-  notes: Rich form but retailer autocomplete only accepts stores already in their DB; contact them to add new stores
+  notes: Rich form but retailer autocomplete only accepts stores already in their
+    DB; contact them to add new stores
 - name: AVSCoupons
   submitUrl: https://avscoupons.com/submit-coupon
   type: form
   auto: manual
   lang: en
-  notes: stores[] select is a closed pre-populated list (no add-store path) + required echeck anti-bot field; account needed for new stores
+  notes: stores[] select is a closed pre-populated list (no add-store path) + required
+    echeck anti-bot field; account needed for new stores
 - name: CouponCage
   submitUrl: https://www.couponcage.com/submit-coupon
   type: form
@@ -13823,4 +13973,110 @@ coupon:
   type: community
   auto: manual
   lang: en
-  notes: UK Pepper network — voucher section accepts user-submitted codes with a free account; submissions sit in moderation until approved (new posts return 410 to anonymous visitors); large UK audience
+  notes: UK Pepper network — voucher section accepts user-submitted codes with a free
+    account; submissions sit in moderation until approved (new posts return 410 to
+    anonymous visitors); large UK audience
+coupon_sites:
+- name: CouponFollow
+  submitUrl: https://couponfollow.com/submit-code
+  type: form
+  auto: manual
+  lang: en
+  notes: Persistent bot wall for automated browsers — fill manually in a real browser
+- name: PennyCanny
+  submitUrl: https://www.pennycanny.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form; public page /coupons/{domain}; nofollow links
+- name: CouponXoo
+  submitUrl: https://www.couponxoo.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form with discount_type select + proof image; manual moderation
+- name: CouponsVilla
+  submitUrl: https://couponsvilla.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: WordPress open form; store pages /store/{slug}/
+- name: Bargain.Codes
+  submitUrl: https://bargain.codes/submit
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form; publishing surface search-driven — backlink unproven
+- name: ShipTheDeal
+  submitUrl: https://forms.gle/xuk9KFyfCVzW4MCV9
+  type: form
+  auto: manual
+  lang: en
+  notes: Google Form linked from shipthedeal.com footer; human-reviewed
+- name: Dealampel
+  submitUrl: https://dealampel.de/einreichen
+  type: form
+  auto: 'yes'
+  lang: de
+  notes: German open deal form; outbound via Telegram bot link
+- name: mydealz
+  submitUrl: https://www.mydealz.de/
+  type: community
+  auto: manual
+  lang: de
+  notes: Free account required; community-moderated deals; no overt self-promotion
+- name: CouponUpto
+  submitUrl: https://couponupto.com/submit-coupon
+  type: form
+  auto: 'yes'
+  lang: en
+  notes: Open form; email verification; human moderation
+- name: CouponMoto
+  submitUrl: https://www.couponmoto.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Store must exist in their DB autocomplete
+- name: GrabOn
+  submitUrl: https://www.grabon.in/submit/
+  type: form
+  auto: manual
+  lang: en
+  notes: India-focused; suggest-new-store flow for new merchants
+- name: CheckoutSaver
+  submitUrl: https://checkoutsaver.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Retailer must exist in their store DB
+- name: AVSCoupons
+  submitUrl: https://avscoupons.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Closed stores[] list + echeck anti-bot field
+- name: CouponCage
+  submitUrl: https://www.couponcage.com/submit-coupon
+  type: form
+  auto: manual
+  lang: en
+  notes: Closed stores[] list + echeck anti-bot field
+- name: hotukdeals
+  submitUrl: https://www.hotukdeals.com/vouchers
+  type: community
+  auto: manual
+  lang: en
+  notes: UK Pepper vouchers section; free account + moderation queue
+- name: Looking For Tools
+  submitUrl: https://lookingfortools.com/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: DirEasy tools directory; free account (Google/GitHub/email) required
+- name: Smol Saas
+  submitUrl: https://smolsaas.com/projects/submit
+  type: form
+  auto: manual
+  lang: en
+  notes: DirEasy small-SaaS launch directory, sister of Smol Launch; free account
+    required
